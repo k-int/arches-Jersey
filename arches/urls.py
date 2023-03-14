@@ -71,6 +71,8 @@ from arches.app.views.auth import (
 from arches.app.models.system_settings import settings
 from django.views.decorators.cache import cache_page
 
+from arches.app.views.reorder_maps import ReorderMaps
+
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 
@@ -291,6 +293,7 @@ urlpatterns = [
     url(r"^iiifannotationnodes$", api.IIIFAnnotationNodes.as_view(), name="iiifannotationnodes"),
     url(r"^manifest/(?P<id>[0-9]+)$", api.Manifest.as_view(), name="manifest"),
     url(r"^image-service-manager", ManifestManagerView.as_view(), name="manifest_manager"),
+    url(r"^reorder_maps", ReorderMaps.as_view(), name ="reorder_maps"),
 ]
 
 if settings.DEBUG:

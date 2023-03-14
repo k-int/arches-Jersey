@@ -471,6 +471,7 @@ class Node(models.Model):
     sortorder = models.IntegerField(blank=True, null=True, default=0)
     fieldname = models.TextField(blank=True, null=True)
     exportable = models.BooleanField(default=False, null=True)
+    layersortorder = models.IntegerField(blank=True, null=True, default=None)
 
     def get_child_nodes_and_edges(self):
         """
@@ -1046,6 +1047,9 @@ class MapLayer(models.Model):
     zoom = models.FloatField(blank=True, null=True)
     legend = models.TextField(blank=True, null=True)
     searchonly = models.BooleanField(default=False)
+    #sortorder = models.IntegerField(blank=True, null=True, default=None)
+    
+    layersortorder = models.IntegerField(blank=True, null=True, default=None)
 
     @property
     def layer_json(self):

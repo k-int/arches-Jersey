@@ -1110,6 +1110,7 @@ class GeojsonFeatureCollectionDataType(BaseDataType):
             "icon": layer_icon,
             "legend": layer_legend,
             "addtomap": node.config["addToMap"],
+            "layersortorder": node.layersortorder
         }
 
     def after_update_all(self, tile=None):

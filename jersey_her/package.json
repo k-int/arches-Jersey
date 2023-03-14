@@ -1,6 +1,6 @@
 {
     "name": "jersey_her",
     "dependencies": {
-        "arches": "archesproject/arches#stable/6.0.0"
+        "arches": "archesproject/arches#stable/6.2.2"
     }
 }

@@ -166,7 +166,11 @@ SESSION_COOKIE_NAME = 'jersey_her'
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
-    }
+    },
+    "user_permission": {
+        "BACKEND": "django.core.cache.backends.db.DatabaseCache",
+        "LOCATION": "user_permission_cache",
+    },
 }
 
 # Hide nodes and cards in a report that have no data
@@ -282,7 +286,7 @@ LANGUAGE_CODE = "en"
 # a list of language codes can be found here http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGES = [
 #   ('de', _('German')),
-#   ('en', _('English')),
+   ('en', _('English')),
 #   ('en-gb', _('British English')),
 #   ('es', _('Spanish')),
 ]
@@ -304,6 +308,19 @@ TIMEWHEEL_DATE_TIERS = {
         }
     }
 }
+
+ENABLE_USER_SIGNUP = True
+# If True, allows for user self creation via the signup view. If False, users can only be created via the Django admin view.
+
+FORCE_USER_SIGNUP_EMAIL_AUTHENTICATION = True
+# If True, users must authenticate their account via email to complete the account creation process.
+
+FILE_TYPE_CHECKING = False
+# If True, only the file types listed in FILE_TYPES can be uploaded to Arches
+
+FILE_TYPES = ["bmp", "gif", "jpg", "jpeg", "pdf", "png", "psd", "rtf", "tif", "tiff", "xlsx", "csv", "zip"]
+# File types that can be uploaded to Arches if FILE_TYPE_CHECKING is True.
+
 try:
     from .package_settings import *
 except ImportError:

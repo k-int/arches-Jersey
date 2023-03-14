@@ -1,0 +1,31 @@
+from importlib import resources
+from arches.app.models.models import ResourceInstance
+from arches.app.models.resource import Resource
+from django.core.management.base import BaseCommand, CommandError
+from arches.app.models.tile import Tile
+
+class Command(BaseCommand):
+    """
+    Command for removing trailing zeros from HER Reference 
+    """
+    
+    def handle(self, *args, **options):
+
+        
+        r = Resource.objects.get(pk = '040e5ac0-149c-0138-c572-740f24312a1c')
+
+        for res in r:
+            tiles = Tile.objects.get(
+        resourceinstance_id = res.resourceinstanceid
+        #get all resrouce's
+        
+#        tiles = Tile.objects.all()
+ #       for tile in tiles:
+  #          print(vars(tile))
+   #         break
+       # resources.load_tiles()
+       # print(vars(resources))
+       # for t in resources.tiles:
+       #     if '818ec4ae-2e44-11ea-8326-0275d4869ef4' in t.data.keys():
+       #         print(vars(t))
+       #         print(t.data['818ec4ae-2e44-11ea-8326-0275d4869ef4'])

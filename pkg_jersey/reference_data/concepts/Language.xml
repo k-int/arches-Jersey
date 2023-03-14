@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/8fd5abca-e77d-464e-9d68-30055ae489b7">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/7e09ca83-1ee8-4fe4-b56c-58845f18be9b">
+        <skos:inScheme rdf:resource="http://localhost:8000/8fd5abca-e77d-464e-9d68-30055ae489b7"/>
+        <skos:prefLabel xml:lang="en">{"id": "0a6096c4-4d44-44fa-ac41-3603d9704b9e", "value": "en (English)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "06c1cc82-238c-4eff-aa82-73464779692e", "value": "Language"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/5f9119e6-44d5-4c0e-977f-7c03166766c4">
+        <skos:inScheme rdf:resource="http://localhost:8000/8fd5abca-e77d-464e-9d68-30055ae489b7"/>
+        <skos:prefLabel xml:lang="en">{"id": "874e20e0-697c-4222-b9a5-7d5e7d96a7ea", "value": "nrf (J\u00e8rriais)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

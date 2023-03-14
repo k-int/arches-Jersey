@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/2ba6864f-ce3e-4668-97e8-978ee31197f0">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/710e427d-c4c8-427c-883a-a775bf1666d3">
+        <dcterms:title xml:lang="en">{"id": "bae5dc82-0658-4df3-ae6d-411d83edbe70", "value": "Cultural period"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2ba6864f-ce3e-4668-97e8-978ee31197f0"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "6aaf0f7f-4f4a-4d59-b1b3-de28549cd416", "value": "Occupation"}</skos:prefLabel>
+    <arches:collector xml:lang="en-us">{"id": "e295a9d1-44fb-45e1-92b2-62dba6cca93a", "value": "001"}</arches:collector>
+  </skos:Concept>
+</rdf:RDF>

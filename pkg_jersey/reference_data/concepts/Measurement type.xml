@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/330afeaf-9fd8-44c7-a55e-ea62ca22d53d">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/83b8359e-2eb7-4c2d-9fac-e55efa5c5e3f">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c87590e8-ffcf-40b9-b1af-ba840f6114c2"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/bdd4c314-fe9a-4db5-8b3e-254e325ee9bb"/>
+        <dcterms:title xml:lang="en">{"id": "5ede0479-07b5-4837-a32f-12f9028ddb1a", "value": "Measurement type"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "ad4650c4-e4ee-414c-9b47-e206bffafa93", "value": "Feet/inches/pounds"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c87590e8-ffcf-40b9-b1af-ba840f6114c2">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/acc48d2e-45e9-4fd6-9529-351052d45840">
+        <skos:prefLabel xml:lang="en">{"id": "bc686265-4dfb-478a-ab37-3a83da70de8b", "value": "Millimetres/grams"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/83b8359e-2eb7-4c2d-9fac-e55efa5c5e3f"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/83b8359e-2eb7-4c2d-9fac-e55efa5c5e3f"/>
+    <skos:prefLabel xml:lang="en">{"id": "d4ce7f24-7fff-471e-9493-7be3c219beeb", "value": "Metric"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bdd4c314-fe9a-4db5-8b3e-254e325ee9bb">
+    <skos:narrower rdf:resource="http://localhost:8000/330afeaf-9fd8-44c7-a55e-ea62ca22d53d"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/83b8359e-2eb7-4c2d-9fac-e55efa5c5e3f"/>
+    <skos:prefLabel xml:lang="en">{"id": "088f5f0d-493c-476e-9086-70268e8b22a4", "value": "Imperial"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

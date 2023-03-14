@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/da1ee4d1-44fb-4597-b5af-1a63e058a97e">
+    <arches:sortorder xml:lang="en">{"id": "a88e351b-0b13-444f-b15e-a51758c749c0", "value": "002"}</arches:sortorder>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/b3eddafc-f71b-4436-9de5-a1afa248785c">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/9b32d615-1ef6-4455-8f80-59984d387751"/>
+        <dcterms:title xml:lang="en">{"id": "02782652-4ce1-4697-9a59-c413a4fd8ba5", "value": "Archive status"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/da1ee4d1-44fb-4597-b5af-1a63e058a97e"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "90939047-646b-4fe4-bf18-1f60e682220e", "value": "Private"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9b32d615-1ef6-4455-8f80-59984d387751">
+    <skos:inScheme rdf:resource="http://localhost:8000/b3eddafc-f71b-4436-9de5-a1afa248785c"/>
+    <skos:prefLabel xml:lang="en">{"id": "8307e22e-5d17-49c0-be1d-fb393e882120", "value": "Public"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "d98b32fa-119b-49f5-a473-1eb783d1bf0b", "value": "001"}</arches:sortorder>
+  </skos:Concept>
+</rdf:RDF>

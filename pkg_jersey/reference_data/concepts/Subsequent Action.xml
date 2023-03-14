@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/410348bd-b49c-48f5-837f-4917a933edc1">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/410348bd-b49c-48f5-837f-4917a933edc1"/>
+        <dcterms:title xml:lang="en">{"id": "02f26635-e8ac-492b-a419-0ceb78a1c43e", "value": "Subsequent Action"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/9c81438d-6581-4450-921e-244b17256a36"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/43876058-19db-40fa-9aa1-61a9b87e324e"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ffbaf02b-494f-4ee0-b642-bc7d6577c411"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/09b3679f-958c-4670-9871-7d077e047897"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/8a1d363b-ed6e-4b32-ae46-006a09eaeb3f"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/07f5001c-36ab-439b-93d7-421a9205b159"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "b84c04e6-f29e-48cf-8993-7599a0ba72e0", "value": "Purchased by JHT"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ffbaf02b-494f-4ee0-b642-bc7d6577c411">
+    <skos:prefLabel xml:lang="en">{"id": "98bb8345-8d54-4689-9bb0-5abb8e51ea2d", "value": "Donated to SJ"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/09b3679f-958c-4670-9871-7d077e047897">
+    <skos:prefLabel xml:lang="en">{"id": "a5224a54-2f78-4a1a-8901-47ad1862c724", "value": "Donated to JHT"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/07f5001c-36ab-439b-93d7-421a9205b159">
+    <skos:prefLabel xml:lang="en">{"id": "4273981a-7843-4165-856e-29bf112228d7", "value": "Returned to Landowner"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8a1d363b-ed6e-4b32-ae46-006a09eaeb3f">
+    <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+    <skos:prefLabel xml:lang="en">{"id": "19df74f3-252f-49ae-b3f7-360246cafa2a", "value": "Purchased by SJ"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9c81438d-6581-4450-921e-244b17256a36">
+    <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+    <skos:prefLabel xml:lang="en">{"id": "b47ca63d-4805-4b5f-a3f5-e08382e6b2b6", "value": "Returned to Finder"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/43876058-19db-40fa-9aa1-61a9b87e324e">
+    <skos:prefLabel xml:lang="en">{"id": "d07e6417-36c3-492a-856d-135ba7b4a95c", "value": "Donated to NTFJ"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+  </skos:Concept>
+</rdf:RDF>

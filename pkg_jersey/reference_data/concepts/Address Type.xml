@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/29a296cd-f5f1-461b-82df-f139d4936bd5">
+    <dcterms:identifier xml:lang="en-us">{"id": "7462e3b3-34f4-4c97-9c91-1cbd78afc002", "value": "http://www.archesproject.org/29a296cd-f5f1-461b-82df-f139d4936bd5"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/f9ff0c1f-a290-4384-a00a-3d37c367760b">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b25762c0-af58-42db-b026-d3891a828ff2"/>
+        <dcterms:title xml:lang="en">{"id": "ad53d201-5bf5-4776-992b-5bc031ff96e4", "value": "Address Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/29a296cd-f5f1-461b-82df-f139d4936bd5"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e043de1d-5794-41d1-8c4d-450a8478270c"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "85d58842-261b-4193-b095-f1026b7e5b8c", "value": "http://www.archesproject.org/f9ff0c1f-a290-4384-a00a-3d37c367760b"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/02b8b7c8-8c96-43e0-8e5b-9a26bc672014"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "b88ec208-3d88-4cf4-a7d2-42a0205ff99e", "value": "Intertidal"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "8b6917e5-4ca3-46fa-8cf1-e205aa50caec", "value": "003"}</arches:sortorder>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/02b8b7c8-8c96-43e0-8e5b-9a26bc672014">
+    <skos:prefLabel xml:lang="en-us">{"id": "1c42d251-b6c3-4d9d-a67b-da96585120bd", "value": "Offshore Islet"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f9ff0c1f-a290-4384-a00a-3d37c367760b"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "007db361-e760-4325-bc84-00589efbfb84", "value": "http://www.archesproject.org/02b8b7c8-8c96-43e0-8e5b-9a26bc672014"}</dcterms:identifier>
+    <arches:sortorder xml:lang="en">{"id": "d83524d2-6971-48cc-8560-5f35f5b0d433", "value": "004"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "991f96da-8f74-4585-b802-1558bfb484d6", "value": "Offshore islet"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e043de1d-5794-41d1-8c4d-450a8478270c">
+    <arches:sortorder xml:lang="en">{"id": "770d245d-4cf1-4add-a3d3-f5c7ebac1052", "value": "001"}</arches:sortorder>
+    <skos:inScheme rdf:resource="http://localhost:8000/f9ff0c1f-a290-4384-a00a-3d37c367760b"/>
+    <skos:prefLabel xml:lang="en">{"id": "c68dc833-05fd-4717-bad3-ee0b5e594712", "value": "Postal address"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en-us">{"id": "c7423006-411a-4ac8-a706-f9e1bd30ed80", "value": "Postal Address"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-us">{"id": "d14c9acd-5024-45b1-adca-e7aae7897f4d", "value": "http://www.archesproject.org/e043de1d-5794-41d1-8c4d-450a8478270c"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b25762c0-af58-42db-b026-d3891a828ff2">
+    <skos:prefLabel xml:lang="en">{"id": "f23e13da-fb7d-4a30-97af-6bef4a2b86a9", "value": "Field number"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f9ff0c1f-a290-4384-a00a-3d37c367760b"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "bb7d6a2b-4cc3-4406-b4b5-ba8ed969eaed", "value": "http://www.archesproject.org/b25762c0-af58-42db-b026-d3891a828ff2"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en-us">{"id": "53dfbab5-8c2f-45a9-9660-3a218e134f80", "value": "Field Number"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "cd8b6fcb-88a2-4d90-8b2a-bd1ae4257817", "value": "002"}</arches:sortorder>
+  </skos:Concept>
+</rdf:RDF>

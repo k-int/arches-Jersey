@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/fd2b91b6-db01-41e5-aa4d-37fd602249ec">
+        <arches:sortorder xml:lang="en">{"id": "6c89a31a-5a88-4450-85b5-a6661838dbdd", "value": "012"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+        <skos:prefLabel xml:lang="en">{"id": "2be8a128-b06e-4286-9820-ee19034ea03b", "value": "Post Medieval 1540-1901 CE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/30c278c2-d05e-4a7b-9edb-739cf96292e2">
+        <skos:prefLabel xml:lang="en">{"id": "34edb6a6-c20d-4fea-82d9-69db72c52484", "value": "Iron Age 700-51 BCE"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "8bc7d8a5-7d66-4a3f-b644-13061e2b3e16", "value": "006"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "53fbb667-99fc-4a8d-bdca-92c48aa495c5", "value": "Archaeological period from-to"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/bbd50cd9-927d-443e-b47c-df4c45c38bf3">
+        <arches:sortorder xml:lang="en">{"id": "b04d2004-f17d-4328-a1b4-066cfdff44b3", "value": "001"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+        <skos:prefLabel xml:lang="en">{"id": "32cc9eef-a4ed-4d74-a445-7aa7d91bf3a7", "value": "Unknown"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/af5291db-16fe-410f-9903-d8f24f7b106e">
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+        <arches:sortorder xml:lang="en">{"id": "30efdae3-93be-4c3e-a567-123a82cc8bfd", "value": "005"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "fe1e4712-b7d0-48c9-8a1c-89f90409d1dd", "value": "Bronze Age 2600-701 BCE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/978b141e-f02d-4a62-9c42-22ad9499519c">
+        <skos:prefLabel xml:lang="en">{"id": "e401c78b-1498-491a-8f67-58372c82a242", "value": "Gallo-Roman 51 BCE-451 CE"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+        <arches:sortorder xml:lang="en">{"id": "bd5caa18-d7e0-4dfd-9004-8a7de744d258", "value": "008"}</arches:sortorder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/890544f2-6bcf-48a4-8355-248d8edef91c">
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+        <arches:sortorder xml:lang="en">{"id": "84786956-d92a-4bd3-8f89-8cd35f7b46a7", "value": "007"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "4f8324e5-3dc7-434c-8b4b-434a05fea4dc", "value": "Greek and Roman Provincial 700 BCE-297 CE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/88ba9249-59f1-40bc-9920-55c52d8152cb">
+        <arches:sortorder xml:lang="en">{"id": "abde8f60-7cb5-4d83-9e29-ae35dbfa0013", "value": "002"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+        <skos:prefLabel xml:lang="en">{"id": "d35ad0a5-9f88-428f-93d0-eb2713f43cf4", "value": "Palaeolithic 500000-10001 BCE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/e244ad7e-6bb8-4994-873f-81694f0216bf">
+        <arches:sortorder xml:lang="en">{"id": "cacdffa7-46ce-408f-b52c-dbb283930d8f", "value": "003"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "ff92db15-e7d2-4796-a03a-25fd57c64891", "value": "Mesolithic 10000-4001 BCE"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0d10b0be-42e8-4017-9c55-595e62584621">
+        <arches:sortorder xml:lang="en">{"id": "b4ea70e2-dba1-4016-9341-14b98bd311d8", "value": "004"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "e21928f6-8b4d-4de1-9e8f-f667b2855eed", "value": "Neolithic 4000-2601 BCE"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/1c3dd5ee-6cf7-4e21-80c2-d9207c6d49f1">
+        <arches:sortorder xml:lang="en">{"id": "23f26025-5697-4679-8fcd-1c9f3af44be3", "value": "011"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+        <skos:prefLabel xml:lang="en">{"id": "c34e3e4b-c809-4f93-bff1-dae08d3b3f9e", "value": "Medieval 934-1539 CE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/5860b469-8961-439c-886e-3e0d0445f92b">
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+        <arches:sortorder xml:lang="en">{"id": "dafec872-406d-4956-87d1-d15f790e79e0", "value": "009"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "bde1dcbd-7bee-418d-9113-0a50f60d9dcd", "value": "Early Medieval 450-933 CE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/15900236-f4c5-434a-bd4c-d5e25ea97c1f">
+        <skos:prefLabel xml:lang="en">{"id": "637c61de-e0a2-4983-982b-8da61d1e77de", "value": "Modern 1901 CE-"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "b816b349-5d29-46dc-8bf4-ee6bc3ccb4e9", "value": "013"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/68748f22-5391-43f2-b1ce-60a8d20c0d40">
+        <arches:sortorder xml:lang="en">{"id": "f492e3f3-ddab-4391-897e-7e9e230459b8", "value": "010"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/97461c3d-bd50-4f5f-b68e-c995235212c4"/>
+        <skos:prefLabel xml:lang="en">{"id": "d537ee75-2e15-404b-a131-544d91b798e8", "value": "Byzantine 491-1453 CE"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

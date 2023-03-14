@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/6b36a430-3dae-4a1c-9f95-73218afa214f">
+    <arches:sortorder xml:lang="en">{"id": "964c9487-deee-48ec-9121-db210c2b0852", "value": "004"}</arches:sortorder>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c">
+        <dcterms:title xml:lang="en">{"id": "c2a6f1bc-9c2e-4a24-b217-c862747d9acc", "value": "Surface treatments-thesaurus"}</dcterms:title>
+        <dcterms:identifier xml:lang="en-us">{"id": "e9ecb0bc-6611-4b4e-94e5-bd8c038312e0", "value": "http://www.archesproject.org/55d132a6-fd29-4f15-bc47-d8eb203f650c"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/1b497c26-3bf7-41d6-8e22-75880c2d2ac1"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <dcterms:identifier xml:lang="en-us">{"id": "d19bfd70-8131-48e8-839b-487daf6409a2", "value": "http://www.archesproject.org/6b36a430-3dae-4a1c-9f95-73218afa214f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "732a212e-8b53-4d3d-8ab2-a29a38a45ae3", "value": "Inlaid with enamel"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8c4b4b81-3a34-4cbe-aa9b-a76d50725429">
+    <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
+    <skos:prefLabel xml:lang="en">{"id": "0e058680-a69d-4cca-872c-074a1c215d14", "value": "Inlaid with other or unknown"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1b497c26-3bf7-41d6-8e22-75880c2d2ac1">
+    <skos:narrower rdf:resource="http://localhost:8000/8c4b4b81-3a34-4cbe-aa9b-a76d50725429"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/de956e07-5ab1-499e-a748-4bbd488623b6">
+        <skos:prefLabel xml:lang="en">{"id": "33fa6ba0-fcd4-4cb7-834c-41aa2210d081", "value": "Stamped"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/6b36a430-3dae-4a1c-9f95-73218afa214f"/>
+    <skos:prefLabel xml:lang="en">{"id": "4ad6d245-4097-43e2-8322-2d2148688b17", "value": "Surface treatment"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7243297c-5d94-4c6d-b4c5-ea1c5b33eb98">
+        <skos:prefLabel xml:lang="en">{"id": "688273e6-0dd3-483b-8e0a-879233ca49fd", "value": "Multiple"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3ee173b0-a202-4192-b56e-3de201de7589">
+        <dcterms:identifier xml:lang="en-us">{"id": "6a4f9597-98eb-40f7-a89b-8d3ad652cea2", "value": "http://www.archesproject.org/3ee173b0-a202-4192-b56e-3de201de7589"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "4bf80d80-3368-438d-990c-94776b15b461", "value": "Gilded"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
+        <arches:sortorder xml:lang="en">{"id": "49957a54-2d1c-4921-b6a7-8d4189898519", "value": "002"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "0cd35c18-5675-4d3d-9593-f5226e773a1e", "value": "http://www.archesproject.org/1b497c26-3bf7-41d6-8e22-75880c2d2ac1"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/72700982-d3d3-41f4-b19e-77a0ea3e91b1">
+        <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
+        <skos:prefLabel xml:lang="en">{"id": "3a668862-670f-48aa-bc99-c92df5bfd376", "value": "White metal coated"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/30c5d366-961f-41db-a205-98c0ec0d242a">
+        <skos:prefLabel xml:lang="en">{"id": "382ba639-4139-461c-b972-d85a66ff7f9b", "value": "Inlaid with niello"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/8efe3dcd-45a2-4aa4-bcda-d27f03722ebb">
+        <skos:prefLabel xml:lang="en">{"id": "5524ffb9-63be-40d0-b272-0f9061b98e53", "value": "Incised or engraved or chased"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9a485164-cb63-404b-9d02-27ebdc9bd5cc">
+        <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
+        <skos:prefLabel xml:lang="en">{"id": "67db59b5-7d5c-4a82-9687-427b0d9d1bad", "value": "Inlaid with metal"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/bcff6dd6-26ea-4881-9fd2-646285bb7166">
+        <skos:prefLabel xml:lang="en">{"id": "49cd312a-a239-4cd3-bb55-a89690b4641a", "value": "Black coated"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+</rdf:RDF>

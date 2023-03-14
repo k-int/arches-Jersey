@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/dc2bb3ae-b3cf-40e8-aab7-b03420b53461">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/8546598b-70e9-42c1-ae65-0b4d6e0bb429">
+        <dcterms:identifier xml:lang="en-us">{"id": "d47be005-0621-4078-9d41-7ea7e525c8b2", "value": "http://www.archesproject.org/8546598b-70e9-42c1-ae65-0b4d6e0bb429"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/dc2bb3ae-b3cf-40e8-aab7-b03420b53461"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/68ba5b7a-20d9-45b5-8724-0d45d965dd74"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/622edb5c-7ab6-4120-96a0-244ad64c71d2"/>
+        <dcterms:title xml:lang="en">{"id": "79d9b62d-4799-4a1e-b8af-24985a69fc00", "value": "External Identifier Type"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "1f7e4269-a963-4163-aec2-1c387c20db4f", "value": "Geological SSI"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "48a4448e-9824-43b6-a6be-fd41589cf084", "value": "003"}</arches:sortorder>
+    <dcterms:identifier xml:lang="en-us">{"id": "bdf780cc-3cb9-4819-993b-e34c0a9d806c", "value": "http://www.archesproject.org/dc2bb3ae-b3cf-40e8-aab7-b03420b53461"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/68ba5b7a-20d9-45b5-8724-0d45d965dd74">
+    <dcterms:identifier xml:lang="en-us">{"id": "0598b22b-b5ce-4505-a9c0-e1fbaead6d36", "value": "http://www.archesproject.org/68ba5b7a-20d9-45b5-8724-0d45d965dd74"}</dcterms:identifier>
+    <arches:sortorder xml:lang="en">{"id": "f81f8129-0a7e-44b9-88c6-4b670c3317c8", "value": "002"}</arches:sortorder>
+    <skos:inScheme rdf:resource="http://localhost:8000/8546598b-70e9-42c1-ae65-0b4d6e0bb429"/>
+    <skos:prefLabel xml:lang="en">{"id": "03e18e37-f36d-4027-a9e1-fcee051efb15", "value": "Listed place"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/622edb5c-7ab6-4120-96a0-244ad64c71d2">
+    <dcterms:identifier xml:lang="en-us">{"id": "893e9542-1b89-45e7-b467-62bfc1fd8633", "value": "http://www.archesproject.org/622edb5c-7ab6-4120-96a0-244ad64c71d2"}</dcterms:identifier>
+    <arches:sortorder xml:lang="en">{"id": "944b28dc-d8fb-4628-bdba-709d90a3173e", "value": "001"}</arches:sortorder>
+    <skos:inScheme rdf:resource="http://localhost:8000/8546598b-70e9-42c1-ae65-0b4d6e0bb429"/>
+    <skos:prefLabel xml:lang="en">{"id": "3c3a0b9c-48a3-4464-bc81-f8829bf05523", "value": "Listed building"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

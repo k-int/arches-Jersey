@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/3e717e14-78b1-4915-bef7-f23d89aa9b50">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/2ba8af16-52e2-492a-9df9-0ed02b8ac5ee">
+        <skos:inScheme rdf:resource="http://localhost:8000/3e717e14-78b1-4915-bef7-f23d89aa9b50"/>
+        <skos:prefLabel xml:lang="en">{"id": "9dcef550-88d1-4801-9dfc-58a1bc8ce1a2", "value": "Ground/polished"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/46c74db5-10cc-4566-bd39-7c8e58d9d5cf">
+        <skos:inScheme rdf:resource="http://localhost:8000/3e717e14-78b1-4915-bef7-f23d89aa9b50"/>
+        <skos:prefLabel xml:lang="en">{"id": "72c0575d-dc8b-4f7f-84b5-5acd373b9d89", "value": "Wheel made"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "866e7b3a-60e5-4617-b3d0-3791743b6051", "value": "Manufacture method"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/25b85ddf-c487-48e4-81d3-e43f77fa180c">
+        <skos:prefLabel xml:lang="en">{"id": "6d21dd07-3637-4f62-9bf2-d4efed6a6849", "value": "Knapped/flaked"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/3e717e14-78b1-4915-bef7-f23d89aa9b50"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/21fe6fa5-d16d-4c1f-922d-48e64a4187ea">
+        <skos:prefLabel xml:lang="en">{"id": "4cfe766e-9b9b-42e7-a612-49f8e98a100d", "value": "Hand made"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/3e717e14-78b1-4915-bef7-f23d89aa9b50"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/69cb5198-68c8-4a6d-81cb-f73fba50d276">
+        <skos:inScheme rdf:resource="http://localhost:8000/3e717e14-78b1-4915-bef7-f23d89aa9b50"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "aeb1fcba-bd18-45c2-b74b-289ca7eeacbd", "value": "Struck or hammered"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/c9597cef-0f4c-44c0-8a1d-e80ac01f4457">
+        <skos:prefLabel xml:lang="en">{"id": "d5fa748c-b196-49bb-9199-45df56b705b3", "value": "Milled"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/3e717e14-78b1-4915-bef7-f23d89aa9b50"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/895d26d3-6a8e-413c-981d-5d86eb9f205c">
+        <skos:inScheme rdf:resource="http://localhost:8000/3e717e14-78b1-4915-bef7-f23d89aa9b50"/>
+        <skos:prefLabel xml:lang="en">{"id": "9f8900a1-b6e0-40b7-a4b0-47853c075eb9", "value": "Cast"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

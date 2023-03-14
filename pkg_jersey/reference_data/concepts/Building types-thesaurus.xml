@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/ddecc99f-e21e-49b6-8ec4-c494cb391bc8">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/51832194-1a03-4ab2-a7ed-17273065ba81"/>
+        <dcterms:title xml:lang="en">{"id": "6e305480-1491-4d78-8204-d826ae751f16", "value": "Building types-thesaurus"}</dcterms:title>
+        <dcterms:identifier xml:lang="en-us">{"id": "a1dbba8f-41ab-4aa5-b313-aee5e4798db4", "value": "http://www.archesproject.org/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <arches:sortorder xml:lang="en">{"id": "900de173-9f31-4187-bcf7-5103c895ead6", "value": "011"}</arches:sortorder>
+    <dcterms:identifier xml:lang="en-us">{"id": "4f902946-3424-4346-8282-624f86730ce2", "value": "http://www.archesproject.org/ddecc99f-e21e-49b6-8ec4-c494cb391bc8"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "ddf76294-1783-4f47-ba34-57bcfc01e4f5", "value": "Commercial (with accommodation above)"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/798f9021-c4ad-466a-b1a4-c6b8832de915">
+    <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+    <skos:prefLabel xml:lang="en">{"id": "2c955d80-dab7-4c4f-8086-48704c91379f", "value": "Transport (motor car)"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "7b084699-c0c3-4a4f-98e6-d82de1a5b9f8", "value": "049"}</arches:sortorder>
+    <dcterms:identifier xml:lang="en-us">{"id": "2380ed8b-d109-4908-88ab-d3592e3961d2", "value": "http://www.archesproject.org/798f9021-c4ad-466a-b1a4-c6b8832de915"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/fe427797-2d07-4502-a664-264f4f980f6c">
+    <arches:sortorder xml:lang="en">{"id": "a10bcd42-166d-4567-a454-2046dea495e4", "value": "019"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "8d7aed4f-7cf4-456b-b361-19cf2bce2cdc", "value": "Health and welfare"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+    <dcterms:identifier xml:lang="en-us">{"id": "9ea2c5c3-1bce-4177-ba98-79c34ae76290", "value": "http://www.archesproject.org/fe427797-2d07-4502-a664-264f4f980f6c"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a0cdae40-81a8-4d65-9fc1-698063faf99a">
+    <arches:sortorder xml:lang="en">{"id": "927c082c-1740-4ab9-a219-705d782ae10e", "value": "033"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "d24d7d8f-c75e-4353-a07f-4e991822cee2", "value": "Military (Cold War)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-us">{"id": "b00e1938-8686-4ca9-83cc-6c56030e6ee6", "value": "http://www.archesproject.org/a0cdae40-81a8-4d65-9fc1-698063faf99a"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/51832194-1a03-4ab2-a7ed-17273065ba81">
+    <skos:narrower rdf:resource="http://localhost:8000/ddecc99f-e21e-49b6-8ec4-c494cb391bc8"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3da24535-adc1-425b-88eb-b549669b830e">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <skos:prefLabel xml:lang="en">{"id": "73a1d3c5-02c3-4df5-b962-65258e47f3fd", "value": "Commercial (bank / office)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "b3b9d64d-c790-4286-a4de-2571bb065e97", "value": "005"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "10895058-3dab-44d8-a5d8-eaec8e7e11c6", "value": "http://www.archesproject.org/3da24535-adc1-425b-88eb-b549669b830e"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f83b697c-a5b4-4421-8e38-166800f0d6d9">
+        <skos:prefLabel xml:lang="en">{"id": "a6d3ef8f-7fd8-40fd-bc96-fa9ba5e596c6", "value": "Commemorative (funerary monument)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "c9cdd8ae-56f8-4b01-80a3-80e601717adc", "value": "http://www.archesproject.org/f83b697c-a5b4-4421-8e38-166800f0d6d9"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "2b231beb-bd43-4475-bde8-5b2133074c00", "value": "003"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c7ca5e2a-e314-47de-b44c-5bf367be23d9">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "94f3dc19-a598-4da4-8252-1d62a5868ff2", "value": "012"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "95044c76-0a40-4bb0-9490-edabdc41a08b", "value": "http://www.archesproject.org/c7ca5e2a-e314-47de-b44c-5bf367be23d9"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "5c08b948-8de7-452b-953a-6a2f453a2621", "value": "Domestic (coastal)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4239dcdd-428e-46b7-9335-4e8a0a816815">
+        <skos:prefLabel xml:lang="en">{"id": "4e85fc66-ed2d-41a2-b99f-195b0f9af4ae", "value": "Law and government"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "d4f501f8-38d6-418e-b604-608e3159392b", "value": "025"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "9343de5c-f7bd-43e7-8c6a-9b3383d5f4b6", "value": "http://www.archesproject.org/4239dcdd-428e-46b7-9335-4e8a0a816815"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f2b80f76-6582-46b7-8b57-ff817347e824">
+        <skos:prefLabel xml:lang="en">{"id": "0421128e-2a85-4be0-a8aa-e55a25ff9c07", "value": "Education"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "103b1792-9693-4725-a50c-7dc35147af48", "value": "018"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "d236c401-1844-49bc-9ea4-e2c4044abc2c", "value": "http://www.archesproject.org/f2b80f76-6582-46b7-8b57-ff817347e824"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9c29b8b0-5270-480b-958b-2aa7d864ef28">
+        <arches:sortorder xml:lang="en">{"id": "5b4757c2-1c5d-4a31-af2c-8ae5d26598fc", "value": "004"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "33752d6d-3dec-4db2-8929-c375b881f2f2", "value": "Commemorative (war memorial)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "d897d1f9-24bf-4788-9bc0-2c152c1c1f1c", "value": "http://www.archesproject.org/9c29b8b0-5270-480b-958b-2aa7d864ef28"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en-us">{"id": "061fd2c9-4254-4edc-b0e6-744aa1f58ab5", "value": "http://www.archesproject.org/51832194-1a03-4ab2-a7ed-17273065ba81"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/cfd566a6-7d5b-422f-a820-3057bd0d8819">
+        <arches:sortorder xml:lang="en">{"id": "e39b97d1-e71c-4bc5-b15f-959786adb97a", "value": "050"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "e8ec133c-408b-41fb-82c1-c9a01935161b", "value": "http://www.archesproject.org/cfd566a6-7d5b-422f-a820-3057bd0d8819"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "68c5c40e-2ebd-4405-860f-534003428f3a", "value": "Transport (railway)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f850a3bd-11c9-4455-b700-e0d4a2ab3a84">
+        <arches:sortorder xml:lang="en">{"id": "bfefcd11-90c1-46e0-8911-fdf90530b96a", "value": "036"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <skos:prefLabel xml:lang="en">{"id": "2c72c3c1-5e00-45b6-95b1-341d31ed3825", "value": "Military (guardhouse / magazine)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "41dfda6c-b740-4d4e-9514-8113e50098d2", "value": "http://www.archesproject.org/f850a3bd-11c9-4455-b700-e0d4a2ab3a84"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f3f37578-a118-47a1-8724-00d543a27032">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "ce47a491-ca82-4114-a82c-03a8534d7e0d", "value": "020"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "ee0eedba-17fc-4068-be12-1a1055cdf4f7", "value": "http://www.archesproject.org/f3f37578-a118-47a1-8724-00d543a27032"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "002fab1c-90f7-467e-ad16-8caa0ce531e1", "value": "Industrial (extraction)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c81d4596-0024-407e-976d-c42bc03f4913">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "3e667de8-46e1-4541-af1d-5c1f9d254ba8", "value": "046"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "f9e836ea-6b5f-4319-aadb-0f7593094900", "value": "Street furniture (roadside feature)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "392f15d7-8acc-4e5e-a8c3-2fe6ff4cf780", "value": "http://www.archesproject.org/c81d4596-0024-407e-976d-c42bc03f4913"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/75d16a27-8cea-4582-a51c-535d4eabfb88">
+        <dcterms:identifier xml:lang="en-us">{"id": "33780cc1-0226-4554-bd1e-4ca61cd8c26c", "value": "http://www.archesproject.org/75d16a27-8cea-4582-a51c-535d4eabfb88"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "448eac4b-8a5a-48e2-80cc-92e530664a3d", "value": "032"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "ba6e63a8-e365-4e18-934a-b42bbec718fc", "value": "Military (castle / fort)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/01a5da22-5fc5-4d18-af46-d4f091da7fe7">
+        <dcterms:identifier xml:lang="en-us">{"id": "496d2161-6b77-4b01-8a45-154db2ce35c2", "value": "http://www.archesproject.org/01a5da22-5fc5-4d18-af46-d4f091da7fe7"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "d6afc2c3-f1d3-4fdd-8150-671b829f5adc", "value": "Jersey folklore site"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "3c28a71f-25fb-466d-aa96-7acdd59573f1", "value": "024"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/af215a8f-d4ee-4374-b64d-cadeb6bb1b49">
+        <arches:sortorder xml:lang="en">{"id": "f7817c34-1d2a-47e9-aac6-34904501def4", "value": "006"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "dcf70985-4f83-4ee0-8d6f-dbb218dac87c", "value": "Commercial (club / masonic lodge)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "0d4f1e51-9832-41fe-8f76-e04b2864f161", "value": "http://www.archesproject.org/af215a8f-d4ee-4374-b64d-cadeb6bb1b49"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/87a0b9f4-b60e-41e4-b90a-6a4052c71d83">
+        <skos:prefLabel xml:lang="en">{"id": "b736947a-f08b-4d32-92ff-cbb8fe2acdc8", "value": "Domestic (manor house and farmstead)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "870f33e9-3c51-41fb-9a3f-99efdcd4f4b1", "value": "http://www.archesproject.org/87a0b9f4-b60e-41e4-b90a-6a4052c71d83"}</dcterms:identifier>
+        <arches:sortorder xml:lang="en">{"id": "9c3b1f8e-0ca1-446a-bbc6-7249813205d7", "value": "013"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ccc34a49-e504-4caf-aa69-8a719f58de25">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "2fe3b67f-679f-4ac2-9487-e9eb802cc3b8", "value": "023"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "5ca5ac9f-6c90-45fa-a8d4-77610041e249", "value": "http://www.archesproject.org/ccc34a49-e504-4caf-aa69-8a719f58de25"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "04f1de38-2790-4a9e-a276-36fd62a9cb61", "value": "Infrastructure (utilities and communication)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/3d8121c9-6e3c-465b-a0cf-c6499f7b7651">
+        <skos:prefLabel xml:lang="en">{"id": "5681796f-33c5-44f0-8d23-cd9db6a8b09f", "value": "Commercial (hotel / public house)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "48fb8d67-8655-49a4-8394-55711b8cc062", "value": "007"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "9449340c-0044-4df3-a990-500f74efecfa", "value": "http://www.archesproject.org/3d8121c9-6e3c-465b-a0cf-c6499f7b7651"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/da12b481-046c-45b7-84a4-bf8b99aec18c">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "388e876a-a939-4766-8452-7d547ec1009f", "value": "http://www.archesproject.org/da12b481-046c-45b7-84a4-bf8b99aec18c"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "7c91351a-bebd-4254-9e39-79d841663538", "value": "Domestic (rural)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "10d948e6-673f-45fb-bd8b-0f3f524111e0", "value": "015"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c9743eb7-c6b6-4f9b-abe2-130bfaf5d494">
+        <skos:prefLabel xml:lang="en">{"id": "726f0cf3-e4d0-4a7f-9e8b-acddf5377291", "value": "Military (Conway tower)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "37c35255-d460-4272-badc-575703f5db1d", "value": "http://www.archesproject.org/c9743eb7-c6b6-4f9b-abe2-130bfaf5d494"}</dcterms:identifier>
+        <arches:sortorder xml:lang="en">{"id": "7b420521-3fd1-4398-932c-0bc589ee637b", "value": "034"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6c3aebad-4d72-4547-8507-09b249f537c7">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "d8ceff05-ad1a-4536-88ab-f4dcb4c0b031", "value": "042"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "1f9e86fb-2929-449c-b98d-67f3fda1b81b", "value": "Religious and funerary (cemetery / burial ground)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "d09727a8-ca93-43e2-8741-7253e286cefe", "value": "http://www.archesproject.org/6c3aebad-4d72-4547-8507-09b249f537c7"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/5ed5ee60-86b8-4152-b3cc-829b5f962b12">
+        <arches:sortorder xml:lang="en">{"id": "e27ee3b1-18a6-44bb-803e-0d78b5f20471", "value": "001"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <skos:prefLabel xml:lang="en">{"id": "fbdb6cb3-24fd-4cee-8dab-3c608c99bdac", "value": "Agricultural (farmstead)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "f35ecb9a-7299-4b20-a6cf-074cc6c981cb", "value": "http://www.archesproject.org/5ed5ee60-86b8-4152-b3cc-829b5f962b12"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9c5b82b4-9daf-4081-a382-86886b3bee43">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "87a3d96a-9385-4818-be14-75886d79cb5a", "value": "http://www.archesproject.org/9c5b82b4-9daf-4081-a382-86886b3bee43"}</dcterms:identifier>
+        <arches:sortorder xml:lang="en">{"id": "f1518d88-3990-4618-8311-c9597c845987", "value": "010"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "2d8e0e10-4df9-49aa-82bc-e03fe8a0c3f3", "value": "Commercial (shop / department store)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1d1338bd-1de2-4086-8ce7-6a0f196b1fa3">
+        <skos:prefLabel xml:lang="en">{"id": "7899454e-2cce-4255-9d86-77328a73729a", "value": "Military (boulevard / battery)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "ef8a2091-9657-48a8-a9ae-e4709dad30e3", "value": "031"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "22cda3e4-fb29-436b-8076-24a130eb5e9b", "value": "http://www.archesproject.org/1d1338bd-1de2-4086-8ce7-6a0f196b1fa3"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/08b2eec0-19c7-4c5b-8a6a-42d2632e18e3">
+        <skos:prefLabel xml:lang="en">{"id": "ceb8883e-33d1-4bc1-9092-4d62dac5f068", "value": "Commemorative (civic monument)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "9afcf12a-e24b-4765-86a7-3e44424604e1", "value": "002"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "918d8aef-a342-4234-836d-9c736fe0224f", "value": "http://www.archesproject.org/08b2eec0-19c7-4c5b-8a6a-42d2632e18e3"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/89d55ac0-1804-4a44-bc7a-7950fde04ce0">
+        <dcterms:identifier xml:lang="en-us">{"id": "0a963ff5-08c9-4608-a824-8812556b45a1", "value": "http://www.archesproject.org/89d55ac0-1804-4a44-bc7a-7950fde04ce0"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "baa69f38-b780-4e40-afa4-66b55f549cdd", "value": "Domestic (modern house / housing)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "9c1d862e-a098-4d51-9131-ff7de4ccac88", "value": "014"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6633bf15-0473-47ac-a009-1fbcfcfeb9d3">
+        <dcterms:identifier xml:lang="en-us">{"id": "48e9956f-1058-4339-9234-343cd5a7bfd2", "value": "http://www.archesproject.org/6633bf15-0473-47ac-a009-1fbcfcfeb9d3"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <skos:prefLabel xml:lang="en">{"id": "036e73f7-4ccc-4970-ac1f-dd2b0652163f", "value": "Military (Martello tower)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "41fac57c-6e69-4736-8c0a-215266f97126", "value": "037"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/84fb06fb-fd7f-4aaf-819f-e37a9826331e">
+        <arches:sortorder xml:lang="en">{"id": "52b2d08b-9df0-451f-b4f6-5346507882b3", "value": "017"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "dc4fe96f-5b02-4d77-ba4d-27429de4fef2", "value": "Domestic (town)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "1ba1a422-3e39-443c-8afb-62f15f95d7c7", "value": "http://www.archesproject.org/84fb06fb-fd7f-4aaf-819f-e37a9826331e"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/fe427797-2d07-4502-a664-264f4f980f6c"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b4a56718-5a38-4ec8-b080-b4db838d63b7">
+        <arches:sortorder xml:lang="en">{"id": "7be266d3-4482-4700-bfb0-718d78422154", "value": "009"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <skos:prefLabel xml:lang="en">{"id": "c8914c6e-081c-4a87-9cc3-3316e0ba3471", "value": "Commercial (restaurant)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "18dbcce9-b13e-4943-91eb-5e3d9b34c615", "value": "http://www.archesproject.org/b4a56718-5a38-4ec8-b080-b4db838d63b7"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/075edb94-aa5c-460d-b376-44fa9365121e">
+        <arches:sortorder xml:lang="en">{"id": "fb8e82aa-5bbc-48bb-965b-48f429850f2f", "value": "041"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "1a521e23-1619-4adc-a14b-735d695d02ae", "value": "Recreational"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "d0fad4df-bcaa-4e6d-8fc2-f998d8b0b020", "value": "http://www.archesproject.org/075edb94-aa5c-460d-b376-44fa9365121e"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/73c66c57-d569-4afa-8f3a-d1ada578f7fe">
+        <skos:prefLabel xml:lang="en">{"id": "1fc30b72-033c-44e6-970b-98801e36ec02", "value": "Industrial (processing and manufacturing)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "19a93602-2d28-4454-bb96-6d13e169b447", "value": "021"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "9d3aff36-f903-40ec-8a0b-461648bf8e03", "value": "http://www.archesproject.org/73c66c57-d569-4afa-8f3a-d1ada578f7fe"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/29c96589-a944-4ed4-b0c7-59d56aed6b71">
+        <dcterms:identifier xml:lang="en-us">{"id": "7eb36b0d-ddfb-4c4c-93f0-543fc790fafd", "value": "http://www.archesproject.org/29c96589-a944-4ed4-b0c7-59d56aed6b71"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "5f9684d8-1243-4fb1-81cb-4e66344e982b", "value": "Domestic (town terrace)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "04ff0df1-379d-49c9-b1de-c478998bb99d", "value": "016"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/03d79086-e991-4c37-b063-1531060eceef">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "03499a84-389e-406e-a3ff-7bbfbf295feb", "value": "http://www.archesproject.org/03d79086-e991-4c37-b063-1531060eceef"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "b53468d0-961b-43cc-80e7-571fd14aa96f", "value": "Maritime (navigation aid)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "3005b696-86fb-458f-8e25-27722c2c9ff0", "value": "029"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/a0cdae40-81a8-4d65-9fc1-698063faf99a"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/aea2adf7-7787-438a-b352-4b683bd3e482">
+        <arches:sortorder xml:lang="en">{"id": "ba5c33d7-2646-4671-994b-f5e2b68c6226", "value": "038"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "ceebdd6e-a7c3-406f-a9a7-9214aefc5b63", "value": "Military (miscellaneous)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "dea5629b-934a-4379-8898-364188a2abe1", "value": "http://www.archesproject.org/aea2adf7-7787-438a-b352-4b683bd3e482"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/218a9bdf-f554-42b9-aa1c-bdc28256e413">
+        <arches:sortorder xml:lang="en">{"id": "4762c26c-185f-4e3b-8b74-5a7d87809b6c", "value": "043"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "ea50a075-d0c9-4917-a0f8-117fe93f8c2e", "value": "Religious and funerary (place of worship)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "a8502aad-3a9f-458a-ab38-64754d8aef85", "value": "http://www.archesproject.org/218a9bdf-f554-42b9-aa1c-bdc28256e413"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b626cbfc-71d8-4fcf-a9aa-e88afe8e7c7b">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "2de1d806-48d0-4a9f-b4d9-7ffc4a0255f0", "value": "http://www.archesproject.org/b626cbfc-71d8-4fcf-a9aa-e88afe8e7c7b"}</dcterms:identifier>
+        <arches:sortorder xml:lang="en">{"id": "120011c0-8819-4123-8702-2d83a0cc53ed", "value": "022"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "c5622903-7612-4dc3-b1e2-eeea37d56d10", "value": "Industrial (storage and distribution)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/aaee8179-a01c-41c5-be28-b3268231a509">
+        <arches:sortorder xml:lang="en">{"id": "61e35f11-bda4-4256-95a5-9764706ec0de", "value": "040"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "70b955da-ae98-421c-aab3-4d6aaeb01224", "value": "http://www.archesproject.org/aaee8179-a01c-41c5-be28-b3268231a509"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <skos:prefLabel xml:lang="en">{"id": "4e7547b7-81c5-43f4-b8a7-63e0f6688e77", "value": "Parks, gardens and urban spaces"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/fe22ceae-91d5-4ca3-a1e3-a28709d7b5bf">
+        <dcterms:identifier xml:lang="en-us">{"id": "8553389e-a11d-4b58-a57a-4d5026cd5eec", "value": "http://www.archesproject.org/fe22ceae-91d5-4ca3-a1e3-a28709d7b5bf"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "7acb0534-934d-4d2f-8bca-13464702ca53", "value": "Agricultural (farm building)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "36ebe35c-ce04-433f-b7ac-4dedc1262bf4", "value": "000"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ba023896-3327-41de-88c7-1f9f2c7987de">
+        <arches:sortorder xml:lang="en">{"id": "9052a96a-ab4b-4b96-8c47-c3b042ba2e5e", "value": "008"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "f55a741b-c07d-4205-9e49-b1741e57f534", "value": "http://www.archesproject.org/ba023896-3327-41de-88c7-1f9f2c7987de"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "3be90105-bf64-4f79-8dd5-1b5456964beb", "value": "Commercial (market)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ca84e70f-6431-4413-82f0-669b12f9a108">
+        <arches:sortorder xml:lang="en">{"id": "18231dc1-cfb1-40d4-adc3-1a1d6d76a42f", "value": "039"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "a8c5cf54-dd11-4557-bd1a-c98c7ec41180", "value": "http://www.archesproject.org/ca84e70f-6431-4413-82f0-669b12f9a108"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "c993a10e-a07e-47ab-a95b-ed9e1f1aac55", "value": "Military (prisoner of war)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/798f9021-c4ad-466a-b1a4-c6b8832de915"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b7489858-c84a-4e78-9dfc-958ba3619dfc">
+        <dcterms:identifier xml:lang="en-us">{"id": "ba4463bd-0125-44ca-8605-52541deddddf", "value": "http://www.archesproject.org/b7489858-c84a-4e78-9dfc-958ba3619dfc"}</dcterms:identifier>
+        <arches:sortorder xml:lang="en">{"id": "e7856bd5-867c-4a9f-93a9-e174f35668b0", "value": "048"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <skos:prefLabel xml:lang="en">{"id": "e5fb2e87-00a4-48da-ad4e-3f1bf8253623", "value": "Transport (airport)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/a864a443-9616-43c3-8814-31f1a115e465">
+        <skos:prefLabel xml:lang="en">{"id": "675e229c-c295-4435-b4ee-c6b96dbfd798", "value": "Maritime (miscellaneous)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "9c424b07-8dc0-43c1-a1d7-2258df635e4a", "value": "028"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "492c4a09-f7c2-4916-a6ed-205f4ceb4f0a", "value": "http://www.archesproject.org/a864a443-9616-43c3-8814-31f1a115e465"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/55792e1d-01ab-45af-a9e9-5db3077ae6d5">
+        <dcterms:identifier xml:lang="en-us">{"id": "3e7a2097-05d4-4b4d-8427-737d77e64cd8", "value": "http://www.archesproject.org/55792e1d-01ab-45af-a9e9-5db3077ae6d5"}</dcterms:identifier>
+        <arches:sortorder xml:lang="en">{"id": "136e719d-c342-45fd-9558-cc912e58e9fe", "value": "035"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "0d347f63-801d-4974-ae75-9c79f1c8baad", "value": "Military (German Occupation)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/639d96d1-6ebb-47b4-b245-4042df9b1127">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <skos:prefLabel xml:lang="en">{"id": "f2fde4aa-e656-4f31-9317-cb823c54e0c4", "value": "Maritime (control and rescue)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "ee1138b6-c6bc-48ce-a9db-cca8191a4fee", "value": "026"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "fc775a5f-d864-4c09-998e-a9c409922a99", "value": "http://www.archesproject.org/639d96d1-6ebb-47b4-b245-4042df9b1127"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/b7e6ccbd-0f6c-47da-936b-74a34bfb28dd">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "f554d1c4-e6de-493d-8f58-4eaca5fcbc57", "value": "030"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "62e12882-468c-4cea-8101-08fa6aa9c6b2", "value": "Military (barracks / arsenal)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "27e4f719-3cec-4ee3-8cb7-bc1655c99710", "value": "http://www.archesproject.org/b7e6ccbd-0f6c-47da-936b-74a34bfb28dd"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1dc39d28-1e67-4721-96d2-88daa6d5da91">
+        <dcterms:identifier xml:lang="en-us">{"id": "7abed66b-0bdb-41d7-b87b-83ff19c5836b", "value": "http://www.archesproject.org/1dc39d28-1e67-4721-96d2-88daa6d5da91"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "2f83e3a0-9891-4dbf-909c-b8f464cff9fc", "value": "Street furniture (water supply)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "8134f04c-07a4-4ad3-9e19-264ba06001d0", "value": "047"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/1c871414-4c7e-4a04-a970-72dfc5cc60c9">
+        <dcterms:identifier xml:lang="en-us">{"id": "7316df04-1ff7-4342-a15a-097da3c6342e", "value": "http://www.archesproject.org/1c871414-4c7e-4a04-a970-72dfc5cc60c9"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <skos:prefLabel xml:lang="en">{"id": "0d5e786c-b531-4223-b099-39ace9fa7ca0", "value": "Street furniture (post box)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "61a79dce-7946-4185-b71c-4f50abab6473", "value": "045"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "4a433877-f1b5-4ef4-8e44-df1e57697eee", "value": "Building type"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4464ea4d-3c42-4cc1-a0aa-a0eedb48b7ee">
+        <skos:prefLabel xml:lang="en">{"id": "a17fb3a3-6908-443e-af8c-6cb0b2ed7cf4", "value": "Maritime (harbour / slipway)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <arches:sortorder xml:lang="en">{"id": "e7836d45-05fb-4403-81ad-42c607610627", "value": "027"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "ae20b2b4-b350-47bf-b647-e789911943c1", "value": "http://www.archesproject.org/4464ea4d-3c42-4cc1-a0aa-a0eedb48b7ee"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c346ee13-e2ff-4bbd-8ce4-bf94640d20fc">
+        <arches:sortorder xml:lang="en">{"id": "d1e96f21-2382-4a38-88c1-a6e94c67f0c3", "value": "051"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "d62e6322-5d58-4e67-8fbe-4fc428efcdb1", "value": "http://www.archesproject.org/c346ee13-e2ff-4bbd-8ce4-bf94640d20fc"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "6eb294a6-c440-4c71-af29-94c42d7edaa4", "value": "Unassigned"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ac227601-f8e4-4012-9cbb-07b388df8472">
+        <skos:inScheme rdf:resource="http://localhost:8000/8ae08ff1-c693-47ad-9ee9-9f8860d7c07b"/>
+        <skos:prefLabel xml:lang="en">{"id": "5c45b6a6-ade3-4cab-9224-c36c34b798f8", "value": "Street furniture (milestone / guide post)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "5519c956-a378-4603-ab22-a2f366c2e7e5", "value": "044"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "3c5d583e-189c-4fb6-bab4-250f59984064", "value": "http://www.archesproject.org/ac227601-f8e4-4012-9cbb-07b388df8472"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+</rdf:RDF>

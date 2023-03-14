@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/f534f20f-b5cb-422f-84e4-dedfd9174db2">
+    <skos:prefLabel xml:lang="en">{"id": "141b10d0-1fcc-4aca-93c8-8343d1877be2", "value": "Probable"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/80c6d1c8-17cd-459e-bca4-0bf8a205f014">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c56b30a9-a385-4d0f-92aa-9176083fabd2"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b6b6b15e-7061-47b1-a68b-cb2ded6e61b0"/>
+        <dcterms:title xml:lang="en">{"id": "5c504587-c0db-4ac3-9f73-738a6f1a3a17", "value": "Object type certainty"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f534f20f-b5cb-422f-84e4-dedfd9174db2"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c56b30a9-a385-4d0f-92aa-9176083fabd2">
+    <skos:inScheme rdf:resource="http://localhost:8000/80c6d1c8-17cd-459e-bca4-0bf8a205f014"/>
+    <skos:prefLabel xml:lang="en">{"id": "1b7dcd01-b6a8-4cea-ac36-29df6364560c", "value": "Possibly"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b6b6b15e-7061-47b1-a68b-cb2ded6e61b0">
+    <skos:inScheme rdf:resource="http://localhost:8000/80c6d1c8-17cd-459e-bca4-0bf8a205f014"/>
+    <skos:prefLabel xml:lang="en">{"id": "2e75c3a5-21e4-4ce8-8d48-abf0f31a1f7d", "value": "Certain"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

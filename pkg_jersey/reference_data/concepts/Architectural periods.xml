@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/0d21e610-0626-454c-b739-21ba0b991ebb">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/18cbb984-328a-4995-a82c-9c48ea2f6059">
+        <arches:sortorder xml:lang="en">{"id": "2a9eb1c8-cd3b-48e2-bf26-ad296da8a679", "value": "005"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/0d21e610-0626-454c-b739-21ba0b991ebb"/>
+        <skos:prefLabel xml:lang="en">{"id": "5aeb4a95-c409-4a5a-b284-d172559dfd6c", "value": "Twentieth Century (1900 to 1945)"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-us">{"id": "6ac8611e-44dc-44ea-8ced-fe2ebf81cc4e", "value": "Twentieth Century (1900 - 1945)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/e9302825-8f2f-48d9-81cc-7b302e5d244d">
+        <arches:sortorder xml:lang="en">{"id": "2fab62db-9218-4d37-bb49-d1405bc8688d", "value": "004"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en-us">{"id": "7c2571f0-4bda-4d86-9951-dadc68af6feb", "value": "Victorian (1840 - 1900)"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "e37178d2-3cc9-4bc5-9045-5222cc161e70", "value": "Victorian (1840 to 1900)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0d21e610-0626-454c-b739-21ba0b991ebb"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/266e25c4-c579-42dd-8fd4-e0d54649edb9">
+        <skos:prefLabel xml:lang="en">{"id": "cf51a25b-8da4-47a3-bb33-b9a0f4fc5bde", "value": "Medieval (900 to 1500)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "47383258-3a47-428a-a9ad-6427ee1c4af6", "value": "001"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/0d21e610-0626-454c-b739-21ba0b991ebb"/>
+        <skos:prefLabel xml:lang="en-us">{"id": "05cd552c-8b85-4589-a20d-37d2ada6f210", "value": "Medieval (900 - 1500)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/23bda118-eed0-41af-b841-8f83cc76b3b6">
+        <skos:inScheme rdf:resource="http://localhost:8000/0d21e610-0626-454c-b739-21ba0b991ebb"/>
+        <skos:prefLabel xml:lang="en">{"id": "55d6cc48-0d96-4c60-9942-0ffd0d249b84", "value": "Tudor and Stuart (1500 to 1700)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "068a36d1-c315-4bb5-b8f5-84b5c9b391bc", "value": "002"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en-us">{"id": "57bd69c8-8bb0-4162-93db-d8265c8e0f39", "value": "Tudor and Stuart (1500 - 1700)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "5810e284-30e6-429c-a808-d323b7d6c80b", "value": "Architectural periods"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/061f80b5-c4ce-4dd4-afca-ba29d3ae5950">
+        <skos:prefLabel xml:lang="en-us">{"id": "fec747ce-a61d-473b-8ce5-762cb43e2b2d", "value": "Twentieth Century (1945 - present day)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0d21e610-0626-454c-b739-21ba0b991ebb"/>
+        <arches:sortorder xml:lang="en">{"id": "80d4a02f-ba80-422a-ba93-83b962880296", "value": "006"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "0edf23b9-5fd8-4f83-8566-57805372259c", "value": "Twentieth Century (1945 to present day)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/d3842837-1635-4f11-b791-5b690b0c9dbe">
+        <skos:prefLabel xml:lang="en-us">{"id": "bd9cdf51-824d-47db-b920-5d2d574c20cc", "value": "Georgian (1700 - 1840)"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">{"id": "d8fc7935-e74d-4204-b46d-1a403a166509", "value": "Georgian (1700 to 1840)"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "34244d56-ad67-4b25-9a6f-0d4902424b51", "value": "003"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/0d21e610-0626-454c-b739-21ba0b991ebb"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

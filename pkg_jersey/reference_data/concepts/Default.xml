@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/ea5ba063-9784-460b-969d-ef0e8a2f5cc8">
+    <dcterms:identifier xml:lang="en-us">{"id": "33be2a53-1bfb-403c-8604-32fbe25ad381", "value": "http://www.archesproject.org/ea5ba063-9784-460b-969d-ef0e8a2f5cc8"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/cace1352-c365-460d-80d6-3d5ca83b7489">
+        <skos:prefLabel xml:lang="en">{"id": "255c0408-5cca-4cfb-a767-a6851c66b6a5", "value": "Undefined"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/ea5ba063-9784-460b-969d-ef0e8a2f5cc8"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "d2992376-a57c-4026-a4fd-768e50b881c4", "value": "Default"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/18518278-1203-47bc-a0dd-bab00cd93082">
+        <skos:prefLabel xml:lang="en">{"id": "4993c6b0-eebd-4ff8-b999-8b3b267f7538", "value": "Primary"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/ea5ba063-9784-460b-969d-ef0e8a2f5cc8"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/62959fb6-645c-479d-9871-0194370285e7">
+        <skos:inScheme rdf:resource="http://localhost:8000/ea5ba063-9784-460b-969d-ef0e8a2f5cc8"/>
+        <skos:prefLabel xml:lang="en">{"id": "81488e0c-9ed5-4a7b-93b3-55568beba03e", "value": "Historic"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

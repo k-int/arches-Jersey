@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/ace4864c-6372-49d8-a3b3-f45963565a2d">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0dcd17f5-d862-4941-b64c-2563d1b4c51f">
+        <skos:inScheme rdf:resource="http://localhost:8000/ace4864c-6372-49d8-a3b3-f45963565a2d"/>
+        <skos:prefLabel xml:lang="en">{"id": "1c6b3d62-d43c-4c14-a708-e8bb912cf1ef", "value": "Summary"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "2ff734a0-4edd-4674-be3f-bf417646ec4b", "value": "Description type"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>

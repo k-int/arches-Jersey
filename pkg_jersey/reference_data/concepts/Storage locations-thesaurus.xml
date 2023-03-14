@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/58ff4db0-be75-4995-ad32-82b7a2eeb2d3">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/ac70ed5f-f883-4de2-bcc9-5b8a398a37a3">
+        <skos:narrower rdf:resource="http://localhost:8000/661cb6a0-7c47-4d1f-8146-5eef57bee30b"/>
+        <skos:narrower rdf:resource="http://localhost:8000/f8723e9f-785a-4965-a2d2-abd650fd0f55"/>
+        <skos:inScheme rdf:resource="http://localhost:8000/58ff4db0-be75-4995-ad32-82b7a2eeb2d3"/>
+        <skos:prefLabel xml:lang="en">{"id": "1f4986ea-1813-4a8b-ada7-29c6df308f02", "value": "Storage location"}</skos:prefLabel>
+        <skos:narrower rdf:resource="http://localhost:8000/6ad586f9-205d-4650-9862-7dca7935ccee"/>
+        <skos:narrower rdf:resource="http://localhost:8000/bbdb5b52-bfce-4c80-9f82-206a78ce4930"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "fed94ca0-f79a-4108-ab97-adaa14ddea47", "value": "http://www.archesproject.org/ac70ed5f-f883-4de2-bcc9-5b8a398a37a3"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "369f7caa-3601-4aba-af33-d4c05d833bdd", "value": "Storage locations-thesaurus"}</dcterms:title>
+    <dcterms:identifier xml:lang="en-us">{"id": "2700ec88-d9d9-413e-805c-a34c0a2dcf7e", "value": "http://www.archesproject.org/58ff4db0-be75-4995-ad32-82b7a2eeb2d3"}</dcterms:identifier>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://localhost:8000/6ad586f9-205d-4650-9862-7dca7935ccee">
+    <skos:inScheme rdf:resource="http://localhost:8000/58ff4db0-be75-4995-ad32-82b7a2eeb2d3"/>
+    <arches:sortorder xml:lang="en">{"id": "930cf9d5-1895-4053-98f1-35702842ca42", "value": "002"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "7c79de46-6556-45dc-880c-f6b5919d533a", "value": "Private Possession"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-us">{"id": "efbbdeae-fd63-4812-a9ba-e21a47f27893", "value": "http://www.archesproject.org/6ad586f9-205d-4650-9862-7dca7935ccee"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bbdb5b52-bfce-4c80-9f82-206a78ce4930">
+    <skos:inScheme rdf:resource="http://localhost:8000/58ff4db0-be75-4995-ad32-82b7a2eeb2d3"/>
+    <skos:prefLabel xml:lang="en">{"id": "9dbafba1-a3a3-4129-a77e-4263eecc0a8d", "value": "Jersey Archive"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "3720c32f-4164-4326-a477-d65a62aabdca", "value": "000"}</arches:sortorder>
+    <dcterms:identifier xml:lang="en-us">{"id": "649b688a-f524-4b1d-a30c-010270328c34", "value": "http://www.archesproject.org/bbdb5b52-bfce-4c80-9f82-206a78ce4930"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f8723e9f-785a-4965-a2d2-abd650fd0f55">
+    <dcterms:identifier xml:lang="en-us">{"id": "5b582d2c-90d5-496e-90c0-8cbe98e76d0f", "value": "http://www.archesproject.org/f8723e9f-785a-4965-a2d2-abd650fd0f55"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/58ff4db0-be75-4995-ad32-82b7a2eeb2d3"/>
+    <arches:sortorder xml:lang="en">{"id": "5f210544-3540-4a86-bbaf-f4dfc7b82f04", "value": "001"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "917b486c-4e4c-45b3-9c09-253f612bdced", "value": "Jersey Museum"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/661cb6a0-7c47-4d1f-8146-5eef57bee30b">
+    <arches:sortorder xml:lang="en">{"id": "26df5d4a-00d1-4c2f-85d1-cc2fcbdc6531", "value": "003"}</arches:sortorder>
+    <dcterms:identifier xml:lang="en-us">{"id": "38badfbb-1f39-444f-94e6-8a3dc084b871", "value": "http://www.archesproject.org/661cb6a0-7c47-4d1f-8146-5eef57bee30b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "9e6fcd5b-6d27-4a76-a4f7-4e93994931b2", "value": "Soci\u00e9t\u00e9 Jersiaise"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/58ff4db0-be75-4995-ad32-82b7a2eeb2d3"/>
+  </skos:Concept>
+</rdf:RDF>

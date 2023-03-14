@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/babe12c9-e1ee-438e-88ef-e117261ab52c">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/85f1b2ce-f3ed-4b25-8e37-d5941e684fa5">
+        <skos:prefLabel xml:lang="en">{"id": "2d3dfa88-82ba-4c8b-91c6-0f02f3f81ec6", "value": "Conserved"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/babe12c9-e1ee-438e-88ef-e117261ab52c"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/080fa075-3515-46fd-86be-93b541325b9e">
+        <skos:inScheme rdf:resource="http://localhost:8000/babe12c9-e1ee-438e-88ef-e117261ab52c"/>
+        <skos:prefLabel xml:lang="en">{"id": "0c131249-bca5-4c5d-85ac-8f341dec6ae3", "value": "Untreated"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "47e703c7-d794-4408-8654-fedb51ecad53", "value": "Condition"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>

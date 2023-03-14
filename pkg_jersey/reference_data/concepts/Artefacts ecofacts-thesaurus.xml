@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/00e61f6c-379f-49cb-ae15-7f4b601acc3a">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/da235122-f642-4d4d-874a-8032d5462ac4">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "d71ab612-a0c7-42fc-bd66-6d64c483b959", "value": "Textile"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f5d6e98a-b3ef-4bc4-9435-72aadfac2a3e">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "ce142ba2-96f0-44b0-af16-9edcb5664b7a", "value": "Silver"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0ba83846-56fe-40bf-81ed-8ceafe6866e3">
+        <skos:prefLabel xml:lang="en">{"id": "7315ff08-d173-4610-b34a-ed1d87d7443a", "value": "Faience"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/00e61f6c-379f-49cb-ae15-7f4b601acc3a"/>
+        <dcterms:title xml:lang="en">{"id": "96760510-de69-453a-b03c-54f6494d18b3", "value": "Artefacts ecofacts-thesaurus"}</dcterms:title>
+        <dcterms:identifier xml:lang="en-us">{"id": "81bf345a-a586-47b0-a012-0b49b11d410a", "value": "http://www.archesproject.org/4167bfd7-6dd4-498d-b94d-995894028e91"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/87a2d558-43b9-4656-99ff-5217db89af7d">
+        <skos:prefLabel xml:lang="en">{"id": "2fb6babe-c6f4-46a4-a3e7-2a424b0c6a83", "value": "Base Silver"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c4ad24a4-398d-4241-b7f8-c8da34151150">
+        <skos:prefLabel xml:lang="en">{"id": "26422b5f-887e-4b6e-9613-e988de9474c5", "value": "Jet or Shale"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/7be3936b-b172-4a33-9d9b-760941345b5a">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "eddf1d7f-99a3-4f15-a80a-7010ddef2cb0", "value": "White metal"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c84a296f-6d9f-4230-aed6-203e8354dd09">
+        <skos:prefLabel xml:lang="en">{"id": "5b70602e-fd6d-4e2b-a64c-5aa13bf23ee8", "value": "Gold"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/4b91ef02-e2b9-4390-8c11-c9c59a2d68cd">
+        <arches:sortorder xml:lang="en">{"id": "d80fb2f3-d2f1-4c1e-b3f6-dfe8885238be", "value": "003"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "d352259f-0cec-4232-9059-396c227ec2dc", "value": "http://www.archesproject.org/4b91ef02-e2b9-4390-8c11-c9c59a2d68cd"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "61593048-7964-441f-8a91-56a14d70e6a7", "value": "Flint"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ff58f73b-93a5-45a2-8eeb-65d5eb925e99">
+        <skos:prefLabel xml:lang="en">{"id": "adfa8add-1577-4458-ac29-7cc8e07174eb", "value": "Gem"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "0bac24c4-ccc4-43e7-9eee-696b17239ee0", "value": "Artefact or ecofact"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-us">{"id": "dff38471-82e2-4728-94e3-329a6d56d4b2", "value": "http://www.archesproject.org/00e61f6c-379f-49cb-ae15-7f4b601acc3a"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/6617a8f5-a134-4282-b133-10cf14224886">
+        <dcterms:identifier xml:lang="en-us">{"id": "9897563b-96f6-44a7-93f2-bb2a5f5175e9", "value": "http://www.archesproject.org/6617a8f5-a134-4282-b133-10cf14224886"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "9c3dd82b-08e6-4e29-adc2-2e131974cd71", "value": "Animal skeletal material"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "2d9ea904-d39c-4049-b5d3-5edbf115fa04", "value": "000"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/70ecd1a3-0250-4a71-9698-86f24cfafc70">
+        <dcterms:identifier xml:lang="en-us">{"id": "2797030d-98e8-45b2-a2f7-353a2e972e4d", "value": "http://www.archesproject.org/70ecd1a3-0250-4a71-9698-86f24cfafc70"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "7cb59fb1-2f31-4a28-a9b4-ac18d46c32fe", "value": "Ceramic"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "958d0b20-a49e-4c57-ab24-7dcf7db31575", "value": "001"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/749ed08e-4206-4f37-bf77-437e21adf7b3">
+        <skos:prefLabel xml:lang="en">{"id": "180dd113-6981-4fbe-9368-b092360a4bad", "value": "Leather"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "ed8a696e-dd3e-4aa0-9ebe-af4f60630ebe", "value": "006"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "7e49ea0a-e6fd-4397-848d-3a58c2e779fe", "value": "http://www.archesproject.org/749ed08e-4206-4f37-bf77-437e21adf7b3"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/2eb20c50-c523-430c-ae14-2b5e0eaacd2b">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "144d50d2-abdb-44a5-8d11-221584ff05f9", "value": "Other"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/752991c7-d950-4bab-a292-2f4016a9cf62">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "96d1f9d2-143c-4e01-913f-fbcb5a709bcd", "value": "http://www.archesproject.org/752991c7-d950-4bab-a292-2f4016a9cf62"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "8f8147ea-143a-4b1d-b833-36ed31403012", "value": "Stone"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "5f99a0de-41ab-4d3c-84bf-1f2918c7d90e", "value": "007"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/73e5f7ed-57d1-4366-aafe-c6166d641c1e">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "0a81db8e-9c4f-4fe3-8b45-79c47b9d3c79", "value": "Enamel"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ef6a739f-a1ca-415b-8919-185542d84e42">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "14514525-84e0-4129-972a-0ae2040bb2d4", "value": "Mortar or plaster"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/782b9fa2-9b41-4b44-b900-6d722193e284">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "ae5b069c-a854-4c30-9b99-6412b16b6da1", "value": "Glass"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/f7d5fa84-04d8-4302-b0f2-421cb6fb19e7">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "bcaefcd0-174e-48b6-b640-ac5f8b52b203", "value": "Tin or tin alloy"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/db8074a8-9d13-4994-81df-38c5bbab4e0f">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "a7c03b9c-e0d5-4b55-9523-cc05899a824f", "value": "Lead alloy"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d0b88837-7eea-468b-ab90-03f8c2355dd0">
+        <skos:prefLabel xml:lang="en">{"id": "dafe457c-1b72-45eb-ba90-019eb192f137", "value": "Copper"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/8275744c-4db1-4e23-bc61-9a7bb7c9f01a">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "195d6e3f-2c09-4b17-a1ff-5a0d351816d3", "value": "Yellow metal"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/ecd4ac3c-4134-4790-9983-08d78d32c80f">
+        <arches:sortorder xml:lang="en">{"id": "587efbd7-ea17-4510-b36f-f719493d4bc5", "value": "004"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "790de11b-3db5-4966-bb9b-c66e6d2fb946", "value": "http://www.archesproject.org/ecd4ac3c-4134-4790-9983-08d78d32c80f"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "e3c59370-361d-4e3c-a9b7-e12b00af83c0", "value": "Iron"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/dd86c071-ef2c-4cc6-b37e-1415281345b2">
+        <dcterms:identifier xml:lang="en-us">{"id": "d0201a8a-8674-4505-a550-e80576bcc6f8", "value": "http://www.archesproject.org/dd86c071-ef2c-4cc6-b37e-1415281345b2"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "bdea4658-c0b2-4ceb-a6f1-51c301a5766f", "value": "Copper alloy"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <arches:sortorder xml:lang="en">{"id": "8ced6d87-f02b-4af3-bbe7-d1720945206c", "value": "002"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c43b8cb2-e01e-4435-aadd-7ccd538a1d93">
+        <arches:sortorder xml:lang="en">{"id": "f160194a-f482-4d2e-ad5f-7bf439310ccf", "value": "008"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "8e50dc1b-9ccd-46b6-8648-cf9bca2f4824", "value": "http://www.archesproject.org/c43b8cb2-e01e-4435-aadd-7ccd538a1d93"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "700fbb04-d54e-4079-a908-6cfbccc8d016", "value": "Wood"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/0df3693c-e04e-4dde-88c6-81b327416c0e">
+        <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
+        <skos:prefLabel xml:lang="en">{"id": "6297300e-d53e-417a-9616-1c952a83f3ba", "value": "Lead"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "92eb54d3-cffe-4523-a8ec-a4edb5d7214f", "value": "005"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "e0d41845-e394-49e7-99ca-c1f32393f4fa", "value": "http://www.archesproject.org/0df3693c-e04e-4dde-88c6-81b327416c0e"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+</rdf:RDF>

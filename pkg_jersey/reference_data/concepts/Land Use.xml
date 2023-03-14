@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/aa2ac9f5-f8df-4ede-96c7-b72f826f871b">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/d8ad4681-a6d2-45b1-b451-e8af9d8e7bec">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e141d80f-c49b-43b2-a69c-1589866f9bb8"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/35cd2716-5b27-46c3-ac81-deacff1722fb"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/641670e8-cff9-430b-8b5f-b3690c7345c5"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/aa2ac9f5-f8df-4ede-96c7-b72f826f871b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/1ec0dcca-234c-47c1-b638-2890576c4dad"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/58297d44-eb87-4088-98e5-0faf3f8f144e"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4efd49de-309e-4329-aa01-212bf0490ba4"/>
+        <dcterms:title xml:lang="en">{"id": "12932012-364c-44ac-8322-e80f2604c2fc", "value": "Land Use"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "91545442-eb9c-4310-90d1-81f1e02dfd94", "value": "Cultivated land"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1ec0dcca-234c-47c1-b638-2890576c4dad">
+    <skos:prefLabel xml:lang="en">{"id": "aa7b94e2-4a5c-4ebb-bcb2-14fba7825063", "value": "Open fresh water"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d8ad4681-a6d2-45b1-b451-e8af9d8e7bec"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e141d80f-c49b-43b2-a69c-1589866f9bb8">
+    <skos:prefLabel xml:lang="en">{"id": "b877f4a9-47b9-4cab-9279-2b584634af47", "value": "Wetlands"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d8ad4681-a6d2-45b1-b451-e8af9d8e7bec"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/641670e8-cff9-430b-8b5f-b3690c7345c5">
+    <skos:inScheme rdf:resource="http://localhost:8000/d8ad4681-a6d2-45b1-b451-e8af9d8e7bec"/>
+    <skos:prefLabel xml:lang="en">{"id": "7578fb9e-5ad0-406a-a282-b3c665ebaecb", "value": "Grassland, Heathland"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/58297d44-eb87-4088-98e5-0faf3f8f144e">
+    <skos:inScheme rdf:resource="http://localhost:8000/d8ad4681-a6d2-45b1-b451-e8af9d8e7bec"/>
+    <skos:prefLabel xml:lang="en">{"id": "9ad6e48f-415a-4654-aea2-52a63716522b", "value": "Other"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/35cd2716-5b27-46c3-ac81-deacff1722fb">
+    <skos:inScheme rdf:resource="http://localhost:8000/d8ad4681-a6d2-45b1-b451-e8af9d8e7bec"/>
+    <skos:prefLabel xml:lang="en">{"id": "c1e0818c-e861-43bb-9cbb-13d2fe6a7a3f", "value": "Coastland"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4efd49de-309e-4329-aa01-212bf0490ba4">
+    <skos:prefLabel xml:lang="en">{"id": "8d614e44-fba9-49b4-b96c-e02172ec2d6e", "value": "Woodland"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/d8ad4681-a6d2-45b1-b451-e8af9d8e7bec"/>
+  </skos:Concept>
+</rdf:RDF>

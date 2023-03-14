@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/3c9078ff-f514-46ef-aaf8-d170412359e7">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/3e67acfd-b72f-410f-bbef-87d9c70b164c">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/3c9078ff-f514-46ef-aaf8-d170412359e7"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/20800f2d-6067-498a-8b5b-dcaf32ebb3c7"/>
+        <dcterms:title xml:lang="en">{"id": "87a97cbc-0ba0-4cd1-9e30-d1570f84c094", "value": "Archive source location"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/bfd56098-2574-4f48-b68b-73158fe5dcbe"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b30ef2a6-19ed-48c6-8b83-588120d7a4d3"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/49795fda-a878-49c5-ba7d-8bb014e03027"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "7a4374d5-82e1-4c5d-881c-10172eb54cf5", "value": "Not applicable"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "5dad88ce-5d8d-451e-af67-5ecc543c9c4d", "value": "001"}</arches:sortorder>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b30ef2a6-19ed-48c6-8b83-588120d7a4d3">
+    <skos:inScheme rdf:resource="http://localhost:8000/3e67acfd-b72f-410f-bbef-87d9c70b164c"/>
+    <skos:prefLabel xml:lang="en">{"id": "d2f82b8d-0140-42af-9628-50a2f55eeda6", "value": "Jersey Museum"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "72992cbc-746f-471f-809d-c9acbfa65df6", "value": "003"}</arches:sortorder>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/20800f2d-6067-498a-8b5b-dcaf32ebb3c7">
+    <skos:inScheme rdf:resource="http://localhost:8000/3e67acfd-b72f-410f-bbef-87d9c70b164c"/>
+    <skos:prefLabel xml:lang="en">{"id": "978051c1-3044-4749-b8d7-6c1928920302", "value": "Private possession"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "54740498-cc61-44a7-98b3-1bdab5620298", "value": "005"}</arches:sortorder>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bfd56098-2574-4f48-b68b-73158fe5dcbe">
+    <skos:inScheme rdf:resource="http://localhost:8000/3e67acfd-b72f-410f-bbef-87d9c70b164c"/>
+    <arches:sortorder xml:lang="en">{"id": "9cf7c59a-991b-4e9a-a8d9-014524513a31", "value": "004"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "ce1c1e66-dcc4-4b80-9ddf-53d4c803e26d", "value": "Soci\u00e9t\u00e9 Jersiaise"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/49795fda-a878-49c5-ba7d-8bb014e03027">
+    <skos:inScheme rdf:resource="http://localhost:8000/3e67acfd-b72f-410f-bbef-87d9c70b164c"/>
+    <arches:sortorder xml:lang="en">{"id": "3324e291-8a80-4b31-8a01-2baa5cc4ea78", "value": "002"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "78545558-b51e-4b94-8b51-871b05b2fbc3", "value": "Jersey Archive"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/87819eba-6d85-498f-9782-f87383ec6d09">
+    <dcterms:identifier xml:lang="en-us">{"id": "0db9fddc-0abe-4948-855a-a3268f70a79c", "value": "http://www.archesproject.org/87819eba-6d85-498f-9782-f87383ec6d09"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/300e44d4-08f0-4bf4-972e-2080dc0267dc">
+        <dcterms:title xml:lang="en">{"id": "d388b535-b036-45d6-ab30-ca6cc975577f", "value": "Administrative Subdivision"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/87819eba-6d85-498f-9782-f87383ec6d09"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "efd0f85c-06f9-42e5-93b5-dfd12b3c9f81", "value": "http://www.archesproject.org/300e44d4-08f0-4bf4-972e-2080dc0267dc"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "5e70a9cc-3176-434c-8f2b-dd766f7c04cc", "value": "Parish"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

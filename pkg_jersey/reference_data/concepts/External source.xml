@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/56776a27-064d-4b0e-b17c-c9cbecfeda75">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/f8f84a5f-c2f3-410a-b3b7-6662d32fc9be">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4cbda418-370a-450a-b60b-c704319da351"/>
+        <dcterms:title xml:lang="en">{"id": "6c56ca40-b360-43d7-b422-353955f3cf00", "value": "External source"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/56776a27-064d-4b0e-b17c-c9cbecfeda75"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "46c776b7-c7f4-4979-bb68-9be5c91ad62e", "value": "UNESCO"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4cbda418-370a-450a-b60b-c704319da351">
+    <skos:inScheme rdf:resource="http://localhost:8000/f8f84a5f-c2f3-410a-b3b7-6662d32fc9be"/>
+    <skos:prefLabel xml:lang="en">{"id": "ef255633-4830-49a4-b55b-d0c0c8bbad44", "value": "Government of Jersey"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

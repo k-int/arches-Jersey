@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:arches="http://localhost:8000/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://localhost:8000/2de745ad-9117-4ab7-8390-90ed12385185">
+    <arches:sortorder xml:lang="en">{"id": "12f4d896-defa-4ed1-b4fd-106f09b317e0", "value": "004"}</arches:sortorder>
+    <dcterms:identifier xml:lang="en-us">{"id": "23c2da68-dde1-4c88-a4c9-195a8d478476", "value": "http://www.archesproject.org/2de745ad-9117-4ab7-8390-90ed12385185"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/fda86c09-57aa-48e5-a859-401aa8134ba7"/>
+        <dcterms:title xml:lang="en">{"id": "39655a78-519a-49e0-aeed-260ada7152ac", "value": "Recovery methods-thesaurus"}</dcterms:title>
+        <dcterms:identifier xml:lang="en-us">{"id": "8ddb13e9-f319-4369-9ddf-4d42be1d15d4", "value": "http://www.archesproject.org/8c858817-52bd-41ed-88bc-d723b7f43d65"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "9a8cd83d-5070-4247-a636-7818cf0f4a2f", "value": "Controlled archaeological investigation (stratified)"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d4640b16-35c4-4e8c-b84a-6d7c0fc2422e">
+    <arches:sortorder xml:lang="en">{"id": "9896c840-7965-4682-947f-9c4d5d356035", "value": "011"}</arches:sortorder>
+    <dcterms:identifier xml:lang="en-us">{"id": "d5e16227-c75b-460a-9d70-7642384e5082", "value": "http://www.archesproject.org/d4640b16-35c4-4e8c-b84a-6d7c0fc2422e"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+    <skos:prefLabel xml:lang="en">{"id": "ed9b7565-72d1-4359-bf0f-7516a73c0963", "value": "Other chance find"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/61cf5f5d-3e1b-4fdf-a5ae-e707c75a9704">
+    <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+    <skos:prefLabel xml:lang="en">{"id": "fa3a85bd-d6cf-411c-a30c-e2d85761b3d1", "value": "Agricultural or drainage work"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "ebacef42-7352-4251-a6d2-669d7b6500fb", "value": "000"}</arches:sortorder>
+    <dcterms:identifier xml:lang="en-us">{"id": "935daf64-b6f8-4b8d-9a67-fe6841de54fc", "value": "http://www.archesproject.org/61cf5f5d-3e1b-4fdf-a5ae-e707c75a9704"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/53ea36b2-1a3a-405a-89ab-6072853f349a">
+    <skos:prefLabel xml:lang="en">{"id": "bd55eaee-ee4f-4df9-8d7b-cb221c6d9317", "value": "Controlled archaeological investigation (topsoil stripping)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-us">{"id": "1f9dec61-b8ea-49d5-b0dd-073e6f34ae59", "value": "http://www.archesproject.org/53ea36b2-1a3a-405a-89ab-6072853f349a"}</dcterms:identifier>
+    <arches:sortorder xml:lang="en">{"id": "d4a30fb6-2db3-4719-a94e-9b24a5ca7121", "value": "005"}</arches:sortorder>
+    <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b352a83a-0235-4102-9113-26672a8acf14">
+    <skos:prefLabel xml:lang="en">{"id": "20623dc0-b406-454a-91b1-29e30b8f8d89", "value": "Metal detector"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "5602a02e-6790-4a2b-a13e-92f79ff44b4d", "value": "009"}</arches:sortorder>
+    <dcterms:identifier xml:lang="en-us">{"id": "ac6d2d85-6e7b-4ef4-be2b-c2e0025bb05d", "value": "http://www.archesproject.org/b352a83a-0235-4102-9113-26672a8acf14"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/de3843d4-f3e5-4a37-9c6d-72766245829b">
+    <skos:prefLabel xml:lang="en">{"id": "9f728c45-ee53-4804-9327-b8cddab658b6", "value": "Fieldwalking"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en-us">{"id": "1e421cd0-44d2-448f-8bec-010c40f851e1", "value": "http://www.archesproject.org/de3843d4-f3e5-4a37-9c6d-72766245829b"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+    <arches:sortorder xml:lang="en">{"id": "e38b0ea6-92e6-458d-9486-a2d441d7c4e0", "value": "007"}</arches:sortorder>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/fda86c09-57aa-48e5-a859-401aa8134ba7">
+    <skos:narrower rdf:resource="http://localhost:8000/b352a83a-0235-4102-9113-26672a8acf14"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/d575b5f3-2812-4c10-bdd9-a4cbec45645c">
+        <skos:prefLabel xml:lang="en">{"id": "c529509f-3be5-4311-95e0-87446c6fb04c", "value": "Gardening"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "d9555c6d-1b91-4af9-afb8-085e7afb4b50", "value": "http://www.archesproject.org/d575b5f3-2812-4c10-bdd9-a4cbec45645c"}</dcterms:identifier>
+        <arches:sortorder xml:lang="en">{"id": "0deb921e-437c-4285-9fa9-1ef0ac840d08", "value": "008"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en-us">{"id": "ed1adbd0-7171-4e34-9a93-451cc80c942a", "value": "http://www.archesproject.org/fda86c09-57aa-48e5-a859-401aa8134ba7"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "b295116e-891d-4416-8c76-a24a801507f9", "value": "Recovery method"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+    <skos:narrower rdf:resource="http://localhost:8000/de3843d4-f3e5-4a37-9c6d-72766245829b"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/c18b5f77-1c86-4b27-9714-d6b64fe5351a">
+        <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+        <skos:prefLabel xml:lang="en">{"id": "b445b1cb-8b54-49ea-ad76-843709de3ae7", "value": "Unknown"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "e8b52cc9-07dd-411c-9e0e-9b2724f300cc", "value": "012"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "d37bfae0-422a-4017-b0fe-bd5a10b677ee", "value": "http://www.archesproject.org/c18b5f77-1c86-4b27-9714-d6b64fe5351a"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/9b9c91ec-7ecd-48dc-9dc7-2bff847a7b13">
+        <skos:prefLabel xml:lang="en">{"id": "99bd5594-df76-4505-b981-6d985b4d823c", "value": "Controlled archaeological investigation (unstratified)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "eb1b4c09-75fa-4154-b249-c2556fb587b8", "value": "http://www.archesproject.org/9b9c91ec-7ecd-48dc-9dc7-2bff847a7b13"}</dcterms:identifier>
+        <arches:sortorder xml:lang="en">{"id": "5c9dff2b-404d-4e82-a2ba-cfdefe3b6b4d", "value": "006"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/db5c7186-9919-4f71-afc0-addd8d292753">
+        <dcterms:identifier xml:lang="en-us">{"id": "2010e352-6fcf-4e7d-b151-58667614844c", "value": "http://www.archesproject.org/db5c7186-9919-4f71-afc0-addd8d292753"}</dcterms:identifier>
+        <arches:sortorder xml:lang="en">{"id": "3e9a9398-0c80-4477-9d56-2ea1ed4ce6ac", "value": "010"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "8b84a948-9225-4959-b733-e232ec6e490d", "value": "Metal detector during controlled archaeological investigation"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/dffb15b3-502a-4404-9438-552063effe98">
+        <skos:prefLabel xml:lang="en">{"id": "bc04a16c-5862-4748-9f63-23297889bcfd", "value": "Building work"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "54778ea8-3d25-4cda-aa9d-99ef3c52574b", "value": "001"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+        <dcterms:identifier xml:lang="en-us">{"id": "895ce7a6-5434-4c2b-b0a2-4d71e0f96629", "value": "http://www.archesproject.org/dffb15b3-502a-4404-9438-552063effe98"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/53ea36b2-1a3a-405a-89ab-6072853f349a"/>
+    <skos:narrower rdf:resource="http://localhost:8000/2de745ad-9117-4ab7-8390-90ed12385185"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/71ffe354-8f64-4d92-a731-277965d324af">
+        <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+        <skos:prefLabel xml:lang="en">{"id": "39122bc7-7e81-4f9a-8457-21da6631ac64", "value": "Chance find during metal detecting"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "4992c658-35d3-40c0-851f-257545fef784", "value": "002"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en-us">{"id": "a20a1b2d-ed27-4dd4-b825-d0968f0625d2", "value": "http://www.archesproject.org/71ffe354-8f64-4d92-a731-277965d324af"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://localhost:8000/be27692e-85b1-497d-a0ce-a23964fede31">
+        <skos:prefLabel xml:lang="en">{"id": "3424f873-ab33-416b-9494-8972a254663e", "value": "Controlled archaeological investigation"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en-us">{"id": "99164bb2-65e7-47e3-b4e0-8fb2d2383715", "value": "http://www.archesproject.org/be27692e-85b1-497d-a0ce-a23964fede31"}</dcterms:identifier>
+        <arches:sortorder xml:lang="en">{"id": "0d2f1e62-97eb-447e-a845-669beb227b8f", "value": "003"}</arches:sortorder>
+        <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://localhost:8000/d4640b16-35c4-4e8c-b84a-6d7c0fc2422e"/>
+    <skos:narrower rdf:resource="http://localhost:8000/61cf5f5d-3e1b-4fdf-a5ae-e707c75a9704"/>
+  </skos:Concept>
+</rdf:RDF>

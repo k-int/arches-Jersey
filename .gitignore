@@ -1,0 +1,10 @@
+*.pyc
+*.log
+jersey_her/logs
+jersey_her/export_deliverables
+jersey_her/cantaloupe/*
+jersey_her/media/packages
+jersey_her/uploadedfiles/*
+jersey_her/settings_local.py
+.vscode/
+CACHE

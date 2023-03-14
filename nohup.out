@@ -1,0 +1,1023 @@
+2022-04-22 11:10:17,487 arches.app.utils.data_management.resources.formats.csvfile WARNING  No resource created for legacyid: a5c48ba1-b0eb-425e-8b78-aa5116926118. Make sure there is data to be imported                     for this resource and it is mapped properly in your mapping file.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/Heritage_Asset_2022-04-22_10-09-25.csv. . .
+Starting import of business data
+The Place Address node participates in the name display function.
+The Description node participates in the map_popup display function.
+The Description, Description Assignment, Description Type nodes participate in the description display function.
+500 resources processed
+1000 resources processed
+1500 resources processed
+2000 resources processed
+2500 resources processed
+3000 resources processed
+3500 resources processed
+4000 resources processed
+4500 resources processed
+5000 resources processed
+Total resources saved: 5149
+Time to import_business_data = 0:25:56.853568
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+deleting index : jersey_her_terms
+deleting index : jersey_her_concepts
+deleting index : jersey_her_resources
+deleting index : jersey_her_resource_relations
+creating index : jersey_her_terms
+creating index : jersey_her_concepts
+creating index : jersey_her_resource_relations
+creating index : jersey_her_resources
+Indexing concepts
+Status: Passed, In Database: 3783, Indexed: 3783, Took: 1 seconds
+Indexing resource type 'Heritage Asset Group'
+Status: Passed, Resource Type: Heritage Asset Group, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Historical Event'
+Status: Passed, Resource Type: Historical Event, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Finds'
+Warning: No valid output stream.
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Using include_type_name in create index requests is deprecated. The parameter will be removed in the next major version.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in bulk requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in count requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Status: Passed, Resource Type: Finds, In Database: 377, Indexed: 377, Took: 25 seconds
+Indexing resource type 'Information Resource'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Information Resource, In Database: 5462, Indexed: 5462, Took: 349 seconds
+Indexing resource type 'Heritage Asset'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Heritage Asset, In Database: 5148, Indexed: 5148, Took: 266 seconds
+Indexing resource type 'People'
+Status: Passed, Resource Type: People, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Activity'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Activity, In Database: 5208, Indexed: 5208, Took: 181 seconds
+Indexing resource to resource relations
+Status: Passed, In Database: 10817, Indexed: 10817, Took: 3 seconds
+2022-10-19 06:22:51,591 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, St Martin on line 845 on line 845 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-19 06:22:51,592 arches.app.utils.data_management.resources.formats.csvfile WARNING  No resource created for legacyid: 83c8578e-2ea6-11ed-8358-0275d4869ef4. Make sure there is data to be imported                     for this resource and it is mapped properly in your mapping file.
+2022-10-19 06:22:51,592 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, St Helier on line 2731 on line 2731 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/v4data/data_copy_16102022/Heritage_Asset_2022-10-16_14-32-04.csv. . .
+Starting import of business data
+The Place Address node participates in the name display function.
+The Description node participates in the map_popup display function.
+The Description, Description Assignment, Description Type nodes participate in the description display function.
+500 resources processed
+1000 resources processed
+1500 resources processed
+2000 resources processed
+2500 resources processed
+3000 resources processed
+3500 resources processed
+4000 resources processed
+4500 resources processed
+5000 resources processed
+Total resources saved: 5158
+Time to import_business_data = 0:32:53.478946
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+deleting index : jersey_her_terms
+deleting index : jersey_her_concepts
+deleting index : jersey_her_resources
+deleting index : jersey_her_resource_relations
+creating index : jersey_her_terms
+creating index : jersey_her_concepts
+creating index : jersey_her_resource_relations
+creating index : jersey_her_resources
+Indexing concepts
+Status: Passed, In Database: 3807, Indexed: 3807, Took: 2 seconds
+Indexing resource type 'Heritage Asset Group'
+Status: Passed, Resource Type: Heritage Asset Group, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Historical Event'
+Status: Passed, Resource Type: Historical Event, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Heritage Asset'
+Warning: No valid output stream.
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Using include_type_name in create index requests is deprecated. The parameter will be removed in the next major version.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in bulk requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in count requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Status: Passed, Resource Type: Heritage Asset, In Database: 5157, Indexed: 5157, Took: 277 seconds
+Indexing resource type 'Information Resource'
+Status: Passed, Resource Type: Information Resource, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Finds'
+Status: Passed, Resource Type: Finds, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'People'
+Status: Passed, Resource Type: People, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Activity'
+Status: Passed, Resource Type: Activity, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource to resource relations
+Status: Passed, In Database: 0, Indexed: 0, Took: 0 seconds
+2022-10-19 08:00:30,794 arches.app.utils.data_management.resources.formats.csvfile WARNING  No resource created for legacyid: d5ce69b0-5b26-11eb-8701-0275d4869ef4. Make sure there is data to be imported                     for this resource and it is mapped properly in your mapping file.
+2022-10-19 08:00:30,795 arches.app.utils.data_management.resources.formats.csvfile WARNING  No resource created for legacyid: 15a8ca8a-5b27-11eb-8701-0275d4869ef4. Make sure there is data to be imported                     for this resource and it is mapped properly in your mapping file.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/v4data/data_copy_16102022/Activity_2022-10-16_14-31-28.csv. . .
+Starting import of business data
+The Place Address node participates in the name display function.
+The Place Address node participates in the map_popup display function.
+The Description node participates in the description display function.
+500 resources processed
+1000 resources processed
+1500 resources processed
+2000 resources processed
+2500 resources processed
+3000 resources processed
+3500 resources processed
+4000 resources processed
+4500 resources processed
+5000 resources processed
+Total resources saved: 5209
+Time to import_business_data = 0:14:19.066212
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+2022-10-19 09:28:23,024 arches.app.utils.data_management.resources.formats.csvfile WARNING  No resource created for legacyid: 128c65fe-fb73-11eb-8701-0275d4869ef4. Make sure there is data to be imported                     for this resource and it is mapped properly in your mapping file.
+2022-10-19 09:28:23,025 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, St Clement on line 67 on line 67 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-19 09:28:23,025 arches.app.utils.data_management.resources.formats.csvfile WARNING  No resource created for legacyid: a7b239d6-3c4a-11ea-8701-0275d4869ef4. Make sure there is data to be imported                     for this resource and it is mapped properly in your mapping file.
+2022-10-19 09:28:23,025 arches.app.utils.data_management.resources.formats.csvfile WARNING  No resource created for legacyid: 64b4a06e-fb71-11eb-8701-0275d4869ef4. Make sure there is data to be imported                     for this resource and it is mapped properly in your mapping file.
+2022-10-19 09:28:23,025 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, St. clement on line 306 on line 306 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-19 09:28:23,025 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, St Ouen on line 369 on line 369 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/v4data/data_copy_16102022/Finds_2022-10-16_14-31-52.csv. . .
+Starting import of business data
+The Name node participates in the name display function.
+The Artefact Description node participates in the map_popup display function.
+The Artefact Description node participates in the description display function.
+Total resources saved: 380
+Time to import_business_data = 0:02:07.437448
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+2022-10-19 10:23:10,939 arches.app.utils.data_management.resources.formats.csvfile ERROR    datatype: FileListDataType value: [{u'status': u'uploaded', u'index': 0, u'name': u'0700242 Le Beau Couperon Hotel Archaeological and Built Heritage Assessment 2008.pdf', u'url': u'/files/uploadedfiles/0700242_Le_Beau_Couperon_Hotel_Archaeological_and_Built_Heritage_Assessment_2008.pdf', u'lastModified': 1580989742886, u'content': u'blob:https://her.jerseyheritage.org/a89d209d-8ca2-4d6f-9bfa-a006fc0442da', u'file_id': u'120646ca-5d42-11ea-8701-0275d4869ef4', u'accepted': True, u'type': u'application/pdf', u'size': 16085645}, {u'status': u'uploaded', u'index': 1, u'name': u'0700242 Le Beau Couperon Hotel Standing Building Survey 2010.pdf', u'url': u'/files/uploadedfiles/0700242_Le_Beau_Couperon_Hotel_Standing_Building_Survey_2010.pdf', u'lastModified': 1580986030113, u'content': u'blob:https://her.jerseyheritage.org/d243db95-59d9-4495-bb45-fe2fc4563e45', u'file_id': u'120646cb-5d42-11ea-8701-0275d4869ef4', u'accepted': True, u'type': u'application/pdf', u'size': 10060363}, {u'status': u'uploaded', u'index': 2, u'name': u'0700242 Le Beau Couperon Hotel Watching Brief Report 2010.pdf', u'url': u'/files/uploadedfiles/0700242_Le_Beau_Couperon_Hotel_Watching_Brief_Report_2010.pdf', u'lastModified': 1581002342695, u'content': u'blob:https://her.jerseyheritage.org/cede50af-fe17-4cae-bdc0-f51e94f1358e', u'file_id': u'120646cc-5d42-11ea-8701-0275d4869ef4', u'accepted': True, u'type': u'application/pdf', u'size': 7922565}] on line 227 - value too long for type character varying(100)
+ or is not a prefLabel in the given collection.
+2022-10-19 10:23:10,940 arches.app.utils.data_management.resources.formats.csvfile ERROR    datatype: FileListDataType value: [{u'status': u'uploaded', u'index': 0, u'name': u'0100300 Ker Anna Watching Brief and Standing Building Recording Report 2015.pdf', u'url': u'/files/uploadedfiles/0100300_Ker_Anna_Watching_Brief_and_Standing_Building_Recording_Report_2015.pdf', u'lastModified': 1580734048484, u'content': u'blob:https://her.jerseyheritage.org/60a64317-f57d-4b76-9735-bff8996790fe', u'file_id': u'5e4d7970-5d35-11ea-8701-0275d4869ef4', u'accepted': True, u'type': u'application/pdf', u'size': 16883384}] on line 339 - value too long for type character varying(100)
+ or is not a prefLabel in the given collection.
+2022-10-19 10:23:10,940 arches.app.utils.data_management.resources.formats.csvfile ERROR    datatype: FileListDataType value: [{u'status': u'uploaded', u'index': 0, u'name': u'1000316 Jersey Cargo Centre Archaeological and Geoarchaeological Evaluation 2015.pdf', u'url': u'/files/uploadedfiles/1000316_Jersey_Cargo_Centre_Archaeological_and_Geoarchaeological_Evaluation_2015.pdf', u'lastModified': 1580729724643, u'content': u'blob:https://her.jerseyheritage.org/42aa1a28-5ea8-40a7-aa73-d83c1a5cb9e5', u'file_id': u'ca6ecef2-5d43-11ea-8701-0275d4869ef4', u'accepted': True, u'type': u'application/pdf', u'size': 4399120}] on line 789 - value too long for type character varying(100)
+ or is not a prefLabel in the given collection.
+2022-10-19 10:23:10,940 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Administrative Area Name on line 2456 on line 2456 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-19 10:23:10,940 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, St Martin on line 3085 on line 3085 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-19 10:23:10,940 arches.app.utils.data_management.resources.formats.csvfile ERROR    datatype: FileListDataType value: [{u'status': u'uploaded', u'index': 0, u'name': u"0401218 Fisherman's Cottage Archaeological Survey and Watching Brief 2012.pdf", u'url': u'/files/uploadedfiles/0401218_Fishermans_Cottage_Archaeological_Survey_and_Watching_Brief_2012.pdf', u'lastModified': 1580899825620, u'content': u'blob:https://her.jerseyheritage.org/3f6bd325-4ff7-4665-9877-b6983d95921c', u'file_id': u'd7a1bd00-5d3e-11ea-8701-0275d4869ef4', u'accepted': True, u'type': u'application/pdf', u'size': 116466660}] on line 4606 - value too long for type character varying(100)
+ or is not a prefLabel in the given collection.
+2022-10-19 10:23:10,940 arches.app.utils.data_management.resources.formats.csvfile ERROR    datatype: FileListDataType value: [{u'status': u'uploaded', u'index': 0, u'name': u'0400997 Former Jersey Gasworks Archaeological and Built Heritage Assessment Report 2010.pdf', u'url': u'/files/uploadedfiles/0400997_Former_Jersey_Gasworks_Archaeological_and_Built_Heritage_Assessmen_M69gHDC.pdf', u'lastModified': 1581072191941, u'content': u'blob:https://her.jerseyheritage.org/ae1bb318-aeed-4878-a2a7-f4c892a03056', u'file_id': u'4f23e610-5d3e-11ea-8701-0275d4869ef4', u'accepted': True, u'type': u'application/pdf', u'size': 24273357}, {u'status': u'uploaded', u'index': 1, u'name': u'0400997 Former Jersey Gasworks Wall Standing Building Survey 2012.pdf', u'url': u'/files/uploadedfiles/0400997_Former_Jersey_Gasworks_Wall_Standing_Building_Survey_2012.pdf', u'lastModified': 1581070474308, u'content': u'blob:https://her.jerseyheritage.org/33283235-797c-4993-8132-235b2ffe180c', u'file_id': u'4f23e611-5d3e-11ea-8701-0275d4869ef4', u'accepted': True, u'type': u'application/pdf', u'size': 17327919}, {u'status': u'uploaded', u'index': 2, u'name': u'0400997 Former Jersey Gasworks Watching Brief Report 2012.pdf', u'url': u'/files/uploadedfiles/0400997_Former_Jersey_Gasworks_Watching_Brief_Report_2012.pdf', u'lastModified': 1581068310809, u'content': u'blob:https://her.jerseyheritage.org/b932efe0-6f34-4b34-9d86-22ba5f87741e', u'file_id': u'4f23e612-5d3e-11ea-8701-0275d4869ef4', u'accepted': True, u'type': u'application/pdf', u'size': 16050841}] on line 4731 - value too long for type character varying(100)
+ or is not a prefLabel in the given collection.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/v4data/data_copy_16102022/Information_Resource_2022-10-16_14-32-43.csv. . .
+Starting import of business data
+The Place Address node participates in the name display function.
+The Place Address node participates in the map_popup display function.
+The External XRef, External Identifier Type nodes participate in the description display function.
+500 resources processed
+1000 resources processed
+1500 resources processed
+2000 resources processed
+2500 resources processed
+3000 resources processed
+3500 resources processed
+4000 resources processed
+4500 resources processed
+5000 resources processed
+Total resources saved: 5462
+Time to import_business_data = 0:20:26.778381
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+deleting index : jersey_her_terms
+deleting index : jersey_her_concepts
+deleting index : jersey_her_resources
+deleting index : jersey_her_resource_relations
+creating index : jersey_her_terms
+creating index : jersey_her_concepts
+creating index : jersey_her_resource_relations
+creating index : jersey_her_resources
+Indexing concepts
+Status: Passed, In Database: 3807, Indexed: 3807, Took: 1 seconds
+Indexing resource type 'Heritage Asset Group'
+Status: Passed, Resource Type: Heritage Asset Group, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Historical Event'
+Status: Passed, Resource Type: Historical Event, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Heritage Asset'
+Warning: No valid output stream.
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Using include_type_name in create index requests is deprecated. The parameter will be removed in the next major version.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in bulk requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in count requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Status: Passed, Resource Type: Heritage Asset, In Database: 5158, Indexed: 5158, Took: 266 seconds
+Indexing resource type 'Information Resource'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Information Resource, In Database: 5462, Indexed: 5462, Took: 364 seconds
+Indexing resource type 'Finds'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Finds, In Database: 377, Indexed: 377, Took: 25 seconds
+Indexing resource type 'People'
+Status: Passed, Resource Type: People, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Activity'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Activity, In Database: 5208, Indexed: 5208, Took: 186 seconds
+Indexing resource to resource relations
+Status: Passed, In Database: 0, Indexed: 0, Took: 0 seconds
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/Arches_Finds_Export.csv. . .
+Starting import of business data
+********************************************************************************
+ERROR: No column 'ResourceID' found in business data file.                         Please add a 'ResourceID' column with a unique resource identifier.
+********************************************************************************
+deleting index : jersey_her_terms
+deleting index : jersey_her_concepts
+deleting index : jersey_her_resources
+deleting index : jersey_her_resource_relations
+creating index : jersey_her_terms
+creating index : jersey_her_concepts
+creating index : jersey_her_resource_relations
+creating index : jersey_her_resources
+Indexing concepts
+Status: Passed, In Database: 3807, Indexed: 3807, Took: 1 seconds
+Indexing resource type 'Heritage Asset Group'
+Status: Passed, Resource Type: Heritage Asset Group, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Historical Event'
+Status: Passed, Resource Type: Historical Event, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Heritage Asset'
+Warning: No valid output stream.
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Using include_type_name in create index requests is deprecated. The parameter will be removed in the next major version.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in bulk requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in count requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Status: Passed, Resource Type: Heritage Asset, In Database: 5158, Indexed: 5158, Took: 260 seconds
+Indexing resource type 'Information Resource'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Information Resource, In Database: 5462, Indexed: 5462, Took: 357 seconds
+Indexing resource type 'Finds'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Finds, In Database: 377, Indexed: 377, Took: 25 seconds
+Indexing resource type 'People'
+Status: Passed, Resource Type: People, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Activity'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Activity, In Database: 5208, Indexed: 5208, Took: 184 seconds
+Indexing resource to resource relations
+Status: Passed, In Database: 0, Indexed: 0, Took: 0 seconds
+deleting index : jersey_her_terms
+deleting index : jersey_her_concepts
+deleting index : jersey_her_resources
+deleting index : jersey_her_resource_relations
+creating index : jersey_her_terms
+creating index : jersey_her_concepts
+creating index : jersey_her_resource_relations
+creating index : jersey_her_resources
+Indexing concepts
+Status: Passed, In Database: 3807, Indexed: 3807, Took: 1 seconds
+Indexing resource type 'Heritage Asset Group'
+Status: Passed, Resource Type: Heritage Asset Group, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Historical Event'
+Status: Passed, Resource Type: Historical Event, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Heritage Asset'
+Warning: No valid output stream.
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Using include_type_name in create index requests is deprecated. The parameter will be removed in the next major version.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in bulk requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in count requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Status: Passed, Resource Type: Heritage Asset, In Database: 5158, Indexed: 5158, Took: 260 seconds
+Indexing resource type 'Information Resource'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Information Resource, In Database: 5462, Indexed: 5462, Took: 354 seconds
+Indexing resource type 'Finds'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Finds, In Database: 377, Indexed: 377, Took: 25 seconds
+Indexing resource type 'People'
+Status: Passed, Resource Type: People, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Activity'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Activity, In Database: 5208, Indexed: 5208, Took: 183 seconds
+Indexing resource to resource relations
+Status: Passed, In Database: 0, Indexed: 0, Took: 0 seconds
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/NewFinds.csv. . .
+********************************************************************************
+ERROR: No mapping file detected for /home/ubuntu/Projects/jersey_her/NewFinds.csv. Please indicate one                         with the '-c' paramater or place one in the same directory as your business data.
+********************************************************************************
+Time to import_business_data = 0:00:00.000034
+2022-10-24 04:18:36,746 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 2 on line 2 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,747 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE FRAME on line 3 on line 3 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,747 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 4 on line 4 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,747 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SWORD POMMEL on line 5 on line 5 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,747 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CLOTH SEAL on line 6 on line 6 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SPOON on line 7 on line 7 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BRIDLE BIT on line 8 on line 8 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SIGNET RING on line 9 on line 9 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FINGER RING on line 10 on line 10 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FINGER RING on line 11 on line 11 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CASTING WASTE on line 12 on line 12 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SWORD on line 13 on line 13 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BLADE on line 14 on line 14 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BLADE on line 15 on line 15 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BLADE on line 16 on line 16 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 17 on line 17 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SEAL MATRIX on line 18 on line 18 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, HARNESS MOUNT on line 19 on line 19 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 20 on line 20 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FINGER RING on line 21 on line 21 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FINGER RING on line 22 on line 22 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 23 on line 23 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 24 on line 24 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,748 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FLINT IMPLEMENT on line 25 on line 25 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 26 on line 26 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 27 on line 27 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SWORD BLADE on line 28 on line 28 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, INGOT on line 29 on line 29 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 30 on line 30 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CHOPPER on line 31 on line 31 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FIGURINE on line 32 on line 32 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CASTING WASTE on line 33 on line 33 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FLINT IMPLEMENT on line 34 on line 34 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 35 on line 35 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN WEIGHT on line 36 on line 36 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BRACELET on line 37 on line 37 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SPEARHEAD on line 38 on line 38 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUTTON on line 39 on line 39 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 40 on line 40 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SWORD POMMEL on line 41 on line 41 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, STRAP FITTING on line 42 on line 42 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 43 on line 43 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 44 on line 44 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,749 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SWORD on line 45 on line 45 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 46 on line 46 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 47 on line 47 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, KNIFE on line 48 on line 48 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, KNIFE on line 49 on line 49 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 50 on line 50 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, ARROWHEAD on line 51 on line 51 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FLINT IMPLEMENT on line 52 on line 52 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, GUNFLINT on line 53 on line 53 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUTTON on line 54 on line 54 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FINGER RING on line 55 on line 55 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FLINT IMPLEMENT on line 56 on line 56 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUTTON on line 57 on line 57 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 58 on line 58 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, PIPE (SMOKING) on line 59 on line 59 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, DIE on line 60 on line 60 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 61 on line 61 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CHAPE on line 62 on line 62 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 62 on line 62 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUTTON on line 63 on line 63 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BLADE on line 64 on line 64 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FIGURINE on line 65 on line 65 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,750 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Moulded  on line 65 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, TOY on line 66 on line 66 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 66 on line 66 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SPOON on line 67 on line 67 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, ROWEL SPUR on line 68 on line 68 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, HARNESS RING on line 69 on line 69 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FINGER RING on line 70 on line 70 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, DRESS HOOK on line 71 on line 71 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, HARNESS PENDANT on line 72 on line 72 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, HARNESS PENDANT on line 73 on line 73 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BELL on line 74 on line 74 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 75 on line 75 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, INGOT on line 76 on line 76 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CASTING WASTE on line 77 on line 77 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 78 on line 78 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BROOCH on line 79 on line 79 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, DISC BROOCH on line 80 on line 80 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 80 on line 80 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 81 on line 81 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 82 on line 82 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,751 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BLADE on line 83 on line 83 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, PIN on line 84 on line 84 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, DIRK on line 85 on line 85 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN HOARD on line 86 on line 86 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 87 on line 87 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, HOARD on line 88 on line 88 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FIGURINE on line 89 on line 89 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 90 on line 90 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 91 on line 91 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CAULDRON on line 92 on line 92 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SHOT on line 93 on line 93 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CURRENCY on line 94 on line 94 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FORK (UTENSIL) on line 95 on line 95 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CANDLE HOLDER on line 96 on line 96 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, JEWS HARP on line 97 on line 97 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, TOILET ARTICLE on line 98 on line 98 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CANDLE SNUFFER on line 99 on line 99 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, DIVIDERS on line 100 on line 100 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, ARROWHEAD on line 101 on line 101 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BADGE on line 102 on line 102 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,752 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FURNIFURNITURE FITTING on line 103 on line 103 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CLAY PIPE (SMOKING) on line 104 on line 104 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 105 on line 105 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SPEARHEAD on line 106 on line 106 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 107 on line 107 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, TILE on line 108 on line 108 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FINGER RING on line 109 on line 109 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, JEWS HARP on line 110 on line 110 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CASTING WASTE on line 111 on line 111 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FLINT IMPLEMENT on line 112 on line 112 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 113 on line 113 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 114 on line 114 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 115 on line 115 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, FIGURINE on line 116 on line 116 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, STUD on line 117 on line 117 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, PIN on line 118 on line 118 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 119 on line 119 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, UNIDENTIFIED OBJECT on line 120 on line 120 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 121 on line 121 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 122 on line 122 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,753 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BROOCH on line 123 on line 123 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, ANNULAR BROOCH on line 124 on line 124 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, KNIFE on line 125 on line 125 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SPEARHEAD on line 126 on line 126 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BLADE on line 127 on line 127 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 128 on line 128 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXE on line 129 on line 129 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 130 on line 130 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SOCKETED AXEHEAD on line 131 on line 131 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, UNIDENTIFIED OBJECT on line 132 on line 132 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, MOUNT on line 133 on line 133 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 134 on line 134 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CLASP on line 135 on line 135 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, MAUL on line 136 on line 136 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN (CONTEMPORARY IMITATION) on line 137 on line 137 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, PENDANT on line 138 on line 138 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 139 on line 139 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 140 on line 140 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 141 on line 141 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 142 on line 142 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,754 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, DEBITAGE on line 143 on line 143 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 144 on line 144 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 145 on line 145 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 146 on line 146 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 147 on line 147 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BROOCH on line 148 on line 148 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 149 on line 149 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 150 on line 150 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXE (TOOL) on line 151 on line 151 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 152 on line 152 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 153 on line 153 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 154 on line 154 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 155 on line 155 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 156 on line 156 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 157 on line 157 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, TAG on line 158 on line 158 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SEAL MATRIX on line 159 on line 159 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, MOUNT on line 160 on line 160 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, MOUNT on line 161 on line 161 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 161 on line 161 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, STRAP FITTING on line 162 on line 162 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,755 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, WEIGHT on line 163 on line 163 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 163 on line 163 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, WEIGHT on line 164 on line 164 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 164 on line 164 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, WEIGHT on line 165 on line 165 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 165 on line 165 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, WEIGHT on line 166 on line 166 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, JEWS HARP on line 167 on line 167 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CURRENCY on line 168 on line 168 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, TAP on line 169 on line 169 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, TAP on line 170 on line 170 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SOCKETED AXEHEAD on line 171 on line 171 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, UNIDENTIFIED OBJECT on line 172 on line 172 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 173 on line 173 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 174 on line 174 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN WEIGHT on line 175 on line 175 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN WEIGHT on line 176 on line 176 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, APOTHECARY WEIGHT on line 177 on line 177 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, WEIGHT on line 178 on line 178 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, STUD on line 179 on line 179 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,756 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, MOUNT on line 180 on line 180 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, PISTOL on line 181 on line 181 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 182 on line 182 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CASTING WASTE on line 183 on line 183 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN WEIGHT on line 184 on line 184 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 185 on line 185 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, PENCIL on line 186 on line 186 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, PENCIL on line 187 on line 187 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SWORD on line 188 on line 188 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, UNIDENTIFIED OBJECT on line 189 on line 189 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN HOARD on line 190 on line 190 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CRUCIBLE on line 191 on line 191 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, TERRET RING on line 192 on line 192 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SLAG on line 193 on line 193 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, CURRENCY on line 194 on line 194 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 195 on line 195 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 196 on line 196 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, BUCKLE on line 197 on line 197 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, COIN on line 198 on line 198 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, SWORD BLADE on line 199 on line 199 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, DAGGER on line 200 on line 200 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,757 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, UNIDENTIFIED OBJECT on line 201 on line 201 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 04:18:36,758 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, AXEHEAD on line 202 on line 202 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/NewFinds.csv. . .
+Starting import of business data
+The Name node participates in the name display function.
+The Artefact Description node participates in the map_popup display function.
+The Artefact Description node participates in the description display function.
+0 resources processed
+Total resources saved: 1
+Time to import_business_data = 0:01:18.736605
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+2022-10-24 05:03:51,787 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 2 on line 2 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,787 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle frame on line 3 on line 3 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 4 on line 4 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, sword pommel on line 5 on line 5 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, cloth seal on line 6 on line 6 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, spoon on line 7 on line 7 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, bridle bit on line 8 on line 8 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, signet ring on line 9 on line 9 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, finger ring on line 10 on line 10 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, finger ring on line 11 on line 11 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, casting waste on line 12 on line 12 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, sword on line 13 on line 13 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, blade on line 14 on line 14 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, blade on line 15 on line 15 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, blade on line 16 on line 16 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 17 on line 17 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, seal matrix on line 18 on line 18 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, harness mount on line 19 on line 19 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 20 on line 20 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,788 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, finger ring on line 21 on line 21 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, finger ring on line 22 on line 22 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 23 on line 23 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 24 on line 24 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, flint implement on line 25 on line 25 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 26 on line 26 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 27 on line 27 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, sword blade on line 28 on line 28 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, ingot on line 29 on line 29 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 30 on line 30 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, chopper on line 31 on line 31 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, figurine on line 32 on line 32 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, casting waste on line 33 on line 33 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, flint implement on line 34 on line 34 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 35 on line 35 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin weight on line 36 on line 36 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, bracelet on line 37 on line 37 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, spearhead on line 38 on line 38 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, button on line 39 on line 39 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 40 on line 40 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, sword pommel on line 41 on line 41 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,789 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, strap fitting on line 42 on line 42 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 43 on line 43 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 44 on line 44 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, sword on line 45 on line 45 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 46 on line 46 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 47 on line 47 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, knife on line 48 on line 48 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, knife on line 49 on line 49 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 50 on line 50 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, arrowhead on line 51 on line 51 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, flint implement on line 52 on line 52 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, gunflint on line 53 on line 53 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, button on line 54 on line 54 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, finger ring on line 55 on line 55 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, flint implement on line 56 on line 56 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, button on line 57 on line 57 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 58 on line 58 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, pipe (smoking) on line 59 on line 59 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, die on line 60 on line 60 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,790 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 61 on line 61 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, chape on line 62 on line 62 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 62 on line 62 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, button on line 63 on line 63 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, blade on line 64 on line 64 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, figurine on line 65 on line 65 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Moulded  on line 65 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, toy on line 66 on line 66 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 66 on line 66 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, spoon on line 67 on line 67 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, rowel spur on line 68 on line 68 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, harness ring on line 69 on line 69 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, finger ring on line 70 on line 70 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, dress hook on line 71 on line 71 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, harness pendant on line 72 on line 72 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, harness pendant on line 73 on line 73 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, bell on line 74 on line 74 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 75 on line 75 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, ingot on line 76 on line 76 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, casting waste on line 77 on line 77 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 78 on line 78 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,791 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, brooch on line 79 on line 79 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, disc brooch on line 80 on line 80 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 80 on line 80 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 81 on line 81 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 82 on line 82 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, blade on line 83 on line 83 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, pin on line 84 on line 84 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, dirk on line 85 on line 85 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin hoard on line 86 on line 86 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 87 on line 87 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, hoard on line 88 on line 88 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, figurine on line 89 on line 89 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 90 on line 90 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 91 on line 91 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, cauldron on line 92 on line 92 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, shot on line 93 on line 93 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, currency on line 94 on line 94 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, fork (utensil) on line 95 on line 95 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, candle holder on line 96 on line 96 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, jews harp on line 97 on line 97 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,792 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, toilet article on line 98 on line 98 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, candle snuffer on line 99 on line 99 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, dividers on line 100 on line 100 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, arrowhead on line 101 on line 101 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, badge on line 102 on line 102 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, furnifurniture fitting on line 103 on line 103 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, clay pipe (smoking) on line 104 on line 104 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 105 on line 105 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, spearhead on line 106 on line 106 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 107 on line 107 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, tile on line 108 on line 108 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, finger ring on line 109 on line 109 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, jews harp on line 110 on line 110 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, casting waste on line 111 on line 111 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, flint implement on line 112 on line 112 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 113 on line 113 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 114 on line 114 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 115 on line 115 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, figurine on line 116 on line 116 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, stud on line 117 on line 117 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, pin on line 118 on line 118 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,793 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 119 on line 119 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, unidentified object on line 120 on line 120 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 121 on line 121 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 122 on line 122 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, brooch on line 123 on line 123 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, annular brooch on line 124 on line 124 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, knife on line 125 on line 125 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, spearhead on line 126 on line 126 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, blade on line 127 on line 127 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 128 on line 128 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axe on line 129 on line 129 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 130 on line 130 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, socketed axehead on line 131 on line 131 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, unidentified object on line 132 on line 132 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, mount on line 133 on line 133 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 134 on line 134 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, clasp on line 135 on line 135 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, maul on line 136 on line 136 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin (contemporary imitation) on line 137 on line 137 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, pendant on line 138 on line 138 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,794 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 139 on line 139 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 140 on line 140 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 141 on line 141 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 142 on line 142 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, debitage on line 143 on line 143 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 144 on line 144 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 145 on line 145 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 146 on line 146 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 147 on line 147 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, brooch on line 148 on line 148 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 149 on line 149 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 150 on line 150 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axe (tool) on line 151 on line 151 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 152 on line 152 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 153 on line 153 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 154 on line 154 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 155 on line 155 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 156 on line 156 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 157 on line 157 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, tag on line 158 on line 158 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, seal matrix on line 159 on line 159 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, mount on line 160 on line 160 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,795 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, mount on line 161 on line 161 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 161 on line 161 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, strap fitting on line 162 on line 162 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, weight on line 163 on line 163 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 163 on line 163 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, weight on line 164 on line 164 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 164 on line 164 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, weight on line 165 on line 165 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 165 on line 165 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, weight on line 166 on line 166 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, jews harp on line 167 on line 167 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, currency on line 168 on line 168 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, tap on line 169 on line 169 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, tap on line 170 on line 170 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, socketed axehead on line 171 on line 171 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, unidentified object on line 172 on line 172 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 173 on line 173 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 174 on line 174 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin weight on line 175 on line 175 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin weight on line 176 on line 176 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,796 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, apothecary weight on line 177 on line 177 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, weight on line 178 on line 178 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, stud on line 179 on line 179 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, mount on line 180 on line 180 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, pistol on line 181 on line 181 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 182 on line 182 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, casting waste on line 183 on line 183 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin weight on line 184 on line 184 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 185 on line 185 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, pencil on line 186 on line 186 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, pencil on line 187 on line 187 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, sword on line 188 on line 188 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, unidentified object on line 189 on line 189 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin hoard on line 190 on line 190 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, crucible on line 191 on line 191 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, terret ring on line 192 on line 192 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, slag on line 193 on line 193 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, currency on line 194 on line 194 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 195 on line 195 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 196 on line 196 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,797 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, buckle on line 197 on line 197 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,798 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, coin on line 198 on line 198 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,798 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, sword blade on line 199 on line 199 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,798 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, dagger on line 200 on line 200 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,798 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, unidentified object on line 201 on line 201 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:03:51,798 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, axehead on line 202 on line 202 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/NewFinds.csv. . .
+Starting import of business data
+The Name node participates in the name display function.
+The Artefact Description node participates in the map_popup display function.
+The Artefact Description node participates in the description display function.
+0 resources processed
+Total resources saved: 1
+Time to import_business_data = 0:01:19.863670
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+2022-10-24 05:11:55,040 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 62 on line 62 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:11:55,040 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Moulded  on line 65 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:11:55,040 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 66 on line 66 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:11:55,041 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 80 on line 80 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:11:55,041 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Furnifurniture fitting on line 103 on line 103 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:11:55,041 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 161 on line 161 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:11:55,041 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 163 on line 163 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:11:55,041 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 164 on line 164 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-24 05:11:55,041 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Lead Alloy on line 165 on line 165 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/NewFinds.csv. . .
+Starting import of business data
+The Name node participates in the name display function.
+The Artefact Description node participates in the map_popup display function.
+The Artefact Description node participates in the description display function.
+0 resources processed
+Total resources saved: 1
+Time to import_business_data = 0:01:19.727552
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+2022-10-24 05:20:09,738 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Moulded  on line 65 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/NewFinds.csv. . .
+Starting import of business data
+The Name node participates in the name display function.
+The Artefact Description node participates in the map_popup display function.
+The Artefact Description node participates in the description display function.
+0 resources processed
+Total resources saved: 1
+Time to import_business_data = 0:01:22.946668
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/NewFinds.csv. . .
+Starting import of business data
+The Name node participates in the name display function.
+The Artefact Description node participates in the map_popup display function.
+The Artefact Description node participates in the description display function.
+0 resources processed
+Total resources saved: 1
+Time to import_business_data = 0:01:23.385372
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+2022-10-25 07:23:39,263 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 8 on line 8 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 23 on line 23 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 23 on line 23 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 30 on line 30 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 30 on line 30 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 37 on line 37 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 46 on line 46 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 46 on line 46 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 47 on line 47 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 50 on line 50 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 50 on line 50 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 58 on line 58 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 58 on line 58 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Modern 1901 CE - on line 59 on line 59 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 60 on line 60 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,264 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Modern 1901 CE - on line 65 on line 65 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 86 on line 86 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 86 on line 86 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 89 on line 89 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 98 on line 98 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Modern 1901 CE - on line 102 on line 102 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 107 on line 107 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 116 on line 116 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 121 on line 121 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 121 on line 121 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, metal detector on line 121 on line 121 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 130 on line 130 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 130 on line 130 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Returned to finder on line 130 on line 130 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 133 on line 133 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Greek and Roman Provincial 700 BCE-297 on line 134 on line 134 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Modern 1901 CE - on line 135 on line 135 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 137 on line 137 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 137 on line 137 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 139 on line 139 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,265 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 144 on line 144 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 144 on line 144 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Modern 1901 CE - on line 162 on line 162 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 163 on line 163 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 165 on line 165 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 172 on line 172 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 182 on line 182 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 190 on line 190 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 190 on line 190 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 191 on line 191 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 191 on line 191 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 192 on line 192 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 192 on line 192 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 195 on line 195 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 195 on line 195 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:23:39,266 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE- 451 CE on line 198 on line 198 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/NewFinds.csv. . .
+Starting import of business data
+The Name node participates in the name display function.
+The Artefact Description node participates in the map_popup display function.
+The Artefact Description node participates in the description display function.
+Total resources saved: 201
+Time to import_business_data = 0:00:48.287666
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+2022-10-25 07:57:00,038 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 23 on line 23 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,038 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 30 on line 30 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,038 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 46 on line 46 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,038 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 50 on line 50 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,038 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 58 on line 58 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,038 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 60 on line 60 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,038 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 86 on line 86 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 98 on line 98 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 116 on line 116 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 121 on line 121 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 130 on line 130 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Returned to finder on line 130 on line 130 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 137 on line 137 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 144 on line 144 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 163 on line 163 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 165 on line 165 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 172 on line 172 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 190 on line 190 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,039 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 191 on line 191 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,040 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 192 on line 192 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+2022-10-25 07:57:00,040 arches.app.utils.data_management.resources.formats.csvfile ERROR    concept error, Gallo Roman 51 BCE-451  CE on line 195 on line 195 - This is an invalid concept prefLabel, or an incomplete UUID. Unable to save.
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/NewFinds2.csv. . .
+Starting import of business data
+The Name node participates in the name display function.
+The Artefact Description node participates in the map_popup display function.
+The Artefact Description node participates in the description display function.
+Total resources saved: 201
+Time to import_business_data = 0:00:56.664764
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/NewFinds2.csv. . .
+Starting import of business data
+The Name node participates in the name display function.
+The Artefact Description node participates in the map_popup display function.
+The Artefact Description node participates in the description display function.
+Total resources saved: 201
+Time to import_business_data = 0:00:55.795330
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+operation: import_business_data
+Importing /home/ubuntu/Projects/jersey_her/NewFinds2.csv. . .
+Starting import of business data
+The Name node participates in the name display function.
+The Artefact Description node participates in the map_popup display function.
+The Artefact Description node participates in the description display function.
+Total resources saved: 201
+Time to import_business_data = 0:00:56.242517
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log
+deleting index : jersey_her_terms
+deleting index : jersey_her_concepts
+deleting index : jersey_her_resources
+deleting index : jersey_her_resource_relations
+creating index : jersey_her_terms
+creating index : jersey_her_concepts
+creating index : jersey_her_resource_relations
+creating index : jersey_her_resources
+Indexing concepts
+Status: Passed, In Database: 3808, Indexed: 3808, Took: 1 seconds
+Indexing resource type 'Heritage Asset Group'
+Status: Passed, Resource Type: Heritage Asset Group, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Historical Event'
+Status: Passed, Resource Type: Historical Event, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Heritage Asset'
+Warning: No valid output stream.
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Using include_type_name in create index requests is deprecated. The parameter will be removed in the next major version.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in bulk requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in count requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Status: Passed, Resource Type: Heritage Asset, In Database: 5158, Indexed: 5158, Took: 264 seconds
+Indexing resource type 'Information Resource'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Information Resource, In Database: 5462, Indexed: 5462, Took: 363 seconds
+Indexing resource type 'Finds'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Finds, In Database: 579, Indexed: 579, Took: 43 seconds
+Indexing resource type 'People'
+Status: Passed, Resource Type: People, In Database: 0, Indexed: 0, Took: 0 seconds
+Indexing resource type 'Activity'
+Warning: No valid output stream.
+Status: Passed, Resource Type: Activity, In Database: 5208, Indexed: 5208, Took: 186 seconds
+Indexing resource to resource relations
+Status: Passed, In Database: 0, Indexed: 0, Took: 0 seconds
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+operation: import_business_data_relations
+500 relations saved
+1000 relations saved
+1500 relations saved
+2000 relations saved
+2500 relations saved
+3000 relations saved
+3500 relations saved
+4000 relations saved
+4500 relations saved
+5000 relations saved
+5500 relations saved
+6000 relations saved
+6500 relations saved
+7000 relations saved
+7500 relations saved
+8000 relations saved
+8500 relations saved
+9000 relations saved
+9500 relations saved
+10000 relations saved
+No import errors
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+operation: import_business_data_relations
+500 relations saved
+1000 relations saved
+1500 relations saved
+2000 relations saved
+2500 relations saved
+3000 relations saved
+3500 relations saved
+4000 relations saved
+4500 relations saved
+5000 relations saved
+5500 relations saved
+6000 relations saved
+6500 relations saved
+7000 relations saved
+7500 relations saved
+8000 relations saved
+8500 relations saved
+9000 relations saved
+9500 relations saved
+10000 relations saved
+No import errors
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+operation: import_business_data_relations
+No import errors
+/home/ubuntu/ENV/lib/python3.8/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+operation: import_business_data_relations
+500 relations saved
+1000 relations saved
+1500 relations saved
+2000 relations saved
+2500 relations saved
+3000 relations saved
+3500 relations saved
+4000 relations saved
+4500 relations saved
+5000 relations saved
+5500 relations saved
+6000 relations saved
+6500 relations saved
+7000 relations saved
+7500 relations saved
+8000 relations saved
+8500 relations saved
+9000 relations saved
+9500 relations saved
+10000 relations saved
+10500 relations saved
+***** Errors occured during import. Some data may not have been imported. For more information, check resource import error log: /home/ubuntu/Projects/jersey_her/jersey_her/logs/resource_import.log

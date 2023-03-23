@@ -94,6 +94,7 @@ INSTALLED_APPS = (
     'django_celery_results',
     'compressor',
     'jersey_her',
+    'storages',
 )
 
 #ALLOWED_HOSTS = ['3.8.99.148', '127.0.0.1', '0.0.0.0', 'localhost', 'ec2-18-170-3-182.eu-west-2.compute.amazonaws.com', '18.132.67.186']
@@ -104,7 +105,7 @@ WSGI_APPLICATION = 'jersey_her.wsgi.application'
 
 # URL that handles the media served from MEDIA_ROOT, used for managing stored files.
 # It must end in a slash if set to a non-empty value.
-MEDIA_URL = '/files/'
+#MEDIA_URL = '/files/'
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 MEDIA_ROOT =  os.path.join(APP_ROOT)
@@ -320,6 +321,16 @@ FILE_TYPE_CHECKING = False
 
 FILE_TYPES = ["bmp", "gif", "jpg", "jpeg", "pdf", "png", "psd", "rtf", "tif", "tiff", "xlsx", "csv", "zip"]
 # File types that can be uploaded to Arches if FILE_TYPE_CHECKING is True.
+
+# Jersey S3 storage
+#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_STORAGE_BUCKET_NAME = 'jerseyv6-arches-media'
+AWS_ACCESS_KEY_ID = 'AKIA42RJTSG6QRIMUHEU'
+AWS_SECRET_ACCESS_KEY = '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'
+S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
+#MEDIA_URL = S3_URL + "uploadedfiles/"
+MEDIA_URL = S3_URL
 
 try:
     from .package_settings import *

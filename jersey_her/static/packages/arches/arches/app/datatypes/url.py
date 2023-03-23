@@ -65,28 +65,29 @@ class URLDataType(BaseDataType):
 
     URL_REGEX = re.compile(r"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)")
 
-    def validate(self, value, row_number=None, source=None, node=None, nodeid=None, strict=False):
+    def validate(self, value, row_number=None, source=None, node=None, nodeid=None, strict=False, **kwargs):
         errors = []
-        try:
-            if value.get("url") is not None:
-                # check URL conforms to URL structure
-                url_test = self.URL_REGEX.match(value["url"])
-                if url_test is None:
-                    raise FailRegexURLMatch
-        except FailRegexURLMatch:
-            errors.append(
-                {
-                    "type": "ERROR",
-                    "message": "datatype: {0} value: {1} {2} {3} - {4}. {5}".format(
-                        self.datatype_model.datatype,
-                        value,
-                        source,
-                        row_number,
-                        "this is not a valid HTTP/HTTPS URL",
-                        "This data was not imported.",
-                    ),
-                }
-            )
+        if value is not None:
+            try:
+                if value.get("url") is not None:
+                    # check URL conforms to URL structure
+                    url_test = self.URL_REGEX.match(value["url"])
+                    if url_test is None:
+                        raise FailRegexURLMatch
+            except FailRegexURLMatch:
+                errors.append(
+                    {
+                        "type": "ERROR",
+                        "message": "datatype: {0} value: {1} {2} {3} - {4}. {5}".format(
+                            self.datatype_model.datatype,
+                            value,
+                            source,
+                            row_number,
+                            "this is not a valid HTTP/HTTPS URL",
+                            "This data was not imported.",
+                        ),
+                    }
+                )
         return errors
 
     def transform_value_for_tile(self, value, **kwargs):

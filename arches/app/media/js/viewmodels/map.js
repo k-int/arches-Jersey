@@ -133,8 +133,8 @@ define([
         
         var mapLayers = params.mapLayers || arches.mapLayers;
             //mapLayers = mapLayers.sort((a, b) => a.sortorder - b.sortorder)
-        console.log(mapLayers)
-        mapLayers = mapLayers.sort((a, b) => parseInt(a.layersortorder) - parseInt(b.layersortorder))
+        
+        mapLayers = mapLayers.sort((a, b) => a.layersortorder - b.layersortorder)
         mapLayers.forEach(function(layer) {
             if (!layer.isoverlay) {
                 if (!params.basemaps) self.basemaps.push(layer);
@@ -148,7 +148,7 @@ define([
                         layer.opacity(value ? 100 : 0);
                     }
                 });
-                console.log(layer.opacity)
+                
                 layer.updateParent = function(parent) {
                     if (self.overlayConfigs.indexOf(layer.maplayerid) === -1) {
                         self.overlayConfigs.push(layer.maplayerid)
@@ -474,7 +474,7 @@ define([
             }
             console.log(new_order)
             $.ajax({
-                type: "POST",
+                type: "PUT",
                 data: JSON.stringify({
                     map_order: new_order
                 }),

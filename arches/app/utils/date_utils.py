@@ -90,7 +90,7 @@ class ExtendedDateFormat(SortableDateRange):
                 date = "y" + date
         except Exception:
             pass
-
+        
         self.edtf = parse_edtf(date)
         result = self.handle_object(self.edtf)
         if isinstance(result, list):

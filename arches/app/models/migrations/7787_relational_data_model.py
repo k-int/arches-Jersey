@@ -4,7 +4,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ("models", "7128_resource_instance_filter"),
+        ("models", "7131_auto_20221003_1104"),
     ]
 
     operations = [

@@ -32,7 +32,10 @@ define([
             // Split each array item into [key, value]
             // ignore empty string if search is empty
             .map(function(item) {
-                if (item) return item.split('=');
+                if (item) {
+                    var cleanItem = item.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
+                    return cleanItem.split('=');
+                } 
             })
             // Remove undefined in the case the search is empty
             .compact()
@@ -163,8 +166,9 @@ define([
                     this.viewModel.alert(false);
                 },
                 error: function(response, status, error) {
+                    const alert = new AlertViewModel('ep-alert-red', arches.requestFailed.title, response.responseJSON?.message);
                     if(this.updateRequest.statusText !== 'abort'){
-                        this.viewModel.alert(new AlertViewModel('ep-alert-red', arches.requestFailed.title, response.responseText));
+                        this.viewModel.alert(alert);
                     }
                 },
                 complete: function(request, status) {

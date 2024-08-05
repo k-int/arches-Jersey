@@ -1,4 +1,3 @@
-from base64 import b64decode
 import importlib
 import json
 import logging
@@ -7,8 +6,9 @@ import re
 import sys
 import uuid
 import traceback
-from io import StringIO
 from oauth2_provider.views import ProtectedResourceView
+from base64 import b64decode
+from http import HTTPStatus
 from pyld.jsonld import compact, frame, from_rdf
 from rdflib import RDF
 from rdflib.namespace import SKOS, DCTERMS
@@ -30,6 +30,7 @@ from django.utils.translation import ugettext as _
 from django.core.files.base import ContentFile
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
+from django_ratelimit.decorators import ratelimit
 from arches.app.models import models
 from arches.app.models.concept import Concept
 from arches.app.models.card import Card as CardProxyModel
@@ -41,7 +42,7 @@ from arches.app.models.tile import Tile as TileProxyModel, TileValidationError
 from arches.app.views.tile import TileData as TileView
 from arches.app.views.resource import RelatedResourcesView, get_resource_relationship_types
 from arches.app.utils.skos import SKOSWriter
-from arches.app.utils.response import JSONResponse
+from arches.app.utils.response import JSONResponse, JSONErrorResponse
 from arches.app.utils.decorators import can_read_concept, group_required
 from arches.app.utils.betterJSONSerializer import JSONSerializer, JSONDeserializer
 from arches.app.utils.data_management.resources.exporter import ResourceExporter
@@ -1054,18 +1055,21 @@ class Card(APIBase):
 
 
 class SearchExport(View):
+    @method_decorator(ratelimit(key="header:http-authorization", rate=settings.RATE_LIMIT, block=False))
     def get(self, request):
         total = int(request.GET.get("total", 0))
         download_limit = settings.SEARCH_EXPORT_IMMEDIATE_DOWNLOAD_THRESHOLD
         format = request.GET.get("format", "tilecsv")
         report_link = request.GET.get("reportlink", False)
-        if "HTTP_AUTHORIZATION" in request.META:
+        if "HTTP_AUTHORIZATION" in request.META and not request.GET.get("limited", False):
             request_auth = request.META.get("HTTP_AUTHORIZATION").split()
             if request_auth[0].lower() == "basic":
                 user_cred = b64decode(request_auth[1]).decode().split(":")
                 user = authenticate(username=user_cred[0], password=user_cred[1])
                 if user is not None:
                     request.user = user
+                else:
+                    return JSONErrorResponse(status=HTTPStatus.UNAUTHORIZED)
         exporter = SearchResultsExporter(search_request=request)
         export_files, export_info = exporter.export(format, report_link)
         if format == "geojson" and total <= download_limit:
@@ -1235,7 +1239,7 @@ class ResourceReport(APIBase):
         template = models.ReportTemplate.objects.get(pk=graph.template_id)
 
         if not template.preload_resource_data:
-            return JSONResponse({"template": template, "report_json": resource.to_json(compact=compact, version=version)})
+            return JSONResponse({"template": template, "report_json": resource.to_json(compact=compact, version=version, user=request.user, perm=perm)})
 
         resp = {
             "datatypes": models.DDataType.objects.all(),
@@ -1441,10 +1445,12 @@ class BulkDisambiguatedResourceInstance(APIBase):
         version = request.GET.get("v")
         hide_hidden_nodes = bool(request.GET.get("hidden", "true").lower() == "false")
         compact = bool(request.GET.get("uncompacted", "false").lower() == "false")
+        user = request.user
+        perm = "read_nodegroup"
 
         return JSONResponse(
             {
-                resource.pk: resource.to_json(compact=compact, version=version, hide_hidden_nodes=hide_hidden_nodes)
+                resource.pk: resource.to_json(compact=compact, version=version, hide_hidden_nodes=hide_hidden_nodes, user=user, perm=perm)
                 for resource in Resource.objects.filter(pk__in=resource_ids)
             }
         )

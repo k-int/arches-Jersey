@@ -36,7 +36,9 @@
                         </div>
                     </div>
                 <!-- ko if: image -->    
-                <img class="img-responsive" alt="Image" data-bind="attr: {src: image}">
+                <!-- COMMENTED OUT TO ALLOW SPACING 03/07/23 -->
+                <!--<img class="img-responsive" alt="Image" data-bind="attr: {src: image}">-->
+                <img class="img-responsive" alt="Image" data-bind="attr: {src: image}" style="object-fit: cover; height:100%; width:100%">
                 <!-- /ko -->
             </div>
         </div>

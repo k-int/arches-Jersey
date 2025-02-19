@@ -1,0 +1,11 @@
+{
+    "component": "views/components/widgets/sample-widget",
+    "datatype": "sample-datatype",
+    "defaultconfig": {
+        "x_placeholder": "Longitude",
+        "y_placeholder": "Latitude"
+    },
+    "helptext": null,
+    "name": "sample-widget",
+    "widgetid": "932581ab-80e2-4266-b0f4-193dc5f7f0ef"
+}

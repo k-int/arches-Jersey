@@ -55,17 +55,10 @@ define([
                     var graphId = source['graph_id'];
                     var resourceId = source['resourceinstanceid'];
 
-                    ko.computed(() => {
-                        bulkResourceReportCache();
-                        bulkDisambiguatedResourceInstanceCache();
-
-                        if(bulkResourceReportCache()[graphId] && bulkDisambiguatedResourceInstanceCache()[resourceId])
-                        {
+                    if (bulkResourceReportCache()[graphId] && bulkDisambiguatedResourceInstanceCache()[resourceId]) {
                             self.createReport(sourceData, bulkResourceReportCache()[graphId], bulkDisambiguatedResourceInstanceCache()[resourceId]);
-                            self.loading(false)
+                            self.loading(false);
                         }
-                    });
-
                 };
 
                 this.createReport = function(sourceData, bulkResourceReportCacheData, bulkDisambiguatedResourceInstanceCacheData) {

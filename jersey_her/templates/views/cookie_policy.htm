@@ -1,0 +1,26 @@
+{% extends "base-manager.htm" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %} {{ block.super }} {% trans "Cookie Policy" %} {% endblock title %}
+
+{% block css %}
+
+    <link rel="stylesheet" href="{% static 'css/plugins/smartadmin-production.css' %}" type="text/css" media="screen">
+    {{ block.super }}
+{% endblock css %}
+
+
+{% block main_content %}
+<div>
+    <div id="rr-splash" class="rr-splash" style="max-width:900px;margin:auto;margin-top:48px">
+        <div class="rr-splash-title">{% trans "Cookie Policy" %}</div>
+        <div class "rr-splash-description" style="max-width:800px; display:flex; flex-direction:column; padding:0 16px; margin:0 auto; text-align:left">
+           
+           <p> <script id="CookieDeclaration" src="https://consent.cookiebot.com/cb0538aa-e00c-4bae-b83c-64d4f5f9610c/cd.js" type="text/javascript" async></script><p>
+        
+        </div>
+    </div>
+</div>
+
+{% endblock main_content %}

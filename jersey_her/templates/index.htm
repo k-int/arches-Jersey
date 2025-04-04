@@ -108,7 +108,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li class="page-scroll">
                             <a href="{% url 'search_home' %}">{% trans "Search" %}</a>
                         </li>
-                        {% if user|can_create_resource_instance %}
+                        {% if user|can_create_resource_instance and user.username != 'anonymous' %}
                         <li class="page-scroll">
                             <a href="{% url 'resource' %}">{% trans "Manage Data" %}</a>
                         </li>
@@ -183,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <!-- {% if user.username == 'anonymous' %}
                             <span class="page-scroll"><a href="{% url 'auth' %}?next={% url 'graph' '' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Login" %}</a></span>
                             {% endif %} -->
-                            {% if user|can_create_resource_instance %}
+                            {% if user|can_create_resource_instance and user.username != 'anonymous' %}
                             <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
                             {% endif %}
                         </div>
@@ -213,7 +213,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sft" data-x="center" data-hoffset="0" data-y="360" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
                             <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
-                            {% if user|can_create_resource_instance %}
+                            {% if user|can_create_resource_instance and user.username != 'anonymous' %}
                             <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
                             {% endif %}
                         </div>
@@ -243,7 +243,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sft" data-x="center" data-hoffset="0" data-y="360" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
                             <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
-                            {% if user|can_create_resource_instance %}
+                            {% if user|can_create_resource_instance and user.username != 'anonymous' %}
                             <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
                             {% endif %}
                         </div>
@@ -273,7 +273,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sfb" data-x="center" data-hoffset="0" data-y="370" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
                             <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
-                            {% if user|can_create_resource_instance %}
+                            {% if user|can_create_resource_instance and user.username != 'anonymous' %}
                             <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
                             {% endif %}
                         </div>
@@ -303,7 +303,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sfb" data-x="center" data-hoffset="0" data-y="370" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
                             <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
-                            {% if user|can_create_resource_instance %}
+                            {% if user|can_create_resource_instance and user.username != 'anonymous' %}
                             <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
                             {% endif %}
                         </div>
@@ -333,7 +333,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sfb" data-x="center" data-hoffset="0" data-y="370" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
                             <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
-                            {% if user|can_create_resource_instance %}
+                            {% if user|can_create_resource_instance and user.username != 'anonymous' %}
                             <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
                             {% endif %}
                         </div>
@@ -358,7 +358,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="container">
                 <div class="title-v1">
                     <h1>{% trans "Jersey's Historic Environment Record" %}</h1>
-                    <p>{% trans "Jersey's Historic Environment Record (HER) is an extensive source of information about the historic Island of Jersey, much of it online for the first time. It showcases Jersey's rich diversity of archaeological sites, finds and features, historic buildings and landscapes, as well as battlefield sites and local folklore." %}</p>
+                    <p>{% trans "Jersey's Historic Environment Record (HER) is an extensive source of information about the historic Island of Jersey. It showcases Jersey's rich diversity of archaeological sites, finds and features, historic buildings and landscapes, as well as conflict sites and local folklore." %}</p>
                     <p>{% trans "Jersey's Historic Environment Record is powered by <a href='https://www.archesproject.org/'>Arches&reg;</a>, an open source heritage data management platform developed by the <a href='https://www.getty.edu/conservation/'>Getty Conservation Institute</a> and the <a href='https://www.wmf.org/'>World Monuments Fund</a>." %}</p>
                     <p><a href='https://www.archesproject.org/'><img style="height:2em" src="{% static 'img/icons/files/Arches_badge_red_black_powered_by_2.png' %}" alt="Powered by Arches"></a></p>
                 </div>
@@ -374,8 +374,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="title-v1">
                 <h2>{% trans "Access" %}</h2>
                 <p>{% trans "You can search the online HER directly in different ways: Map Search, Text Search or via one of the saved searches provided." %}</p>
-                <p>{% trans "A detailed user guide is available to download: <a href='https://jerseyv6-arches-media.s3.eu-west-2.amazonaws.com/files/HER+User+Guide.pdf' alt='HER User Guide'>HER User Guide (PDF, 4.1 Mb)</a>" %}</p>
-                <h3>{% trans "Video guides" %}</h3>
+                <!-- <p>{% trans "A detailed user guide is available to download: <a href='https://jerseyv6-arches-media.s3.eu-west-2.amazonaws.com/files/HER+User+Guide.pdf' alt='HER User Guide'>HER User Guide (PDF, 4.1 Mb)</a>" %}</p> -->
+                <h3>{% trans "How to use the HER video guide" %}</h3>
                 <!-- <h4>{% trans "1: How to search the HER" %}</h4>
                 <iframe src="https://player.vimeo.com/video/412267219" width="640" height="466" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 <h4>{% trans "2: How to access HER reports" %}</h4>
@@ -387,12 +387,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <h4>{% trans "5: How to look at saved searches on the HER" %}</h4>
                 <iframe src="https://player.vimeo.com/video/412271408" width="640" height="466" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 <h4>{% trans "Play all videos combined" %}</h4> -->
-                <div style='padding:72.78% 0 0 0;position:relative;'>
-                  <iframe src='https://vimeo.com/showcase/6900212/embed' allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe>
+                
+                <div style='padding:58% 0 0 0;position:relative;'>
+                  <iframe src='https://player.vimeo.com/video/833295519' allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe>
+                  <div class="" style="position: absolute; bottom: 91%; right: 10px; color: #fff; padding: 10px; background: rgba(0,0,0,.5);">
+                    <span class="">Audio: Heimdall Audio</span>
+                  </div>
                 </div>
+
+                <!--<div style='position:relative;'>
+                  <video width="100%" height="100%" controls>
+                    <source src="https://jerseyv6-arches-media.s3.eu-west-2.amazonaws.com/index/HER_Tutorial_Final.mp4" type="video/mp4">  
+                  </video>
+                  <div class="" style="position: absolute; bottom: 93%; right: 15px; color: #fff; padding: 10px; background: rgba(0,0,0,.5);">
+                    <span class="">Audio: Heimdall Audio</span>
+                  </div>
+                </div>-->
                 <h3>{% trans "Access in person" %}</h3>
-                <p>{% trans "The HER is also accessible in person. It is based at the Jersey Archive, the Island's national repository of archival material and a key location for all reports on archaeological work and historic building recording carried out on the Island. This resource is available to a wide range of individuals, researchers, students and archaeologists. Jersey Heritage collections also hold 150,000 items of archaeology, 27,000 social history objects and 11,000 works of art." %}</p>
-                <p>{% trans "We are also interested to hear from anyone who wants to know more about Jersey's heritage, or knows about historical or archaeological features that we could add to the Island's story." %}</p>
+                <p>{% trans "The HER is also accessible in person. It is based at the Jersey Archive, the Island's national repository of archival material and a key location for all reports on archaeological work and historic building recording carried out on the Island. This resource is available to a wide range of individuals, researchers, students and archaeologists. Jersey Heritage cares for the Island's collections of archaeology, archives, art and social history, holding over 750,000 objects and documents." %}</p>
+                <p>{% trans "We are interested to hear from anyone who wants to know more about Jersey's heritage, or knows about historical or archaeological features that we could add to the Island's story." %}</p>
+                <!--<script id="CookieDeclaration" src="https://consent.cookiebot.com/cb0538aa-e00c-4bae-b83c-64d4f5f9610c/cd.js" type="text/javascript" async></script>-->
                 <p>{% trans "For more detailed enquiries, please contact the HER team:" %}</p>
                 <p>{% trans "Historic Environment Record<br/>Jersey Archive<br/>Clarence Road, St Helier<br/>Jersey, JE2 4JY<br/>T: +44 (0) 1534 833300<br/>E: <a href='mailto:JerseyHER@jerseyheritage.org'>JerseyHER@jerseyheritage.org</a><br/><a href='http://www.jerseyheritage.org/'>www.jerseyheritage.org</a>" %}
             </div>
@@ -423,7 +437,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </p>
                     <p>{% trans "<a href='https://www.jerseybunkertours.com/' alt='Research on the German Occupation of the Channel Islands'>Research on the German Occupation of the Channel Islands</a>" %}
                     </p>
-                    <p>{% trans "<a href='http://maps.digimap.gg/AntiquitiesMap/' alt='Data from the Sites and Monuments Record for the Bailiwick of Guernsey'>Data from the Sites and Monuments Record for the Bailiwick of Guernsey</a>" %}
+                    <p>{% trans "<a href='https://www.gov.gg/islandarchives#:~:text=The%20Island%20Archives%20is%20open,is%20available%20on%20this%20site' alt='Data from the Sites and Monuments Record for the Bailiwick of Guernsey'>Data from the Sites and Monuments Record for the Bailiwick of Guernsey</a>" %}
                     </p>
                     <p>{% trans "<a href='https://archaeologydataservice.ac.uk/' alt='Archaeology Data Service'>Archaeology Data Service (ADS)</a>" %}
                     </p>
@@ -439,8 +453,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container content-lg">
             <div class="title-v1">
                 <h2>{% trans "Terms &amp; Conditions and Data Protection" %}</h2>
-                <p>{% trans "<a href='https://jerseyv6-arches-media.s3.eu-west-2.amazonaws.com/files/Terms_Conditions_09-03-2020.pdf' alt='Terms and Conditions'>Terms and conditions for use</a>" %}</p>
-                <p>{% trans "Personal data, including photographs of properties in private ownership that appears on this site, is processed under Article 17: Archiving and research of the Data Protection (Jersey) Law, 2018. All efforts have been made to remove identifying personal data such as car registration numbers from the images. Please be aware that property recorded as part of the HER can be on private land and you should seek permission from the owner before visiting. Jersey Heritage’s Privacy Policy is available on our website. If you have any queries please contact <a href='mailto:dpo@jerseyheritage.org'>dpo@jerseyheritage.org</a>" %}</p>
+                <p>{% trans "<a href='https://www.jerseyheritage.org/cookie-policy/' alt='Cookie Policy'>Cookie Policy</a>" %}</p>
+               <!-- <p>{% trans "<a href='https://jerseyv6-arches-media.s3.eu-west-2.amazonaws.com/files/Terms_Conditions_09-03-2020.pdf' alt='Terms and Conditions'>Terms and conditions for use</a>" %}</p>-->
+                <p>{% trans "<a href='static/landing/Terms_Conditions_09-03-2020.pdf' alt='Terms and Conditions'>Terms and conditions for use</a>" %}</p>
+                <p>{% trans "Personal data, including photographs of properties in private ownership that appears on this site, is processed under Article 17: Archiving and research of the Data Protection (Jersey) Law, 2018. All efforts have been made to remove identifying personal data such as car registration numbers from the images. Please be aware that property recorded as part of the HER can be on private land and you should seek permission from the owner before visiting. Jersey Heritage's Privacy Policy is available on our website. If you have any queries please contact <a href='mailto:dpo@jerseyheritage.org'>dpo@jerseyheritage.org</a>" %}</p>
             </div>
         </div>
     </section>

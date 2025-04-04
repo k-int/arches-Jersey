@@ -7,10 +7,12 @@ from django.contrib import admin
 from django.urls import path, include
 
 from .views.resource_count import resource_count
+from .views.cookie_policy import CookiePolicy
 
 urlpatterns = [
     url(r'^', include('arches.urls')),
     path('resource_count/', resource_count),
+    url(r"^cookie_policy", CookiePolicy.as_view(), name="cookie_policy")
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.SHOW_LANGUAGE_SWITCH is True:

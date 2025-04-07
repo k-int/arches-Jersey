@@ -97,7 +97,6 @@ INSTALLED_APPS = (
     'storages',
 )
 
-#ALLOWED_HOSTS = ['3.8.99.148', '127.0.0.1', '0.0.0.0', 'localhost', 'ec2-18-170-3-182.eu-west-2.compute.amazonaws.com', '18.132.67.186']
 ALLOWED_HOSTS = []
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')

@@ -8,5 +8,7 @@ jersey_her/uploadedfiles/*
 jersey_her/settings_local.py
 jersey_her/static
 jersey_her/staticfiles
+jersey_her/yarn.lock
+nohup.out
 .vscode/
 CACHE

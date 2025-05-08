@@ -1,5 +1,6 @@
 *.pyc
 *.log
+*.egg-info
 jersey_her/logs
 jersey_her/export_deliverables
 jersey_her/cantaloupe/*
@@ -9,6 +10,13 @@ jersey_her/settings_local.py
 jersey_her/static
 jersey_her/staticfiles
 jersey_her/yarn.lock
+jersey_her/webpack/webpack-stats.json
+jersey_her/webpack/webpack-user-config.js
+node_modules
 nohup.out
+coverage/
 .vscode/
+.DS_STORE
+.tsconfig-paths.json
+.frontend-configuration-settings.json
 CACHE

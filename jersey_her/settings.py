@@ -12,32 +12,36 @@ try:
 except ImportError:
     pass
 
-APP_NAME = 'jersey_her'
+APP_NAME = "jersey_her"
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
 
-STATIC_ROOT = os.path.join(APP_ROOT, 'static')
-STATIC_URL = '/static/'
+DATATYPE_LOCATIONS.append("jersey_her.datatypes")
+FUNCTION_LOCATIONS.append("jersey_her.functions")
+SEARCH_COMPONENT_LOCATIONS.append("jersey_her.search_components")
 
-DATATYPE_LOCATIONS.append('jersey_her.datatypes')
-FUNCTION_LOCATIONS.append('jersey_her.functions')
-SEARCH_COMPONENT_LOCATIONS.append('jersey_her.search_components')
-TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'functions', 'templates'))
-TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'widgets', 'templates'))
-TEMPLATES[0]['DIRS'].insert(0, os.path.join(APP_ROOT, 'templates'))
+WEBPACK_LOADER = {
+    "DEFAULT": {
+        "STATS_FILE": os.path.join(APP_ROOT, "..", "webpack/webpack-stats.json"),
+    },
+}
 
-LOCALE_PATHS.append(os.path.join(APP_ROOT, 'locale'))
+LOCALE_PATHS.insert(0, os.path.join(APP_ROOT, "locale"))
+
+STATIC_ROOT = os.path.join(APP_ROOT, "static")
+STATIC_URL = "/static/"
+
+ARCHES_NAMESPACE_FOR_DATA_EXPORT = "http://localhost:8000/"
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '+0!t3^d7v)g3ff1m1*#8gz7^kl=6o=xwf94s9&uoa%j&sv^evn'
+SECRET_KEY = "+0!t3^d7v)g3ff1m1*#8gz7^kl=6o=xwf94s9&uoa%j&sv^evn"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ROOT_URLCONF = 'jersey_her.urls'
+ROOT_URLCONF = "jersey_her.urls"
 
 # a prefix to append to all elasticsearch indexes, note: must be lower case
-ELASTICSEARCH_PREFIX = 'jersey_her'
+ELASTICSEARCH_PREFIX = "jersey_her"
 
 ELASTICSEARCH_CUSTOM_INDEXES = []
 # [{
@@ -64,95 +68,131 @@ DATABASES = {
         "PASSWORD": "postgis",
         "PORT": "5432",
         "POSTGIS_TEMPLATE": "template_postgis",
-        "TEST": {
-            "CHARSET": None,
-            "COLLATION": None,
-            "MIRROR": None,
-            "NAME": None
-        },
+        "TEST": {"CHARSET": None, "COLLATION": None, "MIRROR": None, "NAME": None},
         "TIME_ZONE": None,
-        "USER": "postgres"
+        "USER": "postgres",
     }
 }
 
 INSTALLED_APPS = (
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'django.contrib.gis',
-    'arches',
-    'arches.app.models',
-    'arches.management',
-    'guardian',
-    'captcha',
-    'revproxy',
-    'corsheaders',
-    'oauth2_provider',
-    'django_celery_results',
-    'compressor',
-    'jersey_her',
-    'storages',
+    "webpack_loader",
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "django.contrib.gis",
+    "django_hosts",
+    "arches",
+    "arches.app.models",
+    "arches.management",
+    "guardian",
+    "captcha",
+    "revproxy",
+    "corsheaders",
+    "oauth2_provider",
+    "django_celery_results",
+    "storages",
+    "jersey_her",
 )
+
+INSTALLED_APPS += ("arches.app",)
+
+MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.security.SecurityMiddleware",
+    "django.contrib.sessions.middleware.SessionMiddleware",
+    #'arches.app.utils.middleware.TokenMiddleware',
+    "django.middleware.locale.LocaleMiddleware",
+    "django.middleware.common.CommonMiddleware",
+    "django.middleware.csrf.CsrfViewMiddleware",
+    "arches.app.utils.middleware.ModifyAuthorizationHeader",
+    "oauth2_provider.middleware.OAuth2TokenMiddleware",
+    "django.contrib.auth.middleware.AuthenticationMiddleware",
+    "django.contrib.messages.middleware.MessageMiddleware",
+    "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "arches.app.utils.middleware.SetAnonymousUser",
+    # "silk.middleware.SilkyMiddleware",
+]
+
+MIDDLEWARE.insert(  # this must resolve to first MIDDLEWARE entry
+    0, "django_hosts.middleware.HostsRequestMiddleware"
+)
+
+MIDDLEWARE.append(  # this must resolve last MIDDLEWARE entry
+    "django_hosts.middleware.HostsResponseMiddleware"
+)
+
+STATICFILES_DIRS = build_staticfiles_dirs(app_root=APP_ROOT)
+
+TEMPLATES = build_templates_config(
+    debug=DEBUG,
+    app_root=APP_ROOT,
+)
+
+ROOT_HOSTCONF = "jersey_her.hosts"
+DEFAULT_HOST = "jersey_her"
 
 ALLOWED_HOSTS = []
 
-SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
-WSGI_APPLICATION = 'jersey_her.wsgi.application'
+
+SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(
+    APP_ROOT, "system_settings", "System_Settings.json"
+)
+WSGI_APPLICATION = "jersey_her.wsgi.application"
 
 # URL that handles the media served from MEDIA_ROOT, used for managing stored files.
 # It must end in a slash if set to a non-empty value.
-#MEDIA_URL = '/files/'
+# MEDIA_URL = '/files/'
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
-MEDIA_ROOT =  os.path.join(APP_ROOT)
+MEDIA_ROOT = os.path.join(APP_ROOT)
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-#STATIC_URL = '/media/'
+# STATIC_URL = '/media/'
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-#STATIC_ROOT = ''
+# STATIC_ROOT = ''
 
 # when hosting Arches under a sub path set this value to the sub path eg : "/{sub_path}/"
 FORCE_SCRIPT_NAME = None
 
-RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, 'logs', 'resource_import.log')
-DEFAULT_RESOURCE_IMPORT_USER = {'username': 'admin', 'userid': 1}
+RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, "logs", "resource_import.log")
+DEFAULT_RESOURCE_IMPORT_USER = {"username": "admin", "userid": 1}
 
 LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'console': {
-            'format': '%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "console": {
+            "format": "%(asctime)s %(name)-12s %(levelname)-8s %(message)s",
         },
     },
-    'handlers': {
-        'file': {
-            'level': 'WARNING',  # DEBUG, INFO, WARNING, ERROR
-            'class': 'logging.FileHandler',
-            'filename': os.path.join(APP_ROOT, 'arches.log'),
-            'formatter': 'console'
+    "handlers": {
+        "file": {
+            "level": "WARNING",  # DEBUG, INFO, WARNING, ERROR
+            "class": "logging.FileHandler",
+            "filename": os.path.join(APP_ROOT, "arches.log"),
+            "formatter": "console",
         },
-        'console': {
-            'level': 'WARNING',
-            'class': 'logging.StreamHandler',
-            'formatter': 'console'
+        "console": {
+            "level": "WARNING",
+            "class": "logging.StreamHandler",
+            "formatter": "console",
+        },
+    },
+    "loggers": {
+        "arches": {
+            "handlers": ["file", "console"],
+            "level": "WARNING",
+            "propagate": True,
         }
     },
-    'loggers': {
-        'arches': {
-            'handlers': ['file', 'console'],
-            'level': 'WARNING',
-            'propagate': True
-        }
-    }
 }
 
 
@@ -160,12 +200,12 @@ LOGGING = {
 DATA_UPLOAD_MAX_MEMORY_SIZE = 15728640
 
 # Unique session cookie ensures that logins are treated separately for each app
-SESSION_COOKIE_NAME = 'jersey_her'
+SESSION_COOKIE_NAME = "jersey_her"
 
 # For more info on configuring your cache: https://docs.djangoproject.com/en/2.2/topics/cache/
 CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+    "default": {
+        "BACKEND": "django.core.cache.backends.dummy.DummyCache",
     },
     "user_permission": {
         "BACKEND": "django.core.cache.backends.db.DatabaseCache",
@@ -180,30 +220,32 @@ BYPASS_CARDINALITY_TILE_VALIDATION = False
 BYPASS_UNIQUE_CONSTRAINT_TILE_VALIDATION = False
 BYPASS_REQUIRED_VALUE_TILE_VALIDATION = False
 
-DATE_IMPORT_EXPORT_FORMAT = "%Y-%m-%d" # Custom date format for dates imported from and exported to csv
+DATE_IMPORT_EXPORT_FORMAT = (
+    "%Y-%m-%d"  # Custom date format for dates imported from and exported to csv
+)
 
 # This is used to indicate whether the data in the CSV and SHP exports should be
 # ordered as seen in the resource cards or not.
 EXPORT_DATA_FIELDS_IN_CARD_ORDER = False
 
-#Identify the usernames and duration (seconds) for which you want to cache the time wheel
-CACHE_BY_USER = {'anonymous': 3600 * 24}
-TILE_CACHE_TIMEOUT = 600 #seconds
-CLUSTER_DISTANCE_MAX = 5000 #meters
+# Identify the usernames and duration (seconds) for which you want to cache the time wheel
+CACHE_BY_USER = {"anonymous": 3600 * 24}
+TILE_CACHE_TIMEOUT = 600  # seconds
+CLUSTER_DISTANCE_MAX = 5000  # meters
 GRAPH_MODEL_CACHE_TIMEOUT = None
 
-MOBILE_OAUTH_CLIENT_ID = ''  #'9JCibwrWQ4hwuGn5fu2u1oRZSs9V6gK8Vu8hpRC4'
-MOBILE_DEFAULT_ONLINE_BASEMAP = {'default': 'mapbox://styles/mapbox/streets-v9'}
+OAUTH_CLIENT_ID = ""  #'9JCibwrWQ4hwuGn5fu2u1oRZSs9V6gK8Vu8hpRC4'
+MOBILE_DEFAULT_ONLINE_BASEMAP = {"default": "mapbox://styles/mapbox/streets-v9"}
 MOBILE_IMAGE_SIZE_LIMITS = {
     # These limits are meant to be approximates. Expect to see uploaded sizes range +/- 20%
     # Not to exceed the limit defined in DATA_UPLOAD_MAX_MEMORY_SIZE
-    "full": min(1500000, DATA_UPLOAD_MAX_MEMORY_SIZE), # ~1.5 Mb
+    "full": min(1500000, DATA_UPLOAD_MAX_MEMORY_SIZE),  # ~1.5 Mb
     "thumb": 400,  # max width/height in pixels, this will maintain the aspect ratio of the original image
 }
 
-APP_TITLE = 'Arches | Heritage Data Management'
-COPYRIGHT_TEXT = 'All Rights Reserved.'
-COPYRIGHT_YEAR = '2019'
+APP_TITLE = "Arches | Heritage Data Management"
+COPYRIGHT_TEXT = "All Rights Reserved."
+COPYRIGHT_YEAR = "2019"
 
 ENABLE_CAPTCHA = False
 # RECAPTCHA_PUBLIC_KEY = ''
@@ -224,18 +266,27 @@ EMAIL_HOST_USER = "xxxx@xxx.com"
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
-CELERY_BROKER_URL = "" # RabbitMQ --> "amqp://guest:guest@localhost",  Redis --> "redis://localhost:6379/0"
-CELERY_ACCEPT_CONTENT = ['json']
-CELERY_RESULT_BACKEND = 'django-db' # Use 'django-cache' if you want to use your cache as your backend
-CELERY_TASK_SERIALIZER = 'json'
+CELERY_BROKER_URL = ""  # RabbitMQ --> "amqp://guest:guest@localhost",  Redis --> "redis://localhost:6379/0"
+CELERY_ACCEPT_CONTENT = ["json"]
+CELERY_RESULT_BACKEND = (
+    "django-db"  # Use 'django-cache' if you want to use your cache as your backend
+)
+CELERY_TASK_SERIALIZER = "json"
 
 
 CELERY_SEARCH_EXPORT_EXPIRES = 24 * 3600  # seconds
 CELERY_SEARCH_EXPORT_CHECK = 3600  # seconds
 
 CELERY_BEAT_SCHEDULE = {
-    "delete-expired-search-export": {"task": "arches.app.tasks.delete_file", "schedule": CELERY_SEARCH_EXPORT_CHECK,},
-    "notification": {"task": "arches.app.tasks.message", "schedule": CELERY_SEARCH_EXPORT_CHECK, "args": ("Celery Beat is Running",),},
+    "delete-expired-search-export": {
+        "task": "arches.app.tasks.delete_file",
+        "schedule": CELERY_SEARCH_EXPORT_CHECK,
+    },
+    "notification": {
+        "task": "arches.app.tasks.message",
+        "schedule": CELERY_SEARCH_EXPORT_CHECK,
+        "args": ("Celery Beat is Running",),
+    },
 }
 
 # Set to True if you want to send celery tasks to the broker without being able to detect celery.
@@ -285,28 +336,28 @@ LANGUAGE_CODE = "en"
 # {langcode}-{regioncode} eg: en, en-gb ....
 # a list of language codes can be found here http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGES = [
-#   ('de', _('German')),
-   ('en', _('English')),
-#   ('en-gb', _('British English')),
-#   ('es', _('Spanish')),
+    #   ('de', _('German')),
+    ("en", _("English")),
+    #   ('en-gb', _('British English')),
+    #   ('es', _('Spanish')),
 ]
 
 # override this to permenantly display/hide the language switcher
 SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
 TIMEWHEEL_DATE_TIERS = {
-"name": "Millennium123",
-"interval": 1000,
-"root": True,
-"child": {
+    "name": "Millennium123",
+    "interval": 1000,
+    "root": True,
+    "child": {
         "name": "Century",
         "interval": 100,
         "range": {"min": 1500, "max": 2100},
         "child": {
             "name": "Decade",
             "interval": 10,
-            "range": {"min": 1750, "max": 2030}
-        }
-    }
+            "range": {"min": 1750, "max": 2030},
+        },
+    },
 }
 
 ENABLE_USER_SIGNUP = True
@@ -318,15 +369,36 @@ FORCE_USER_SIGNUP_EMAIL_AUTHENTICATION = True
 FILE_TYPE_CHECKING = False
 # If True, only the file types listed in FILE_TYPES can be uploaded to Arches
 
-FILE_TYPES = ["bmp", "gif", "jpg", "jpeg", "pdf", "png", "psd", "rtf", "tif", "tiff", "xlsx", "csv", "zip"]
+FILE_TYPES = [
+    "bmp",
+    "gif",
+    "jpg",
+    "jpeg",
+    "pdf",
+    "png",
+    "psd",
+    "rtf",
+    "tif",
+    "tiff",
+    "xlsx",
+    "csv",
+    "zip",
+    "json",
+]
 # File types that can be uploaded to Arches if FILE_TYPE_CHECKING is True.
 
 try:
     from .package_settings import *
 except ImportError:
-    pass
+    try:
+        from package_settings import *
+    except ImportError as e:
+        pass
 
 try:
     from .settings_local import *
-except ImportError:
-    pass
+except ImportError as e:
+    try:
+        from settings_local import *
+    except ImportError as e:
+        pass

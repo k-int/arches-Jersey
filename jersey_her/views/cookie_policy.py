@@ -1,14 +1,15 @@
-#Imports
+# Imports
 import uuid
 
-#Django
+# Django
 from django.views.generic import View
 from django.http import JsonResponse
 from django.utils.decorators import method_decorator
 from django.shortcuts import render
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from arches.app.views.base import BaseManagerView
+
 
 class CookiePolicy(BaseManagerView):
 

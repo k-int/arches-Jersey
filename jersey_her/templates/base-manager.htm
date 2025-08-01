@@ -3,6 +3,11 @@
 {% load static %}
 {% load webpack_static from webpack_loader %}
 
+{% block body %}
+    {% include 'partials/site-header.htm' %}
+    {{ block.super }}
+{% endblock body %}
+
 {% block css %}
     {{ block.super }}
     <link rel="stylesheet" href="{% static 'css/header.css' %}" >

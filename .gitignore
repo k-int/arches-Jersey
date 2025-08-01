@@ -10,7 +10,6 @@ jersey_her/settings_local.py
 jersey_her/static
 jersey_her/staticfiles
 jersey_her/yarn.lock
-jersey_her/webpack/webpack-stats.json
 jersey_her/webpack/webpack-user-config.js
 jersey_her/media/build/
 jersey_her/media/Xcss/

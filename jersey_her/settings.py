@@ -93,7 +93,6 @@ INSTALLED_APPS = (
     "corsheaders",
     "oauth2_provider",
     "django_celery_results",
-    "storages",
     "jersey_her",
 )
 

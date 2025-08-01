@@ -1,0 +1,23 @@
+<!-- ko if: count > 0 -->
+<li style='margin-bottom:8px'>
+    <span data-bind="text: count"></span>
+    <span data-bind="text: label"></span>
+    <i class="fa report-expander print-hide" tabindex="0" role="button" 
+        data-bind="onEnterkeyClick, onSpaceClick,
+            css: {'fa-angle-down': expanded(), 'fa-angle-right': !expanded()}, 
+            click: toggleExpanded,
+            attr: {
+                'aria-expanded': expanded().toString(),
+                'aria-controls': 'geometry-list-' + label,
+                'aria-label': 'expand or collapse geometry details for ' + label
+            }
+        "
+    ></i>
+    <!-- ko if: expanded() -->
+    <ul data-bind="foreach: bulletPoints, attr: {id: 'geometry-list-' + label}" style="list-style-type: none; margin:10px 10px;">
+        <li data-bind="text: $data" style="margin-top:5px;">
+        </li>
+    </ul>
+    <!-- /ko -->
+</li>
+<!-- /ko -->

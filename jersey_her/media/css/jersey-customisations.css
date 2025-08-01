@@ -1,0 +1,17 @@
+.report-copy-btn {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.copy-geojson-message {
+    padding: 2px;
+    font-size: 1.2rem;
+}
+
+.icon-styling {
+    font-size: 1.5rem;
+}
+
+.tick-styling {
+    color: green;
+}

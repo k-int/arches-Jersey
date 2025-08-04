@@ -129,7 +129,7 @@ define([
                     const polygon = turf.polygon(geometry["geometry"]['coordinates']);
                     const centroid = turf.centroid(polygon)
                     const centroidCoords = centroid.geometry.coordinates.map(x => x.toFixed(4))
-                    const polygonText = `Polygon ${polygonBulletPoints.length + 1}: [${centroidCoords[0]}, ${centroidCoords[1]}] (centre point)`
+                    const polygonText = `Polygon ${polygonBulletPoints.length + 1}: [${centroidCoords[0]}, ${centroidCoords[1]}] (centroid)`
                     polygonBulletPoints.push(polygonText); 
                 }
             })

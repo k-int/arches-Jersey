@@ -1,6 +1,6 @@
 define([
     'knockout',
-    'templates/views/components/widgets/geometry-type.htm',
+    'templates/views/components/widgets/geometry-summary.htm',
 ], function(ko, geometryTypeTemplate) {
     const geometryTypeViewModel = function (params) {
         let self = this;
@@ -15,7 +15,7 @@ define([
         };
     };
 
-    return ko.components.register('geometry-type', {
+    return ko.components.register('geometry-summary', {
         viewModel: geometryTypeViewModel,
         template: geometryTypeTemplate,
     });

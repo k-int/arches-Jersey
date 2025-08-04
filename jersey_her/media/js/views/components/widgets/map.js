@@ -8,7 +8,7 @@ define([
     'templates/views/components/widgets/map.htm',
     'templates/views/components/map-widget-editor.htm',
     'turf',
-    './geometry-type.js',
+    './map/geometry-summary.js',
     'bindings/chosen',
     'bindings/codemirror',
     'select-woo',

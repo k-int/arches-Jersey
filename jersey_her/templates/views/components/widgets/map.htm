@@ -26,9 +26,9 @@
 
 <!-- ko if: summaryDetails.length > 0  -->
 <ul data-bind="class: nodeCssClasses" style="list-style-type: none; margin-top:5px; padding-left: 0px;">
-    <!-- ko component: { name: 'geometry-type', params: { count: geometryTypeCounts().point, label: 'Points', expanded: pointExpanded, bulletPoints: pointBulletPoints} } --><!-- /ko -->
-    <!-- ko component: { name: 'geometry-type', params: { count: geometryTypeCounts().lineString, label: 'Lines', expanded: lineStringExpanded, bulletPoints: lineStringBulletPoints} } --><!-- /ko -->
-    <!-- ko component: { name: 'geometry-type', params: { count: geometryTypeCounts().polygon, label: 'Polygons', expanded: polygonExpanded, bulletPoints: polygonBulletPoints} } --><!-- /ko -->
+    <!-- ko component: { name: 'geometry-summary', params: { count: geometryTypeCounts().point, label: 'Points', expanded: pointExpanded, bulletPoints: pointBulletPoints} } --><!-- /ko -->
+    <!-- ko component: { name: 'geometry-summary', params: { count: geometryTypeCounts().lineString, label: 'Lines', expanded: lineStringExpanded, bulletPoints: lineStringBulletPoints} } --><!-- /ko -->
+    <!-- ko component: { name: 'geometry-summary', params: { count: geometryTypeCounts().polygon, label: 'Polygons', expanded: polygonExpanded, bulletPoints: polygonBulletPoints} } --><!-- /ko -->
 
     <li>
         <button type="button" 

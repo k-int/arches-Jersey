@@ -90,89 +90,61 @@ define([
         
         if (ko.unwrap(this.value) !== null) {
             this.summaryDetails = koMapping.toJS(this.value).features || [];
-    
-            this.geoJSON = ko.computed(function () {
-                const valueObj = koMapping.toJS(this.value)
-                const geoJSONObj = {'type': valueObj['type'], 'features': valueObj['features']}
-                return JSON.stringify(geoJSONObj)
-            }, this);
-        }
 
-        
-        this.summaryDetailsJSON = ko.computed(function () {
-            return JSON.stringify(this.summaryDetails)
-        }, this);
-        
-        this.pointExpanded = ko.observable(false);
-        this.lineStringExpanded = ko.observable(false);
-        this.polygonExpanded = ko.observable(false);
-        
-        this.geometryTypeCounts = ko.computed(function () {
-            let geometry_type_counts = {
-                point: 0,
-                lineString: 0,
-                polygon: 0
-            }
-            
+            this.valueObj = koMapping.toJS(this.value);
+            this.geoJSONObj = {'type': this.valueObj['type'], 'features': this.valueObj['features']};
+            this.geoJSON = JSON.stringify(this.geoJSONObj);
+
+            this.summaryDetailsJSON = JSON.stringify(this.summaryDetails);
+
+            this.geometryTypeCounts = {
+                    point: 0,
+                    lineString: 0,
+                    polygon: 0
+                };
+
             this.summaryDetails.forEach(geometry => {
-                let geometry_type = geometry["geometry"]["type"]
-                geometry_type_counts[geometry_type[0].toLowerCase() + geometry_type.slice(1)] ++
-            })
-            
-            return geometry_type_counts
-        }, this)
-        
-        this.polygonBulletPoints = ko.computed(function () {
-            let polygonBulletPoints = []
-            
+                    let geometry_type = geometry["geometry"]["type"]
+                    this.geometryTypeCounts[geometry_type[0].toLowerCase() + geometry_type.slice(1)] ++
+                });
+
+            this.polygonBulletPoints = [];
+            this.lineStringBulletPoints = [];
+            this.pointBulletPoints = [];
+    
             this.summaryDetails.forEach(geometry => {
                 if (geometry["geometry"]["type"] == "Polygon") {
                     const polygon = turf.polygon(geometry["geometry"]['coordinates']);
                     const centroid = turf.centroid(polygon)
                     const centroidCoords = centroid.geometry.coordinates.map(x => x.toFixed(4))
-                    const polygonText = `Polygon ${polygonBulletPoints.length + 1}: [${centroidCoords[0]}, ${centroidCoords[1]}] (centroid)`
-                    polygonBulletPoints.push(polygonText); 
-                }
-            })
-            return polygonBulletPoints
-        }, this)
-        
-        this.lineStringBulletPoints = ko.computed(function () {
-            let lineStringBulletPoints = []
-            
-            this.summaryDetails.forEach(geometry => {
-                if (geometry["geometry"]["type"] == "LineString") {
+                    const polygonText = `Polygon ${this.polygonBulletPoints.length + 1}: [${centroidCoords[0]}, ${centroidCoords[1]}] (centroid)`
+                    this.polygonBulletPoints.push(polygonText);
+                } else if (geometry["geometry"]["type"] == "LineString") {
                     const lineString = turf.lineString(geometry["geometry"]['coordinates']);
                     const lineStringLength = turf.length(lineString, { units: 'kilometers' });
-                    const lineStringMidpoint = turf.along(lineString, lineStringLength / 2, {units: 'kilometers'});
+                    const lineStringMidpoint = turf.along(lineString, lineStringLength / 2, { units: 'kilometers' });
                     const midpointCoords = lineStringMidpoint.geometry.coordinates.map(x => x.toFixed(4));
-                    const lineStringText = `LineString ${lineStringBulletPoints.length + 1}: [${midpointCoords[0]}, ${midpointCoords[1]}] (mid-point)`
-                    lineStringBulletPoints.push(lineStringText); 
-                }
-            })
-            return lineStringBulletPoints
-        }, this)
-        
-        this.pointBulletPoints = ko.computed(function () {
-            let pointBulletPoints = []
-            
-            this.summaryDetails.forEach(geometry => {
-                if (geometry["geometry"]["type"] == "Point") {
+                    const lineStringText = `LineString ${this.lineStringBulletPoints.length + 1}: [${midpointCoords[0]}, ${midpointCoords[1]}] (mid-point)`
+                    this.lineStringBulletPoints.push(lineStringText);
+                } else if (geometry["geometry"]["type"] == "Point") {
                     let pointCoordinates = geometry["geometry"]['coordinates'].map(x => x.toFixed(4))
-                    const pointText = `Point ${pointBulletPoints.length + 1}: [${pointCoordinates[0]}, ${pointCoordinates[1]}]`
-                    pointBulletPoints.push(pointText); 
+                    const pointText = `Point ${this.pointBulletPoints.length + 1}: [${pointCoordinates[0]}, ${pointCoordinates[1]}]`
+                    this.pointBulletPoints.push(pointText);
                 }
             })
-            return pointBulletPoints
-        }, this)
-        
-        this.showCopyText = ko.observable(false);
-        
-        this.copyGeoJSON = function() {
-            self.showCopyText(true);
-            window.setTimeout(function(){
-                self.showCopyText(false);
-            }, 6000);
+
+            this.pointExpanded = ko.observable(false);
+            this.lineStringExpanded = ko.observable(false);
+            this.polygonExpanded = ko.observable(false);
+            
+            this.showCopyText = ko.observable(false);
+            
+            this.copyGeoJSON = function() {
+                self.showCopyText(true);
+                window.setTimeout(function(){
+                    self.showCopyText(false);
+                }, 6000);
+            }
         }
         
         if (this.centerX() == 0 && this.centerY() == 0 && this.zoom() == 0) {

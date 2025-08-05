@@ -90,13 +90,14 @@ define([
         
         if (ko.unwrap(this.value) !== null) {
             this.summaryDetails = koMapping.toJS(this.value).features || [];
+    
+            this.geoJSON = ko.computed(function () {
+                const valueObj = koMapping.toJS(this.value)
+                const geoJSONObj = {'type': valueObj['type'], 'features': valueObj['features']}
+                return JSON.stringify(geoJSONObj)
+            }, this);
         }
 
-        this.geoJSON = ko.computed(function () {
-            const valueObj = koMapping.toJS(this.value)
-            const geoJSONObj = {'type': valueObj['type'], 'features': valueObj['features']}
-            return JSON.stringify(geoJSONObj)
-        }, this);
         
         this.summaryDetailsJSON = ko.computed(function () {
             return JSON.stringify(this.summaryDetails)

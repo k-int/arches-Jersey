@@ -1,0 +1,40 @@
+{% extends "views/components/widgets/map.htm" %}
+{% load i18n %}
+{% load template_tags %}
+
+{% block report %}
+<dt data-bind="text: label, class: nodeCssClasses"></dt>
+<!-- ko if: summaryDetails.length === 0 -->
+<dd data-bind="class: nodeCssClasses">
+    <span data-bind="text: $root.translations.none"></span>
+</dd>
+<!-- /ko -->
+
+<!-- ko if: summaryDetails.length > 0  -->
+<ul data-bind="class: nodeCssClasses" style="list-style-type: none; margin-top:5px; padding-left: 0px;">
+    <!-- ko component: { name: 'geometry-summary', params: { count: geometryTypeCounts.point, label: 'Points', expanded: pointExpanded, bulletPoints: pointBulletPoints} } --><!-- /ko -->
+    <!-- ko component: { name: 'geometry-summary', params: { count: geometryTypeCounts.lineString, label: 'Lines', expanded: lineStringExpanded, bulletPoints: lineStringBulletPoints} } --><!-- /ko -->
+    <!-- ko component: { name: 'geometry-summary', params: { count: geometryTypeCounts.polygon, label: 'Polygons', expanded: polygonExpanded, bulletPoints: polygonBulletPoints} } --><!-- /ko -->
+
+    <li>
+        <button type="button" 
+            class="btn btn-shim btn-primary report-copy-btn" 
+            data-bind="click: copyGeoJSON, clipboard: {value: geoJSON, tooltip: false},
+                attr: {
+                    'aria-label': 'Copy GeoJSON to clipboard',
+                    'aria-controls': 'copy-msg',
+                }
+            ">
+            <i class="fa fa-copy"></i>
+            <span>Copy GeoJSON</span>
+        </button>
+    </li>
+    <!-- ko if: showCopyText() -->
+    <li id="copy-msg">
+        <span class="copy-geojson-message">Geojson copied to clipboard</span>
+        <i class="fa fa-check tick-styling"></i>
+    </li>
+    <!-- /ko -->
+</ul>
+<!-- /ko -->
+{% endblock report %}

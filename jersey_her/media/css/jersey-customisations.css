@@ -15,3 +15,26 @@
 .tick-styling {
     color: green;
 }
+
+@media print {
+    /* note: '.toggle-container' has been removed on dev/7.6.x */
+    .mapboxgl-ctrl-geocoder,
+    .workbench-card-sidebar,
+    .report-print-date  > .toggle-container {
+        display: none;
+    }
+
+    .workbench-card-container.map-container {
+        width: 100%;
+    }
+
+    .mapboxgl-map {
+        display: block;
+    }
+
+    /* Fix multi-page printing bug (fixed on dev/7.6.x) */
+    .resource-component-abstract {
+        height: auto !important;
+        overflow: visible !important;
+    }
+}

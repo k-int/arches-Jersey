@@ -33,6 +33,11 @@
     }
 
     /* Fix multi-page printing bug (fixed on dev/7.6.x) */
+
+    #container {
+        height: auto !important;
+    }
+
     .resource-component-abstract {
         height: auto !important;
         overflow: visible !important;

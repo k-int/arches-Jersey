@@ -31,3 +31,22 @@
     }
 
 }
+
+/* Fix for header creating extra scrollbar: */
+
+.sidenav {
+    height: calc(100vh - 50px);
+}
+
+.content-panel {
+    height: calc(100vh - 100px);
+}
+
+#container {
+    height: calc(100vh - 100px);
+    min-height: calc(100vh - 50px);
+}
+
+article.main-search-container .search-map-container .tab-content .tab-content-component {
+    height: calc(100vh - 150px);
+}

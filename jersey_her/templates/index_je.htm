@@ -94,28 +94,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                   </a> -->
                     <ul class="nav navbar-nav">
                         <li class="page-scroll">
-                            <a href="#about">{% trans "About" %}</a>
+                            <a href="#about">{% trans "ENTOUOR" %}</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#access">{% trans "Access" %}</a>
+                            <a href="#access">{% trans "ACCÈS" %}</a>
                         </li>
                         <!-- <li class="page-scroll">
                             <a href="#userguide">{% trans "User guide" %}</a>
                         </li> -->
                         <li class="page-scroll">
-                            <a href="#links">{% trans "Links" %}</a>
+                            <a href="#links">{% trans "LIANS" %}</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="{% url 'search_home' %}">{% trans "Search" %}</a>
+                            <a href="{% url 'search_home' %}">{% trans "ÈRCHÈRCHE" %}</a>
                         </li>
                         {% if user|can_create_resource_instance and user.username != 'anonymous' %}
                         <li class="page-scroll">
-                            <a href="{% url 'resource' %}">{% trans "Manage Data" %}</a>
+                            <a href="{% url 'resource' %}">{% trans "MÊNAGIZ L'DATA" %}</a>
                         </li>
                         {% endif %}
                         {% if user|has_group:"Graph Editor" %}
                         <li class="page-scroll">
-                            <a href="{% url 'graph' '' %}">{% trans "Design" %}</a>
+                            <a href="{% url 'graph' '' %}">{% trans "DESIGN" %}</a>
                         </li>
                         {% endif %}
                         <!-- <li class="page-scroll" style="display: flex; flex-direction: row">
@@ -128,27 +128,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 {% trans "Welcome" %} {{ user.first_name|default:user.username }}
                             </a>
                             <span class="fa fa-chevron-circle-down auth-options" data-bind="click: function(){showAuthMenu(!showAuthMenu())}"></span>
-
+                            
                             {% endif %}
                         </li> -->
                         <li class="page-scroll">
-                            <a href="{% url 'home_jerrais' %}">{% trans "Jérrais" %}</a>
+                            <a href="{% url 'home_english' %}">{% trans "English" %}</a>
                         </li>
                         {% if user.username != 'anonymous' %}
                         <li class="page-scroll" style="display: flex; flex-direction: row">
                             <a id="auth-link" data-bind="click: function(){showAuthMenu(!showAuthMenu())}">
-                                {% trans "Welcome" %} {{ user.first_name|default:user.username }}
+                                {% trans "J'vos faîthons la beinv'nue   " %} {{ user.first_name|default:user.username }}
                             </a>
                             <span class="fa fa-chevron-circle-down auth-options" data-bind="click: function(){showAuthMenu(!showAuthMenu())}"></span>
                         </li>
                         {% endif %}
                         <!-- ko if: showAuthMenu -->
-
                         <ul class="auth-options">
                             <li><a href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans 'Logout' %}</a></li>
                             <li><a href="{% url 'user_profile_manager' %}">{% trans 'User Profile' %}</a></li>
                         </ul>
-
                         <!-- /ko -->
                     </ul>
                 </div>
@@ -171,23 +169,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <!-- LAYERS -->
                         <div class="tp-caption rs-caption-1 sft start text-bold" delay="4500" data-x="center" data-hoffset="0" data-y="100" data-speed="800" data-start="1000" data-easing="Back.easeInOut" data-endspeed="300">
-                            Jersey Heritage
+                            Héthitage d'Jèrri 
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-2 sft" data-x="center" data-hoffset="0" data-y="200" data-speed="1000" data-start="3000" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                            {% trans "Welcome to the Historic Environment Record for Jersey" %}<br/>
-                            {% trans "S&eacute;yiz les beinv'nus au R'g&icirc;stre d&eacute; l'Envithonnement Historique d&eacute; J&egrave;rri" %}
+                            {% trans "Séyiz les beinv'nus ès R'cords dé l'Envithonnement Historique pouor Jèrri" %}<br/>
+                            <!-- {% trans "S&eacute;yiz les beinv'nus au R'g&icirc;stre d&eacute; l'Envithonnement Historique d&eacute; J&egrave;rri" %} -->
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sft" data-x="center" data-hoffset="0" data-y="360" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
+                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "ÈRCHÈRCHE" %}</a></span>
                             <!-- {% if user.username == 'anonymous' %}
                             <span class="page-scroll"><a href="{% url 'auth' %}?next={% url 'graph' '' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Login" %}</a></span>
                             {% endif %} -->
                             {% if user|can_create_resource_instance and user.username != 'anonymous' %}
-                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
+                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "MÊNAGIZ L'DATA" %}</a></span>
                             {% endif %}
                         </div>
 
@@ -204,20 +202,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <!-- LAYERS -->
                         <div class="tp-caption rs-caption-1 sft start text-bold" data-x="center" data-hoffset="0" data-y="100" data-speed="800" data-start="1500" data-easing="Back.easeInOut" data-endspeed="300">
-                            {% trans "Jersey Heritage" %}
+                            {% trans "Héthitage d'Jèrri" %}
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-2 sft" data-x="center" data-hoffset="0" data-y="200" data-speed="1000" data-start="2500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                          {% trans "Welcome to the Historic Environment Record for Jersey" %}<br/>
-                          {% trans "S&eacute;yiz les beinv'nus au R'g&icirc;stre d&eacute; l'Envithonnement Historique d&eacute; J&egrave;rri" %}
+                          {% trans "Séyiz les beinv'nus ès R'cords dé l'Envithonnement Historique pouor Jèrri" %}<br/>
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sft" data-x="center" data-hoffset="0" data-y="360" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
+                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "ÈRCHÈRCHE" %}</a></span>
                             {% if user|can_create_resource_instance and user.username != 'anonymous' %}
-                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
+                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "MÊNAGIZ L'DATA" %}</a></span>
                             {% endif %}
                         </div>
 
@@ -234,20 +231,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <!-- LAYERS -->
                         <div class="tp-caption rs-caption-1 sft start text-bold" data-x="center" data-hoffset="0" data-y="100" data-speed="800" data-start="1500" data-easing="Back.easeInOut" data-endspeed="300">
-                            {% trans "Jersey Heritage" %}
+                            {% trans "Héthitage d'Jèrri" %}
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-2 sft" data-x="center" data-hoffset="0" data-y="200" data-speed="1000" data-start="2500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                          {% trans "Welcome to the Historic Environment Record for Jersey" %}<br/>
-                          {% trans "S&eacute;yiz les beinv'nus au R'g&icirc;stre d&eacute; l'Envithonnement Historique d&eacute; J&egrave;rri" %}
+                          {% trans "Séyiz les beinv'nus ès R'cords dé l'Envithonnement Historique pouor Jèrri" %}<br/>
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sft" data-x="center" data-hoffset="0" data-y="360" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
+                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "ÈRCHÈRCHE" %}</a></span>
                             {% if user|can_create_resource_instance and user.username != 'anonymous' %}
-                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
+                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "MÊNAGIZ L'DATA" %}</a></span>
                             {% endif %}
                         </div>
 
@@ -264,20 +260,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <!-- LAYERS -->
                         <div class="tp-caption rs-caption-1 sft start text-bold" data-x="center" data-hoffset="0" data-y="110" data-speed="800" data-start="1500" data-easing="Back.easeInOut" data-endspeed="300">
-                            {% trans "Jersey Heritage" %}
+                            {% trans "Héthitage d'Jèrri" %}
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-2 sfb" data-x="center" data-hoffset="0" data-y="210" data-speed="800" data-start="2500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                          {% trans "Welcome to the Historic Environment Record for Jersey" %}<br/>
-                          {% trans "S&eacute;yiz les beinv'nus au R'g&icirc;stre d&eacute; l'Envithonnement Historique d&eacute; J&egrave;rri" %}
+                          {% trans "Séyiz les beinv'nus ès R'cords dé l'Envithonnement Historique pouor Jèrri" %}<br/>
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sfb" data-x="center" data-hoffset="0" data-y="370" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
+                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "ÈRCHÈRCHE" %}</a></span>
                             {% if user|can_create_resource_instance and user.username != 'anonymous' %}
-                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
+                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "MÊNAGIZ L'DATA" %}</a></span>
                             {% endif %}
                         </div>
 
@@ -294,20 +289,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <!-- LAYERS -->
                         <div class="tp-caption rs-caption-1 sft start text-bold" data-x="center" data-hoffset="0" data-y="110" data-speed="800" data-start="1500" data-easing="Back.easeInOut" data-endspeed="300">
-                            {% trans "Jersey Heritage" %}
+                            {% trans "Héthitage d'Jèrri" %}
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-2 sfb" data-x="center" data-hoffset="0" data-y="210" data-speed="800" data-start="2500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                          {% trans "Welcome to the Historic Environment Record for Jersey" %}<br/>
-                          {% trans "S&eacute;yiz les beinv'nus au R'g&icirc;stre d&eacute; l'Envithonnement Historique d&eacute; J&egrave;rri" %}
+                          {% trans "Séyiz les beinv'nus ès R'cords dé l'Envithonnement Historique pouor Jèrri" %}<br/>
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sfb" data-x="center" data-hoffset="0" data-y="370" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
+                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "ÈRCHÈRCHE" %}</a></span>
                             {% if user|can_create_resource_instance and user.username != 'anonymous' %}
-                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
+                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "MÊNAGIZ L'DATA" %}</a></span>
                             {% endif %}
                         </div>
 
@@ -324,20 +318,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <!-- LAYERS -->
                         <div class="tp-caption rs-caption-1 sft start text-bold" data-x="center" data-hoffset="0" data-y="110" data-speed="800" data-start="1500" data-easing="Back.easeInOut" data-endspeed="300">
-                            {% trans "Jersey Heritage" %}
+                            {% trans "Héthitage d'Jèrri" %}
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-2 sfb" data-x="center" data-hoffset="0" data-y="210" data-speed="800" data-start="2500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                          {% trans "Welcome to the Historic Environment Record for Jersey" %}<br/>
-                          {% trans "S&eacute;yiz les beinv'nus au R'g&icirc;stre d&eacute; l'Envithonnement Historique d&eacute; J&egrave;rri" %}
+                          {% trans "Séyiz les beinv'nus ès R'cords dé l'Envithonnement Historique pouor Jèrri" %}<br/>
                         </div>
 
                         <!-- LAYER -->
                         <div class="tp-caption rs-caption-3 sfb" data-x="center" data-hoffset="0" data-y="370" data-speed="800" data-start="3500" data-easing="Power4.easeOut" data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6">
-                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Search" %}</a></span>
+                            <span class="page-scroll"><a href="/search" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "ÈRCHÈRCHE" %}</a></span>
                             {% if user|can_create_resource_instance and user.username != 'anonymous' %}
-                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "Manage Data" %}</a></span>
+                            <span class="page-scroll"><a href="{% url 'resource' %}" class="btn-u btn-brd btn-brd-hover btn-u-light">{% trans "MÊNAGIZ L'DATA" %}</a></span>
                             {% endif %}
                         </div>
 
@@ -360,9 +353,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div id="about" class="about-image bg-grey">
             <div class="container">
                 <div class="title-v1">
-                    <h1>{% trans "Jersey's Historic Environment Record" %}</h1>
-                    <p>{% trans "Jersey's Historic Environment Record (HER) is an extensive source of information about the historic Island of Jersey. It showcases Jersey's rich diversity of archaeological sites, finds and features, historic buildings and landscapes, as well as conflict sites and local folklore." %}</p>
-                    <p>{% trans "Jersey's Historic Environment Record is powered by <a href='https://www.archesproject.org/'>Arches&reg;</a>, an open source heritage data management platform developed by the <a href='https://www.getty.edu/conservation/'>Getty Conservation Institute</a> and the <a href='https://www.wmf.org/'>World Monuments Fund</a>." %}</p>
+                    <h1>{% trans "R'CORDS DÉ L'ENVITHONNEMENT HISTORIQUE DÉ JÈRRI" %}</h1>
+                    <p>{% trans "Les R'cords dé l'Envithonnement Historique dé Jèrri (REH) sont eune grande èrsource d'înformâtion entouor l'île historique dé Jèrri. Il' êcliaithent la riche divèrsité en Jèrri d'sites, trouvâles et êléments archéologiques, bâtisses et paysages historiques et étout des sites dé conflyits et folklore d'ichîn." %}</p>
+                    <p>{% trans "Les R'cords dé l'Envithonnement Historique dé Jèrri fonctionnent atout  <a href='https://www.archesproject.org/'>Arches&reg;</a>, eune pliateforme dé mênag'gie dé data d'héthitage d'èrsource ouvèrte dêv'loppée par lé <a href='https://www.getty.edu/conservation/'>Getty Conservation Institute</a> et l' <a href='https://www.wmf.org/'>World Monuments Fund</a>." %}</p>
                     <p><a href='https://www.archesproject.org/'><img style="height:2em" src="{% static 'img/icons/files/Arches_badge_red_black_powered_by_2.png' %}" alt="Powered by Arches"></a></p>
                 </div>
             </div>
@@ -375,10 +368,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section id="access">
         <div class="container content-lg">
             <div class="title-v1">
-                <h2>{% trans "Access" %}</h2>
-                <p>{% trans "You can search the online HER directly in different ways: Map Search, Text Search or via one of the saved searches provided." %}</p>
+                <h2>{% trans "ACCÈS" %}</h2>
+                <p>{% trans "Ou pouvez r'chèrchi les REH en lîngne directément dé difféthentes manniéthes: Èrchèrche dé Cartes, Èrchèrche dé Texte ou atout ieune des r'chèrches sauvées proposées." %}</p>
                 <!-- <p>{% trans "A detailed user guide is available to download: <a href='https://jerseyv6-arches-media.s3.eu-west-2.amazonaws.com/files/HER+User+Guide.pdf' alt='HER User Guide'>HER User Guide (PDF, 4.1 Mb)</a>" %}</p> -->
-                <h3>{% trans "How to use the HER video guide" %}</h3>
+                <h3>{% trans "Comme tchi faithe sèrvi les REH en dgide vidgo" %}</h3>
                 <!-- <h4>{% trans "1: How to search the HER" %}</h4>
                 <iframe src="https://player.vimeo.com/video/412267219" width="640" height="466" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 <h4>{% trans "2: How to access HER reports" %}</h4>
@@ -406,11 +399,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <span class="">Audio: Heimdall Audio</span>
                   </div>
                 </div>-->
-                <h3>{% trans "Access in person" %}</h3>
-                <p>{% trans "The HER is also accessible in person. It is based at the Jersey Archive, the Island's national repository of archival material and a key location for all reports on archaeological work and historic building recording carried out on the Island. This resource is available to a wide range of individuals, researchers, students and archaeologists. Jersey Heritage cares for the Island's collections of archaeology, archives, art and social history, holding over 750,000 objects and documents." %}</p>
-                <p>{% trans "We are interested to hear from anyone who wants to know more about Jersey's heritage, or knows about historical or archaeological features that we could add to the Island's story." %}</p>
+                <h3>{% trans "Accès en pèrsonne" %}</h3>
+                <p>{% trans "Les REH sont étout accessibl'yes en pèrsonne. I' sont basés à l'Archive dé Jèrri, la storre nâtionnale dé l'Île des mathéthiaux d'archives et un endrait împortant pouor touos les rapports dé travaux archéologiques et r'cordéthie dé bâtisses historiques entréprîns en l'Île. Ch't' èrsource est ouvèrte à l'ensembl'ye des îndividus, r'chèrcheurs, êtudgiants et archéologistes. L'Héthitage d'Jèrri souôngne les collections d'archéologie, archives, art, et histouaithe sociale dé l'Île, gardant pus d'750,000 objets et dotchuments." %}</p>
+                <p>{% trans "J'sommes întérêssis d'ouï d'autcheune pèrsonne tchi veurt saver pus entouor l'héthitage dé Jèrri ou tchi connaît d's êléments historiques ou archéologiques qué j'pouôrrêmes ajouôter à l'histouaithe dé l'Île." %}</p>
                 <!--<script id="CookieDeclaration" src="https://consent.cookiebot.com/cb0538aa-e00c-4bae-b83c-64d4f5f9610c/cd.js" type="text/javascript" async></script>-->
-                <p>{% trans "For more detailed enquiries, please contact the HER team:" %}</p>
+                <p>{% trans "Pouor en saver pus long, contactez s'i' vos pliaît l'êtchipe des REH:" %}</p>
                 <p>{% trans "Historic Environment Record<br/>Jersey Archive<br/>Clarence Road, St Helier<br/>Jersey, JE2 4JY<br/>T: +44 (0) 1534 833300<br/>E: <a href='mailto:JerseyHER@jerseyheritage.org'>JerseyHER@jerseyheritage.org</a><br/><a href='http://www.jerseyheritage.org/'>www.jerseyheritage.org</a>" %}
             </div>
         </div>
@@ -422,7 +415,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="content-lg bg-grey">
           <div class="container">
             <div class="title-v1">
-                <h2>{% trans "Useful links" %}</h2>
+                <h2>{% trans "LIANS UTILES" %}</h2>
                 <ul class="useful-links">
                     <p>{% trans "<a href='https://www.jerseyheritage.org/' alt='Jersey Heritage'>Jersey Heritage</a>" %}
                     </p>
@@ -455,11 +448,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section id="dataprotection">
         <div class="container content-lg">
             <div class="title-v1">
-                <h2>{% trans "Terms &amp; Conditions and Data Protection" %}</h2>
-                <p>{% trans "<a href='https://www.jerseyheritage.org/cookie-policy/' alt='Cookie Policy'>Cookie Policy</a>" %}</p>
+                <h2>{% trans "TÈRMES ET CONDITIONS ET PROTECTION DÉ DATA" %}</h2>
+                <p>{% trans "<a href='https://www.jerseyheritage.org/cookie-policy/' alt='Cookie Policy'>Prîncipes des Galettes</a>" %}</p>
                <!-- <p>{% trans "<a href='https://jerseyv6-arches-media.s3.eu-west-2.amazonaws.com/files/Terms_Conditions_09-03-2020.pdf' alt='Terms and Conditions'>Terms and conditions for use</a>" %}</p>-->
-                <p>{% trans "<a href='static/landing/Terms_Conditions_09-03-2020.pdf' alt='Terms and Conditions'>Terms and conditions for use</a>" %}</p>
-                <p>{% trans "Personal data, including photographs of properties in private ownership that appears on this site, is processed under Article 17: Archiving and research of the Data Protection (Jersey) Law, 2018. All efforts have been made to remove identifying personal data such as car registration numbers from the images. Please be aware that property recorded as part of the HER can be on private land and you should seek permission from the owner before visiting. Jersey Heritage's Privacy Policy is available on our website. If you have any queries please contact <a href='mailto:dpo@jerseyheritage.org'>dpo@jerseyheritage.org</a>" %}</p>
+                <p>{% trans "<a href='static/landing/Terms_Conditions_09-03-2020.pdf' alt='Terms and Conditions'>Tèrmes et condition d'usage</a>" %}</p>
+                <p>{% trans "Lé data pèrsonnel, et chenna auve les photographes dé propriêtés privées tch'appathaîssent sus chu site-chîn, est mannié s'lon l'Articl'ye 17 sus l'archiv'thie et r'chèrche dé la Louai (Jèrri) sus la Protection du Data, 2018. Touos l's êfforts ont 'té applyitchis à seule fîn d'haler dé d'dans les portraits du data pèrsonnel tch'identifyie comme des pliaques d'èrgistrâtion des vaituthes. Èrconnaîssiz s'i' vos pliaît qué d'la propriêté r'cordée comme partie des REH peut s'adonner sus du tèrrain privé et ou dévthêtes d'mander la pèrmission du propriêtaithe dévant la vîsiter. Les Prîncipes dé Confidentialité d'l'Héthitage d'Jèrri sont à liéthe sus not' site d'Ithangnie. S'ous avez d'aut' tchestchions contactez s'i' vos pliaît  <a href='mailto:dpo@jerseyheritage.org'>dpo@jerseyheritage.org</a>" %}</p>
             </div>
         </div>
     </section>
@@ -486,7 +479,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </ul>
             {% if user.username == 'anonymous' %}
             <a id="auth-link" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">
-                {% trans "Login (Authorised users only)" %}
+                {% trans "Login (Faîtheurs sèrvi autorisés seulement)" %}
             </a>
             {% endif %}
             <span class="page-scroll"><a href="#intro"><i class="fa fa-angle-double-up back-to-top"></i></a></span>

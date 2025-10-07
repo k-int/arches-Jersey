@@ -1,7 +1,7 @@
 {
     "name": "jersey_her",
     "dependencies": {
-        "arches": "archesproject/arches#stable/7.6.9"
+        "arches": "archesproject/arches#stable/7.6.17"
     },
     "scripts": {
         "build_development": "npm run eslint:check && npm run ts:check && cross-env NODE_OPTIONS=--max-old-space-size=2048 webpack --config ./webpack/webpack.config.dev.js",
@@ -22,7 +22,7 @@
         "vitest": "vitest --run --coverage"
     },
     "devDependencies": {
-        "arches-dev-dependencies": "archesproject/arches-dev-dependencies#stable/7.6.9"
+        "arches-dev-dependencies": "archesproject/arches-dev-dependencies#stable/7.6.17"
     },
     "license": "AGPL-3.0-only",
     "overrides": {

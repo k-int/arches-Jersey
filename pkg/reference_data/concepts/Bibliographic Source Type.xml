@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/fafaea2e-b23f-46da-a9a9-edd6ec4b7b8e">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/e20c7fec-3a80-46f4-9ee2-e3cfce577989">
+        <dcterms:identifier xml:lang="en">{"id": "25195538-a5a0-4565-bac7-76c8b91ae979", "value": "http://18.134.182.25e20c7fec-3a80-46f4-9ee2-e3cfce577989"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/fafaea2e-b23f-46da-a9a9-edd6ec4b7b8e"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c3f9a7fe-d3c9-40a7-8fed-e6f7ee1856be"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c1723a69-7dcf-4c78-a46a-ee9746df4719"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a4c9298e-5876-4bae-9f1e-f371361550f7"/>
+        <dcterms:title xml:lang="en">{"id": "22bf3371-0684-4530-b8c0-c1887efd3b95", "value": "Bibliographic Source Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c0c96cfa-6bd5-4103-9640-8f2dbc4d3eb3"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/0abe6536-8bda-4506-8ef3-15250a2ae33d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/8f9647fb-e6f7-4ea4-abd2-7eb693e1611c"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/86024abd-35cc-4c3a-af51-6b5c387cc94f"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <dcterms:identifier xml:lang="en">{"id": "910e1b55-d687-470e-a2f6-724e7e956fa7", "value": "http://18.134.182.25fafaea2e-b23f-46da-a9a9-edd6ec4b7b8e"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "632c4eae-8b3d-476e-9e5a-90627c8ab388", "value": "Unpublished Report"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/86024abd-35cc-4c3a-af51-6b5c387cc94f">
+    <dcterms:identifier xml:lang="en">{"id": "c9fa25a3-e12d-499c-9d67-e9e958b876d2", "value": "http://18.134.182.2586024abd-35cc-4c3a-af51-6b5c387cc94f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "9918f257-142c-4f20-9c56-dc499775ed8e", "value": "Unpublished Talk"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/e20c7fec-3a80-46f4-9ee2-e3cfce577989"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c0c96cfa-6bd5-4103-9640-8f2dbc4d3eb3">
+    <skos:inScheme rdf:resource="http://localhost:8000/e20c7fec-3a80-46f4-9ee2-e3cfce577989"/>
+    <skos:prefLabel xml:lang="en">{"id": "2360c91b-7bde-4c8b-8797-bc72456c7835", "value": "Draft Report"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "4f4580a9-dd99-498f-ae0d-cf57db30ffce", "value": "http://18.134.182.25c0c96cfa-6bd5-4103-9640-8f2dbc4d3eb3"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c3f9a7fe-d3c9-40a7-8fed-e6f7ee1856be">
+    <skos:inScheme rdf:resource="http://localhost:8000/e20c7fec-3a80-46f4-9ee2-e3cfce577989"/>
+    <skos:prefLabel xml:lang="en">{"id": "bcc5152e-2624-4150-820c-9b9c9fd95c78", "value": "Unpublished Notes"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "a44a51c1-470b-4be8-a01d-5c1cab550ec9", "value": "http://18.134.182.25c3f9a7fe-d3c9-40a7-8fed-e6f7ee1856be"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a4c9298e-5876-4bae-9f1e-f371361550f7">
+    <skos:prefLabel xml:lang="en">{"id": "d4ab2abf-9d24-4c3b-b7e0-c611711b7578", "value": "Unpublished Pamphlet"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/e20c7fec-3a80-46f4-9ee2-e3cfce577989"/>
+    <dcterms:identifier xml:lang="en">{"id": "36a7e265-a4f4-45b7-9eeb-576106d68722", "value": "http://18.134.182.25a4c9298e-5876-4bae-9f1e-f371361550f7"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c1723a69-7dcf-4c78-a46a-ee9746df4719">
+    <skos:inScheme rdf:resource="http://localhost:8000/e20c7fec-3a80-46f4-9ee2-e3cfce577989"/>
+    <dcterms:identifier xml:lang="en">{"id": "3f348548-1eef-4485-8350-38136449d478", "value": "http://18.134.182.25c1723a69-7dcf-4c78-a46a-ee9746df4719"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "3d1a57a1-965a-4136-9f5f-e0cce5e3fdd8", "value": "Unpublished Research"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0abe6536-8bda-4506-8ef3-15250a2ae33d">
+    <dcterms:identifier xml:lang="en">{"id": "498a7679-11d6-4678-bec2-c272ed746483", "value": "http://18.134.182.250abe6536-8bda-4506-8ef3-15250a2ae33d"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/e20c7fec-3a80-46f4-9ee2-e3cfce577989"/>
+    <skos:prefLabel xml:lang="en">{"id": "c97d6004-2982-4cf3-a2b2-1f0ef7c165ec", "value": "Unpublished Dissertation"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8f9647fb-e6f7-4ea4-abd2-7eb693e1611c">
+    <dcterms:identifier xml:lang="en">{"id": "6e9907c6-6df7-4436-ad19-fbe8cc6d915e", "value": "http://18.134.182.258f9647fb-e6f7-4ea4-abd2-7eb693e1611c"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "8f29cbb4-4cff-4233-9021-a774e1fadd42", "value": "Booklet"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/e20c7fec-3a80-46f4-9ee2-e3cfce577989"/>
+  </skos:Concept>
+</rdf:RDF>

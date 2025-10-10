@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea">
+    <dcterms:identifier xml:lang="en">{"id": "059ed78a-c99d-4e97-b3a2-5611c55717ad", "value": "http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/30a46601-fcd9-4fea-aea1-fdfa91482e8c">
+        <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+        <skos:prefLabel xml:lang="en">{"id": "23c3ed9e-3365-4b13-b6b9-e46c7ab8000e", "value": "Returned to finder"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "0c3d6d5e-8fea-44f2-af77-ded089252b2a", "value": "http://18.134.182.2530a46601-fcd9-4fea-aea1-fdfa91482e8c"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/40eb0a97-2be3-4cbb-b8e3-595d8eeaeda5">
+        <skos:prefLabel xml:lang="en">{"id": "3953fc60-bc34-4e19-aa43-f53195eaf26b", "value": "Claimed for the Public of the Island"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+        <dcterms:identifier xml:lang="en">{"id": "04731b7a-1bed-4230-91f7-e081bc5332bb", "value": "http://18.134.182.2540eb0a97-2be3-4cbb-b8e3-595d8eeaeda5"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/82ec81a8-11bc-4c08-b8fe-2f429db657dc">
+        <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+        <dcterms:identifier xml:lang="en">{"id": "f0bba0f3-b4b2-4d5a-b80c-47a3b6106890", "value": "http://18.134.182.2582ec81a8-11bc-4c08-b8fe-2f429db657dc"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "b6c40ca4-85b1-461a-9fde-5dff666b5bce", "value": "Returned to landowner"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "02f26635-e8ac-492b-a419-0ceb78a1c43e", "value": "Subsequent Action"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/115a5198-e0fd-4042-85af-25e5a3d63777">
+        <skos:prefLabel xml:lang="en">{"id": "d0aa2663-82b3-4419-b370-60a45c189963", "value": "Purchased"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+        <dcterms:identifier xml:lang="en">{"id": "3ecd2f7c-e246-4c34-af82-eec2016eca5f", "value": "http://18.134.182.25115a5198-e0fd-4042-85af-25e5a3d63777"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/5c235c71-4ff9-48ec-ad21-2d2876f0ddd2">
+        <skos:prefLabel xml:lang="en">{"id": "15869d24-0891-4fad-a90d-71bb20f7230c", "value": "Donated"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/447a36e5-5077-4109-9c9e-963ba72300ea"/>
+        <dcterms:identifier xml:lang="en">{"id": "7d5ccd46-7b45-4043-aee0-9868caab8927", "value": "http://18.134.182.255c235c71-4ff9-48ec-ad21-2d2876f0ddd2"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/c440573c-3cbe-4295-a426-3b96d9360a89">
+    <dcterms:identifier xml:lang="en">{"id": "4180e1f4-a9c7-409b-92c4-cac6c65cb8a0", "value": "http://localhost:8000/c440573c-3cbe-4295-a426-3b96d9360a89"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/b8b67d76-a55c-45ce-9e59-4a1f100b5139">
+        <dcterms:title xml:lang="en">{"id": "5862a352-cb51-41c1-b42a-aebecbdd1c10", "value": "Completeness"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c440573c-3cbe-4295-a426-3b96d9360a89"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/0a09d661-f7b7-429a-9794-c5fcfc91f673"/>
+        <dcterms:identifier xml:lang="en">{"id": "95f1f848-4152-499e-8268-920d64f026ab", "value": "http://localhost:8000/b8b67d76-a55c-45ce-9e59-4a1f100b5139"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a6196c61-8cd7-43ce-affa-59f8dfead397"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "7204b944-ecb2-4b95-b263-f0b35f0a6871", "value": "Complete"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0a09d661-f7b7-429a-9794-c5fcfc91f673">
+    <dcterms:identifier xml:lang="en">{"id": "75926ac9-11ef-4761-a0bf-9920168a3a4c", "value": "http://localhost:8000/0a09d661-f7b7-429a-9794-c5fcfc91f673"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "88d38f05-288f-4fd9-bb22-e4e94152f31b", "value": "Fragment"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/b8b67d76-a55c-45ce-9e59-4a1f100b5139"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a6196c61-8cd7-43ce-affa-59f8dfead397">
+    <skos:prefLabel xml:lang="en">{"id": "41317305-0ccd-4b5d-9e9d-2b55d67bbde8", "value": "Incomplete"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "87c75e56-0046-40b2-91c7-13209ce57ef9", "value": "http://localhost:8000/a6196c61-8cd7-43ce-affa-59f8dfead397"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/b8b67d76-a55c-45ce-9e59-4a1f100b5139"/>
+  </skos:Concept>
+</rdf:RDF>

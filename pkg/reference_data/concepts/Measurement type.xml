@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/c87590e8-ffcf-40b9-b1af-ba840f6114c2">
+    <skos:prefLabel xml:lang="en">{"id": "d4ce7f24-7fff-471e-9493-7be3c219beeb", "value": "Metric"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c5bea81d-fb30-43df-a7a0-fcb018b1e2cf", "value": "http://localhost:8000/c87590e8-ffcf-40b9-b1af-ba840f6114c2"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/83b8359e-2eb7-4c2d-9fac-e55efa5c5e3f">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c87590e8-ffcf-40b9-b1af-ba840f6114c2"/>
+        <dcterms:title xml:lang="en">{"id": "5ede0479-07b5-4837-a32f-12f9028ddb1a", "value": "Measurement type"}</dcterms:title>
+        <dcterms:identifier xml:lang="en">{"id": "107aa657-bd57-44a6-b1b2-17c0703b1bb9", "value": "http://localhost:8000/83b8359e-2eb7-4c2d-9fac-e55efa5c5e3f"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/bdd4c314-fe9a-4db5-8b3e-254e325ee9bb"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bdd4c314-fe9a-4db5-8b3e-254e325ee9bb">
+    <dcterms:identifier xml:lang="en">{"id": "ea34884e-e6dd-4b82-8fdc-7a81e75a6170", "value": "http://localhost:8000/bdd4c314-fe9a-4db5-8b3e-254e325ee9bb"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "088f5f0d-493c-476e-9086-70268e8b22a4", "value": "Imperial"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/83b8359e-2eb7-4c2d-9fac-e55efa5c5e3f"/>
+  </skos:Concept>
+</rdf:RDF>

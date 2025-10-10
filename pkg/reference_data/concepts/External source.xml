@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/56776a27-064d-4b0e-b17c-c9cbecfeda75">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/f8f84a5f-c2f3-410a-b3b7-6662d32fc9be">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/1dbf73d9-3952-4415-b7b1-b58dc462798b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4cbda418-370a-450a-b60b-c704319da351"/>
+        <dcterms:identifier xml:lang="en">{"id": "661caadf-6b53-48ed-985b-9f5cf68249fa", "value": "http://localhost:8000/f8f84a5f-c2f3-410a-b3b7-6662d32fc9be"}</dcterms:identifier>
+        <dcterms:title xml:lang="en">{"id": "6c56ca40-b360-43d7-b422-353955f3cf00", "value": "External source"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/56776a27-064d-4b0e-b17c-c9cbecfeda75"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <dcterms:identifier xml:lang="en">{"id": "aecf73a7-36c1-424c-860b-d5d24b5af985", "value": "http://localhost:8000/56776a27-064d-4b0e-b17c-c9cbecfeda75"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "46c776b7-c7f4-4979-bb68-9be5c91ad62e", "value": "UNESCO"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4cbda418-370a-450a-b60b-c704319da351">
+    <dcterms:identifier xml:lang="en">{"id": "7bdadf1c-6634-4a99-b483-969a2b4f6da0", "value": "http://localhost:8000/4cbda418-370a-450a-b60b-c704319da351"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/f8f84a5f-c2f3-410a-b3b7-6662d32fc9be"/>
+    <skos:prefLabel xml:lang="en">{"id": "ef255633-4830-49a4-b55b-d0c0c8bbad44", "value": "Government of Jersey"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1dbf73d9-3952-4415-b7b1-b58dc462798b">
+    <dcterms:identifier xml:lang="en">{"id": "f6ad5cfc-09c3-473d-94c9-c372d216c451", "value": "http://18.134.182.251dbf73d9-3952-4415-b7b1-b58dc462798b"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/f8f84a5f-c2f3-410a-b3b7-6662d32fc9be"/>
+    <skos:prefLabel xml:lang="en">{"id": "60a9a427-022c-4d8e-8378-51f7108f7a7e", "value": "States of Jersey"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

@@ -386,6 +386,8 @@ FILE_TYPES = [
 ]
 # File types that can be uploaded to Arches if FILE_TYPE_CHECKING is True.
 
+TIME_ZONE = "Europe/London"
+
 try:
     from .package_settings import *
 except ImportError:

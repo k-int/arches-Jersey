@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/d583ad20-1640-4d51-b0cc-adc6c33d5bd2">
+    <skos:prefLabel xml:lang="en">{"id": "2263615d-e1ff-4816-ae62-e4e647df388c", "value": "Possible"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/80c6d1c8-17cd-459e-bca4-0bf8a205f014">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b6b6b15e-7061-47b1-a68b-cb2ded6e61b0"/>
+        <dcterms:title xml:lang="en">{"id": "5c504587-c0db-4ac3-9f73-738a6f1a3a17", "value": "Object type certainty"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f534f20f-b5cb-422f-84e4-dedfd9174db2"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d583ad20-1640-4d51-b0cc-adc6c33d5bd2"/>
+        <dcterms:identifier xml:lang="en">{"id": "a30b2550-6216-4060-b5d9-0b236bd2a4c1", "value": "http://localhost:8000/80c6d1c8-17cd-459e-bca4-0bf8a205f014"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <dcterms:identifier xml:lang="en">{"id": "67849396-f66b-487e-b1a0-2db13879559d", "value": "http://18.134.182.25d583ad20-1640-4d51-b0cc-adc6c33d5bd2"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f534f20f-b5cb-422f-84e4-dedfd9174db2">
+    <skos:inScheme rdf:resource="http://localhost:8000/80c6d1c8-17cd-459e-bca4-0bf8a205f014"/>
+    <dcterms:identifier xml:lang="en">{"id": "3ef22571-6d65-47c8-a952-3216208f4e87", "value": "http://localhost:8000/f534f20f-b5cb-422f-84e4-dedfd9174db2"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "141b10d0-1fcc-4aca-93c8-8343d1877be2", "value": "Probable"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b6b6b15e-7061-47b1-a68b-cb2ded6e61b0">
+    <skos:prefLabel xml:lang="en">{"id": "2e75c3a5-21e4-4ce8-8d48-abf0f31a1f7d", "value": "Certain"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "cfa2ba0a-aa38-46c2-a9b0-e18235fc4847", "value": "http://localhost:8000/b6b6b15e-7061-47b1-a68b-cb2ded6e61b0"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/80c6d1c8-17cd-459e-bca4-0bf8a205f014"/>
+  </skos:Concept>
+</rdf:RDF>

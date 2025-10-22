@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/467a952f-e615-481a-a0a0-de08ae1d1dc8">
+    <skos:prefLabel xml:lang="en">{"id": "fd8334cb-4b1b-46fd-8dc5-9c3415393bd2", "value": "Good"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c2617f90-17d0-4231-b0ee-8512c4f4c82e", "value": "http://18.134.182.25467a952f-e615-481a-a0a0-de08ae1d1dc8"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/a5b6f87b-be4f-4b2a-87ad-48b48b1948a1">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c24581e0-b33b-424f-8f80-ebe2c5cadc59"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/137b268d-9019-4581-8435-7e6e03a92833"/>
+        <dcterms:identifier xml:lang="en">{"id": "b8d6fa8c-3a71-4470-960b-e83d210c2142", "value": "http://18.134.182.25a5b6f87b-be4f-4b2a-87ad-48b48b1948a1"}</dcterms:identifier>
+        <dcterms:title xml:lang="en">{"id": "7c3830b9-4f1d-4cb1-a12d-78376ec900f8", "value": "Condition when reported"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d30a6179-224a-4f41-9d48-d0fe0f50bd84"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/51b5d26f-7826-4232-8dbf-8296d292bb19"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/df443994-4c66-400f-801a-fbf5652f3da7"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/467a952f-e615-481a-a0a0-de08ae1d1dc8"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/df443994-4c66-400f-801a-fbf5652f3da7">
+    <skos:inScheme rdf:resource="http://localhost:8000/a5b6f87b-be4f-4b2a-87ad-48b48b1948a1"/>
+    <dcterms:identifier xml:lang="en">{"id": "af8e742b-5843-4907-bb05-ffe6f1a21e5c", "value": "http://18.134.182.25df443994-4c66-400f-801a-fbf5652f3da7"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "e63ace1d-e36e-4608-9d54-398335b6503d", "value": "Corroded"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/51b5d26f-7826-4232-8dbf-8296d292bb19">
+    <dcterms:identifier xml:lang="en">{"id": "8c564a42-2691-46f2-8d3b-b7926f2019b5", "value": "http://18.134.182.2551b5d26f-7826-4232-8dbf-8296d292bb19"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/a5b6f87b-be4f-4b2a-87ad-48b48b1948a1"/>
+    <skos:prefLabel xml:lang="en">{"id": "c51fed19-e004-4b36-bfc5-ce6766f8c2e4", "value": "Requiring conservation"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c24581e0-b33b-424f-8f80-ebe2c5cadc59">
+    <skos:prefLabel xml:lang="en">{"id": "ff3e1446-3ec7-4b6b-a141-334679838997", "value": "Poor"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "46e3e426-bb76-4005-b697-077191d34b27", "value": "http://18.134.182.25c24581e0-b33b-424f-8f80-ebe2c5cadc59"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/a5b6f87b-be4f-4b2a-87ad-48b48b1948a1"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/137b268d-9019-4581-8435-7e6e03a92833">
+    <skos:inScheme rdf:resource="http://localhost:8000/a5b6f87b-be4f-4b2a-87ad-48b48b1948a1"/>
+    <dcterms:identifier xml:lang="en">{"id": "9c65eeb3-9f7b-447b-ad3a-b3e5f80cb1aa", "value": "http://18.134.182.25137b268d-9019-4581-8435-7e6e03a92833"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a749297a-464b-467d-8837-f8b9835c8cc0", "value": "Encrusted"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d30a6179-224a-4f41-9d48-d0fe0f50bd84">
+    <skos:prefLabel xml:lang="en">{"id": "d5f9d83b-35b4-41c0-9418-28afbf4f0fd7", "value": "Fair"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/a5b6f87b-be4f-4b2a-87ad-48b48b1948a1"/>
+    <dcterms:identifier xml:lang="en">{"id": "1891ed09-2deb-460d-99f2-e69cc136e78b", "value": "http://18.134.182.25d30a6179-224a-4f41-9d48-d0fe0f50bd84"}</dcterms:identifier>
+  </skos:Concept>
+</rdf:RDF>

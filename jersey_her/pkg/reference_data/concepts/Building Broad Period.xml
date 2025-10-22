@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/aa0e7104-8970-461d-a8e9-beeb9ed058c0">
+    <skos:prefLabel xml:lang="en">{"id": "19de150f-0a8a-45a0-a3b0-1374e2acfb46", "value": "Post Medieval 1540-1901 CE"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "de91c377-c761-4e2d-b6f2-e1dcac718837", "value": "http://13.42.34.245aa0e7104-8970-461d-a8e9-beeb9ed058c0"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/048b5a2b-a4b9-4b34-91d6-566162c5ab6b">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/9d013a38-56ef-4d55-98f8-889af3277aa3"/>
+        <dcterms:identifier xml:lang="en">{"id": "46611b8f-e2b3-4876-994f-6de33c2f8538", "value": "http://13.42.34.245048b5a2b-a4b9-4b34-91d6-566162c5ab6b"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/aa0e7104-8970-461d-a8e9-beeb9ed058c0"/>
+        <dcterms:title xml:lang="en">{"id": "e6ddacbf-e837-4b59-b073-63701a687aa1", "value": "Building Broad Period"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a8364479-e9a7-4fb9-b9cf-fd0d9759deb2"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9d013a38-56ef-4d55-98f8-889af3277aa3">
+    <dcterms:identifier xml:lang="en">{"id": "e9479047-cb76-458a-885e-dd0efc662179", "value": "http://13.42.34.2459d013a38-56ef-4d55-98f8-889af3277aa3"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/048b5a2b-a4b9-4b34-91d6-566162c5ab6b"/>
+    <skos:prefLabel xml:lang="en">{"id": "f1f8cc23-a49b-4db1-abd5-f62991093772", "value": "Medieval 934-1539 CE"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a8364479-e9a7-4fb9-b9cf-fd0d9759deb2">
+    <skos:inScheme rdf:resource="http://localhost:8000/048b5a2b-a4b9-4b34-91d6-566162c5ab6b"/>
+    <skos:prefLabel xml:lang="en">{"id": "e5d9cf6f-13a9-47e3-bbe5-565733eb866e", "value": "Modern 1901 CE-"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "db29fddb-f95e-4814-845c-9a20ce019a1a", "value": "http://13.42.34.245a8364479-e9a7-4fb9-b9cf-fd0d9759deb2"}</dcterms:identifier>
+  </skos:Concept>
+</rdf:RDF>

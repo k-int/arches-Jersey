@@ -40,7 +40,7 @@ define([
         },
 
         clear: function(){
-            this.filter('');
+            this.filter('asc');
         }
         
     });

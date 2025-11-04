@@ -17,27 +17,29 @@ details = {
 
 class SortResults(BaseSearchFilter):
     def append_dsl(self, search_query_object, **kwargs):
-        sort_param = self.request.GET.get(self.componentname, None)
+        if self.request.GET.get(self.componentname, None):
+            sort_param = self.request.GET.get(self.componentname, None)
+        else:
+            sort_param = "asc"
 
-        sort_field = "displayname.value"
+        sort_field = "_script"
         sort_dsl = {
-            "nested": {
-                "path": "displayname",
-                "filter": {"term": {"displayname.language": get_language()}},
+            "type": "number",
+            "script": {
+                "lang": "painless",
+                "params": {
+                    "order": [
+                        "99417385-b8fa-11e6-84a5-026d961c88e6",
+                        "243f8689-b8f6-11e6-84a5-026d961c88e6",
+                        "24d7b54f-5464-11e9-a86b-000d3ab1e588",
+                        "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    ]
+                },
+                "source": "List order = params.order; int index = order.indexOf(doc['graph_id'].value); return index != -1 ? index : order.size();",
             },
         }
 
-        sort_component = SearchComponent.objects.get(name="Sort")
-        sort_component.refresh_from_db()
-        sort_config = sort_component.config
-
-        if sort_config:
-            sort_field = sort_config["field"]
-            sort_dsl = sort_config["dsl"]
-
-        sort_dsl["order"] = "asc"
-        if sort_param is not None and sort_param != "":
-            sort_dsl["order"] = sort_param
+        sort_dsl["order"] = sort_param
 
         search_query_object["query"].sort(
             field=sort_field,

@@ -368,6 +368,33 @@
                 },
                 {
                     "active": true,
+                    "cardid": "87bc4e3c-4fd5-4d41-8e1d-eaf820a6fc0b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": false,
+                    "name": {
+                        "en": "Discovery Actors"
+                    },
+                    "nodegroup_id": "55137dee-c609-11f0-8aa4-f1ab2b8eabb8",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "93a3a61d-fd59-11e6-9e3e-026d961c88e6",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -1070,35 +1097,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "26243e41-fd58-11e6-9e3e-026d961c88e6",
-                    "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
-                        "i18n_properties": [
-                            "placeholder"
-                        ],
-                        "label": "Finder",
-                        "maxLength": null,
-                        "placeholder": {
-                            "en": "Enter text"
-                        },
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "b34ff1f9-3d0e-11ea-8701-0275d4869ef4",
-                    "label": {
-                        "en": "Finder"
-                    },
-                    "node_id": "26243e43-fd58-11e6-9e3e-026d961c88e6",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
                     "card_id": "6b5d6a2c-fd4d-11e6-9e3e-026d961c88e6",
                     "config": {
                         "defaultValue": "",
@@ -1384,15 +1382,6 @@
                 {
                     "description": null,
                     "domainnode_id": "26243e3f-fd58-11e6-9e3e-026d961c88e6",
-                    "edgeid": "26243e44-fd58-11e6-9e3e-026d961c88e6",
-                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "rangenode_id": "26243e43-fd58-11e6-9e3e-026d961c88e6"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "26243e3f-fd58-11e6-9e3e-026d961c88e6",
                     "edgeid": "26243e45-fd58-11e6-9e3e-026d961c88e6",
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
                     "name": null,
@@ -1416,6 +1405,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "580effe4-7cfa-11f0-a28e-e9f3d89dae0c"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "55137dee-c609-11f0-8aa4-f1ab2b8eabb8",
+                    "edgeid": "291f0c13-7b95-4bed-af81-4db20f3a6a31",
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member",
+                    "rangenode_id": "787cb0fc-c609-11f0-8aa4-f1ab2b8eabb8"
                 },
                 {
                     "description": null,
@@ -1452,6 +1450,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
                     "rangenode_id": "a13c8b34-4d23-11f0-8ef7-0a62e5cb1da9"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "55137dee-c609-11f0-8aa4-f1ab2b8eabb8",
+                    "edgeid": "428b6a07-92ae-4598-b456-0c78f94c9d6d",
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member",
+                    "rangenode_id": "96795f24-c609-11f0-8aa4-f1ab2b8eabb8"
                 },
                 {
                     "description": null,
@@ -1725,6 +1732,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
+                    "edgeid": "b0d2861a-534c-4254-aeee-5209580d07e3",
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
+                    "rangenode_id": "55137dee-c609-11f0-8aa4-f1ab2b8eabb8"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "b712af77-fd4d-11e6-9e3e-026d961c88e6",
                     "edgeid": "b712af7d-fd4d-11e6-9e3e-026d961c88e6",
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
@@ -1946,6 +1962,12 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
+                    "nodegroupid": "55137dee-c609-11f0-8aa4-f1ab2b8eabb8",
+                    "parentnodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
                     "nodegroupid": "580effe4-7cfa-11f0-a28e-e9f3d89dae0c",
                     "parentnodegroup_id": null
                 },
@@ -2072,7 +2094,7 @@
                     "datatype": "edtf",
                     "description": null,
                     "exportable": true,
-                    "fieldname": "a_pr_to_yer",
+                    "fieldname": "a_pr_to_ye",
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
                     "hascustomalias": false,
                     "is_collector": false,
@@ -2338,27 +2360,6 @@
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": "finder",
-                    "config": {},
-                    "datatype": "string",
-                    "description": "Represents a single node in a graph",
-                    "exportable": true,
-                    "fieldname": "finder",
-                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": false,
-                    "istopnode": false,
-                    "name": "Finder",
-                    "nodegroup_id": "26243e3f-fd58-11e6-9e3e-026d961c88e6",
-                    "nodeid": "26243e43-fd58-11e6-9e3e-026d961c88e6",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 0,
-                    "sourcebranchpublication_id": null
-                },
-                {
                     "alias": "images",
                     "config": {
                         "activateMax": false,
@@ -2616,6 +2617,29 @@
                     "nodeid": "4fc48822-4db6-11f0-8ef7-0a62e5cb1da9",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": null,
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Discovery Actors",
+                    "nodegroup_id": "55137dee-c609-11f0-8aa4-f1ab2b8eabb8",
+                    "nodeid": "55137dee-c609-11f0-8aa4-f1ab2b8eabb8",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E74_Group",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
@@ -2932,6 +2956,29 @@
                     "sourcebranchpublication_id": null
                 },
                 {
+                    "alias": "finder",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Finder",
+                    "nodegroup_id": "55137dee-c609-11f0-8aa4-f1ab2b8eabb8",
+                    "nodeid": "787cb0fc-c609-11f0-8aa4-f1ab2b8eabb8",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
                     "alias": "recovery",
                     "config": {},
                     "datatype": "semantic",
@@ -3136,6 +3183,29 @@
                     "nodeid": "93a3a625-fd59-11e6-9e3e-026d961c88e6",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "identified_by",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Identified By",
+                    "nodegroup_id": "55137dee-c609-11f0-8aa4-f1ab2b8eabb8",
+                    "nodeid": "96795f24-c609-11f0-8aa4-f1ab2b8eabb8",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
@@ -3578,8 +3648,8 @@
             "publication": {
                 "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
                 "notes": null,
-                "publicationid": "3f83488a-a35c-11f0-89a2-5f51840bb9cd",
-                "published_time": "2025-10-07T04:01:44.637"
+                "publicationid": "d61d46e0-c609-11f0-8aa4-f1ab2b8eabb8",
+                "published_time": "2025-11-20T12:09:59.773"
             },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
@@ -3613,7 +3683,7 @@
     ],
     "metadata": {
         "db": "PostgreSQL 14.5 (Debian 14.5-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
-        "git hash": "e72ebe1b7a 2025-08-11 17:57:25 -0400",
+        "git hash": "d89ebe75da 2025-09-29 06:21:23 -0700",
         "os": "Linux",
         "os version": "5.15.167.4-microsoft-standard-WSL2"
     }

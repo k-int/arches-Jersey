@@ -56,7 +56,7 @@
                         "en": "Description"
                     },
                     "nodegroup_id": "32d98e09-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 2,
+                    "sortorder": 7,
                     "visible": true
                 },
                 {
@@ -83,7 +83,7 @@
                         "en": "Digital Files"
                     },
                     "nodegroup_id": "49fb8d12-5c09-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": null,
+                    "sortorder": 14,
                     "visible": true
                 },
                 {
@@ -112,7 +112,7 @@
                         "en": "Historic Theme Keyword"
                     },
                     "nodegroup_id": "3d919f0d-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 11,
+                    "sortorder": 8,
                     "visible": true
                 },
                 {
@@ -141,7 +141,7 @@
                         "en": "Media"
                     },
                     "nodegroup_id": "46d9dd23-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 1,
+                    "sortorder": 6,
                     "visible": true
                 },
                 {
@@ -226,7 +226,7 @@
                         "en": "Heritage Resource"
                     },
                     "nodegroup_id": "6fa8d7bc-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 5,
+                    "sortorder": 1,
                     "visible": true
                 },
                 {
@@ -253,7 +253,7 @@
                         "en": "Archives and Collections Online"
                     },
                     "nodegroup_id": "bd0000e2-4cf3-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": null,
+                    "sortorder": 9,
                     "visible": true
                 },
                 {
@@ -311,7 +311,7 @@
                         "en": "Place"
                     },
                     "nodegroup_id": "82f2dd4a-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 3,
+                    "sortorder": 5,
                     "visible": true
                 },
                 {
@@ -396,7 +396,7 @@
                         "en": "Listing and Designation"
                     },
                     "nodegroup_id": "c82f300a-4c26-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": null,
+                    "sortorder": 4,
                     "visible": true
                 },
                 {
@@ -423,7 +423,7 @@
                         "en": "Associated Activities"
                     },
                     "nodegroup_id": "b1c37fcd-f4b9-11ed-86a3-39070cdd3feb",
-                    "sortorder": 14,
+                    "sortorder": 10,
                     "visible": true
                 },
                 {
@@ -450,7 +450,7 @@
                         "en": "Associated Finds"
                     },
                     "nodegroup_id": "b3972d09-f4b9-11ed-86a3-39070cdd3feb",
-                    "sortorder": 15,
+                    "sortorder": 11,
                     "visible": true
                 },
                 {
@@ -477,7 +477,7 @@
                         "en": "Associated Heritage Assets"
                     },
                     "nodegroup_id": "b49dee8b-f4b9-11ed-86a3-39070cdd3feb",
-                    "sortorder": 16,
+                    "sortorder": 12,
                     "visible": true
                 },
                 {
@@ -506,7 +506,7 @@
                         "en": "Archaeology Dating"
                     },
                     "nodegroup_id": "c7cb6659-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 4,
+                    "sortorder": 3,
                     "visible": true
                 },
                 {
@@ -533,7 +533,7 @@
                         "en": "Associated Bibliographic Source"
                     },
                     "nodegroup_id": "d790c9d0-5bfa-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": null,
+                    "sortorder": 13,
                     "visible": true
                 },
                 {
@@ -562,7 +562,7 @@
                         "en": "Historic Building Dating"
                     },
                     "nodegroup_id": "f70f1b77-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 6,
+                    "sortorder": 2,
                     "visible": true
                 }
             ],

@@ -634,7 +634,7 @@
                         "en": "Building Broad Period"
                     },
                     "node_id": "b015480c-4b67-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 0,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -733,6 +733,27 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "f70f1b79-e747-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Building Period To Year",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "54db9aab-06f4-441c-8c7f-04debae07350",
+                    "label": {
+                        "en": "Building Period To Year"
+                    },
+                    "node_id": "31ccf78a-4b8d-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
                     "card_id": "d05d2bcb-986f-4636-8ce7-2c80fc9a919f",
                     "config": {
                         "defaultResourceInstance": [],
@@ -752,6 +773,27 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "f70f1b79-e747-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Building Period From Year",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "627c4b8e-4127-42cb-b958-104975f5c16d",
+                    "label": {
+                        "en": "Building Period From Year"
+                    },
+                    "node_id": "4f75e3e2-4b8c-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
                     "card_id": "ac065979-6dde-476b-9bdb-429641d12e11",
@@ -916,7 +958,7 @@
                         "en": "Build Phases"
                     },
                     "node_id": "f70f1b7c-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 1,
+                    "sortorder": 5,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -970,6 +1012,28 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "6fa8d7bb-e747-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Building/Monument Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "c7bdba44-d578-46a8-a348-ff5d02080e58",
+                    "label": {
+                        "en": "Building/Monument Type"
+                    },
+                    "node_id": "98d05040-504b-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
                 {
                     "card_id": "82f2dd52-e747-11e6-84a6-026d961c88e6",
@@ -1140,7 +1204,7 @@
                         "en": "Architecture Period From"
                     },
                     "node_id": "bda27a6c-4b7b-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 3,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1162,7 +1226,7 @@
                         "en": "Architecture Period To"
                     },
                     "node_id": "8a2aa9b6-4b7b-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 }

@@ -617,28 +617,6 @@
                     "widget_id": "46ef064b-2611-4708-9f52-60136bd8a65b"
                 },
                 {
-                    "card_id": "f70f1b79-e747-11e6-84a6-026d961c88e6",
-                    "config": {
-                        "defaultValue": "",
-                        "i18n_properties": [
-                            "placeholder"
-                        ],
-                        "label": "Building Broad Period",
-                        "options": [],
-                        "placeholder": {
-                            "en": "Select an option"
-                        }
-                    },
-                    "id": "2e7e1837-131f-4014-b0e7-055073ee690d",
-                    "label": {
-                        "en": "Building Broad Period"
-                    },
-                    "node_id": "b015480c-4b67-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 4,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
                     "card_id": "37e3160b-00ed-4bf6-bba7-32ce59dea818",
                     "config": {
                         "defaultResourceInstance": [],
@@ -1433,15 +1411,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P15i_influenced",
                     "rangenode_id": "b1c37fcd-f4b9-11ed-86a3-39070cdd3feb"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "f70f1b77-e747-11e6-84a6-026d961c88e6",
-                    "edgeid": "6c932107-0e67-4c77-8383-ca275b0d3bb6",
-                    "graph_id": "99417385-b8fa-11e6-84a5-026d961c88e6",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "b015480c-4b67-11f0-8ef7-0a62e5cb1da9"
                 },
                 {
                     "description": null,
@@ -2646,29 +2615,6 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P116i_is_started_by",
                     "sortorder": 2,
-                    "sourcebranchpublication_id": null
-                },
-                {
-                    "alias": "building_broad_period",
-                    "config": {
-                        "rdmCollection": "7d34f29f-a7be-4ba2-9c54-c834a3f5d94a"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "b_br_pr",
-                    "graph_id": "99417385-b8fa-11e6-84a5-026d961c88e6",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Building Broad Period",
-                    "nodegroup_id": "f70f1b77-e747-11e6-84a6-026d961c88e6",
-                    "nodeid": "b015480c-4b67-11f0-8ef7-0a62e5cb1da9",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 5,
                     "sourcebranchpublication_id": null
                 },
                 {

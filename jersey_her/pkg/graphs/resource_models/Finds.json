@@ -565,6 +565,33 @@
                 },
                 {
                     "active": true,
+                    "cardid": "dba21d58-38a1-439d-883f-377d9234564c",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "Represents a single node in a graph",
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Conservation Notes"
+                    },
+                    "nodegroup_id": "2292af6f-fd55-11e6-9e3e-026d961c88e6",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "f0718281-9367-4482-b923-cbd1bc786e4d",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -908,7 +935,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Conservation",
+                        "label": "Conservation Notes",
                         "maxLength": null,
                         "placeholder": {
                             "en": "Enter text"
@@ -918,7 +945,7 @@
                     },
                     "id": "8377318f-3f27-11e9-8ffe-026c82e517fe",
                     "label": {
-                        "en": "Conservation"
+                        "en": "Conservation Notes"
                     },
                     "node_id": "2292af6f-fd55-11e6-9e3e-026d961c88e6",
                     "sortorder": 3,
@@ -2130,6 +2157,12 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
+                    "nodegroupid": "2292af6f-fd55-11e6-9e3e-026d961c88e6",
+                    "parentnodegroup_id": "2292af6b-fd55-11e6-9e3e-026d961c88e6"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
                     "nodegroupid": "26243e3f-fd58-11e6-9e3e-026d961c88e6",
                     "parentnodegroup_id": null
                 },
@@ -2418,12 +2451,12 @@
                     "fieldname": "cons_notes",
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
                     "hascustomalias": false,
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Conservation Notes",
-                    "nodegroup_id": "2292af6b-fd55-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "2292af6f-fd55-11e6-9e3e-026d961c88e6",
                     "nodeid": "2292af6f-fd55-11e6-9e3e-026d961c88e6",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",

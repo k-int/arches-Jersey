@@ -360,7 +360,7 @@
                     },
                     "is_editable": false,
                     "name": {
-                        "en": "Recovery"
+                        "en": "Discovery"
                     },
                     "nodegroup_id": "78f4cb0d-fd61-11e6-9e3e-026d961c88e6",
                     "sortorder": 8,
@@ -443,7 +443,7 @@
                     },
                     "is_editable": false,
                     "name": {
-                        "en": "Artefact Names"
+                        "en": "Name"
                     },
                     "nodegroup_id": "224ed940-a358-11f0-89a2-5f51840bb9cd",
                     "sortorder": 0,
@@ -501,7 +501,7 @@
                     },
                     "is_editable": false,
                     "name": {
-                        "en": "Start and End Dates"
+                        "en": "Dating: Archaeology"
                     },
                     "nodegroup_id": "c31ba521-fd4d-11e6-9e3e-026d961c88e6",
                     "sortorder": 5,
@@ -653,13 +653,13 @@
                     "config": {
                         "acceptedFiles": "",
                         "defaultValue": [],
-                        "label": "Image",
+                        "label": "Images",
                         "maxFilesize": "200",
                         "rerender": true
                     },
                     "id": "2c5ea7a0-4cb8-11e9-8ffe-026c82e517fe",
                     "label": {
-                        "en": "Image"
+                        "en": "Images"
                     },
                     "node_id": "2c5ea79d-4cb8-11e9-8ffe-026c82e517fe",
                     "sortorder": null,
@@ -858,7 +858,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Certainty",
+                        "label": "Archaeological Object Type Certainty",
                         "options": [],
                         "placeholder": {
                             "en": "Select an option"
@@ -866,7 +866,7 @@
                     },
                     "id": "4dca6263-3389-11e9-8ffe-026c82e517fe",
                     "label": {
-                        "en": "Certainty"
+                        "en": "Archaeological Object Type Certainty"
                     },
                     "node_id": "b712af7a-fd4d-11e6-9e3e-026d961c88e6",
                     "sortorder": 1,
@@ -1114,7 +1114,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Archaeological Period From",
+                        "label": "Broad Period From",
                         "options": [],
                         "placeholder": {
                             "en": "Select an option"
@@ -1122,7 +1122,7 @@
                     },
                     "id": "9b5d2db3-36fa-11ea-8701-0275d4869ef4",
                     "label": {
-                        "en": "Archaeological Period From"
+                        "en": "Broad Period From"
                     },
                     "node_id": "c31ba527-fd4d-11e6-9e3e-026d961c88e6",
                     "sortorder": 0,
@@ -1136,7 +1136,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Archaeological Period To",
+                        "label": "Broad Period To",
                         "options": [],
                         "placeholder": {
                             "en": "Select an option"
@@ -1144,7 +1144,7 @@
                     },
                     "id": "9b5d2dbb-36fa-11ea-8701-0275d4869ef4",
                     "label": {
-                        "en": "Archaeological Period To"
+                        "en": "Broad Period To"
                     },
                     "node_id": "c31ba529-fd4d-11e6-9e3e-026d961c88e6",
                     "sortorder": 1,
@@ -1245,7 +1245,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Administrative Subdivision Name",
+                        "label": "Parish",
                         "maxLength": null,
                         "options": [],
                         "placeholder": {
@@ -1256,7 +1256,7 @@
                     },
                     "id": "b5495391-36fa-11ea-8701-0275d4869ef4",
                     "label": {
-                        "en": "Administrative Subdivision Name"
+                        "en": "Parish"
                     },
                     "node_id": "6b5d6a43-fd4d-11e6-9e3e-026d961c88e6",
                     "sortorder": 0,

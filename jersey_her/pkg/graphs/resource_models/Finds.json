@@ -27,7 +27,7 @@
                         "en": "Associated Activities"
                     },
                     "nodegroup_id": "13dc5f1f-f4b8-11ed-86a3-39070cdd3feb",
-                    "sortorder": 13,
+                    "sortorder": 12,
                     "visible": true
                 },
                 {
@@ -56,7 +56,7 @@
                         "en": "Condition Assessment"
                     },
                     "nodegroup_id": "2292af6b-fd55-11e6-9e3e-026d961c88e6",
-                    "sortorder": 10,
+                    "sortorder": 9,
                     "visible": true
                 },
                 {
@@ -85,7 +85,7 @@
                         "en": "Action"
                     },
                     "nodegroup_id": "26243e3f-fd58-11e6-9e3e-026d961c88e6",
-                    "sortorder": 11,
+                    "sortorder": 10,
                     "visible": true
                 },
                 {
@@ -112,7 +112,7 @@
                         "en": "Media"
                     },
                     "nodegroup_id": "2c5ea79d-4cb8-11e9-8ffe-026c82e517fe",
-                    "sortorder": 1,
+                    "sortorder": 2,
                     "visible": true
                 },
                 {
@@ -139,7 +139,7 @@
                         "en": "Digital Files"
                     },
                     "nodegroup_id": "a219066e-5c09-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": null,
+                    "sortorder": 16,
                     "visible": true
                 },
                 {
@@ -166,7 +166,7 @@
                         "en": "Associated Heritage Assets"
                     },
                     "nodegroup_id": "38d0451f-f4b9-11ed-86a3-39070cdd3feb",
-                    "sortorder": 15,
+                    "sortorder": 14,
                     "visible": true
                 },
                 {
@@ -193,7 +193,7 @@
                         "en": "Physical Attributes"
                     },
                     "nodegroup_id": "4390d11f-4ca0-11e9-8ffe-026c82e517fe",
-                    "sortorder": 4,
+                    "sortorder": 6,
                     "visible": true
                 },
                 {
@@ -307,7 +307,7 @@
                         "en": "Location"
                     },
                     "nodegroup_id": "6b5d6a33-fd4d-11e6-9e3e-026d961c88e6",
-                    "sortorder": 5,
+                    "sortorder": 4,
                     "visible": true
                 },
                 {
@@ -446,7 +446,7 @@
                         "en": "Artefact Names"
                     },
                     "nodegroup_id": "224ed940-a358-11f0-89a2-5f51840bb9cd",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true
                 },
                 {
@@ -475,7 +475,7 @@
                         "en": "Archaeological Object Type"
                     },
                     "nodegroup_id": "b712af77-fd4d-11e6-9e3e-026d961c88e6",
-                    "sortorder": 0,
+                    "sortorder": 1,
                     "visible": true
                 },
                 {
@@ -504,7 +504,7 @@
                         "en": "Start and End Dates"
                     },
                     "nodegroup_id": "c31ba521-fd4d-11e6-9e3e-026d961c88e6",
-                    "sortorder": 6,
+                    "sortorder": 5,
                     "visible": true
                 },
                 {
@@ -533,7 +533,7 @@
                         "en": "Description"
                     },
                     "nodegroup_id": "ce6e367d-fd4d-11e6-9e3e-026d961c88e6",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true
                 },
                 {
@@ -560,7 +560,7 @@
                         "en": "Associated Finds"
                     },
                     "nodegroup_id": "d5039c2b-f4b8-11ed-86a3-39070cdd3feb",
-                    "sortorder": 14,
+                    "sortorder": 13,
                     "visible": true
                 },
                 {
@@ -587,7 +587,7 @@
                         "en": "Associated Bibliographic Source"
                     },
                     "nodegroup_id": "926d0984-5bfc-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": null,
+                    "sortorder": 15,
                     "visible": true
                 },
                 {
@@ -614,7 +614,7 @@
                         "en": "Historic Theme Keyword"
                     },
                     "nodegroup_id": "580effe4-7cfa-11f0-a28e-e9f3d89dae0c",
-                    "sortorder": null,
+                    "sortorder": 11,
                     "visible": true
                 }
             ],
@@ -689,6 +689,35 @@
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "46ef064b-2611-4708-9f52-60136bd8a65b"
+                },
+                {
+                    "card_id": "b65a23d5-848a-4a69-9c48-e0323dec2c9f",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Name",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "3801a456-f6b7-4c82-aa80-8c59a7dce00e",
+                    "label": {
+                        "en": "Name"
+                    },
+                    "node_id": "3c13c318-a358-11f0-89a2-5f51840bb9cd",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "f0718281-9367-4482-b923-cbd1bc786e4d",
@@ -844,7 +873,28 @@
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
-                 {
+                {
+                    "card_id": "c31ba523-fd4d-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Period From Year",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "5339e166-a681-4150-988b-87f789f45a6a",
+                    "label": {
+                        "en": "Period From Year"
+                    },
+                    "node_id": "dcc17dea-4db4-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
                     "card_id": "93a3a61d-fd59-11e6-9e3e-026d961c88e6",
                     "config": {
                         "defaultValue": "",
@@ -867,6 +917,35 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "46ef064b-2611-4708-9f52-60136bd8a65b"
+                },
+                {
+                    "card_id": "6b5d6a35-fd4d-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Alternative Name",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%%"
+                    },
+                    "id": "67dac324-0583-481b-837c-c705c15d8426",
+                    "label": {
+                        "en": "Alternative Name"
+                    },
+                    "node_id": "1fa7de7a-4d00-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "2292af6d-fd55-11e6-9e3e-026d961c88e6",
@@ -893,7 +972,7 @@
                         "en": "Conservation"
                     },
                     "node_id": "2292af6f-fd55-11e6-9e3e-026d961c88e6",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -915,7 +994,29 @@
                         "en": "Completeness"
                     },
                     "node_id": "2292af73-fd55-11e6-9e3e-026d961c88e6",
-                    "sortorder": 1,
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "2292af6d-fd55-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Condition When Reported",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "8de8a719-59aa-4a32-b1cc-a6f0bb3ab971",
+                    "label": {
+                        "en": "Condition When Reported"
+                    },
+                    "node_id": "0d8d595e-4dbe-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -969,7 +1070,7 @@
                         "en": "Depth of Discovery"
                     },
                     "node_id": "93a3a621-fd59-11e6-9e3e-026d961c88e6",
-                    "sortorder": 2,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1002,7 +1103,7 @@
                         "en": "Discovery Date"
                     },
                     "node_id": "93a3a622-fd59-11e6-9e3e-026d961c88e6",
-                    "sortorder": 1,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -1051,6 +1152,28 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
+                    "card_id": "c31ba523-fd4d-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Sub Period To",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9f20f326-508c-4782-b144-b095b64b6e09",
+                    "label": {
+                        "en": "Sub Period To"
+                    },
+                    "node_id": "781bc772-4db6-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
                     "card_id": "2dd773d8-f09e-4922-b525-9ed148ebab04",
                     "config": {
                         "defaultResourceInstance": [],
@@ -1070,6 +1193,28 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "78f4cb0f-fd61-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Discovery Method",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "b0c9b65e-59c2-4a03-b0f5-af118fd8fc94",
+                    "label": {
+                        "en": "Discovery Method"
+                    },
+                    "node_id": "6ce5d328-4d0e-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "26243e41-fd58-11e6-9e3e-026d961c88e6",
@@ -1167,6 +1312,78 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                 {
+                    "card_id": "c31ba523-fd4d-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Sub Period From",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "d11eea2c-819b-4269-82f2-60076d56e7bb",
+                    "label": {
+                        "en": "Sub Period From"
+                    },
+                    "node_id": "4fc48822-4db6-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "c31ba523-fd4d-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Period To Year",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "df38c158-3e34-4ee2-a8b0-add4d6a01df1",
+                    "label": {
+                        "en": "Period To Year"
+                    },
+                    "node_id": "0f5cad92-4db5-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "2292af6d-fd55-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Depositions Observations",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%%"
+                    },
+                    "id": "e61a366d-c20e-4309-a920-a566053a8862",
+                    "label": {
+                        "en": "Depositions Observations"
+                    },
+                    "node_id": "59b93960-4ddc-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "6b5d6a32-fd4d-11e6-9e3e-026d961c88e6",
@@ -3076,29 +3293,6 @@
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": "finder",
-                    "config": {
-                        "en": ""
-                    },
-                    "datatype": "non-localized-string",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Finder",
-                    "nodegroup_id": "55137dee-c609-11f0-8aa4-f1ab2b8eabb8",
-                    "nodeid": "787cb0fc-c609-11f0-8aa4-f1ab2b8eabb8",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member",
-                    "sortorder": 0,
-                    "sourcebranchpublication_id": null
-                },
-                {
                     "alias": "recovery",
                     "config": {},
                     "datatype": "semantic",
@@ -3119,7 +3313,7 @@
                     "sortorder": 3,
                     "sourcebranchpublication_id": null
                 },
-                 {
+                {
                     "alias": "identifier_name",
                     "config": {
                         "en": ""

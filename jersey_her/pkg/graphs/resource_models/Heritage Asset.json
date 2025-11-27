@@ -825,13 +825,13 @@
                     "config": {
                         "acceptedFiles": "",
                         "defaultValue": [],
-                        "label": "Image",
+                        "label": "Images",
                         "maxFilesize": "200",
                         "rerender": true
                     },
                     "id": "74a6130f-16b2-11ea-8326-0275d4869ef4",
                     "label": {
-                        "en": "Image"
+                        "en": "Images"
                     },
                     "node_id": "46d9dd27-e747-11e6-84a6-026d961c88e6",
                     "sortorder": 0,
@@ -850,7 +850,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Description",
+                        "label": "Image Description",
                         "maxLength": null,
                         "placeholder": {
                             "en": "Enter text"
@@ -860,7 +860,7 @@
                     },
                     "id": "74a61313-16b2-11ea-8326-0275d4869ef4",
                     "label": {
-                        "en": "Description"
+                        "en": "Image Description"
                     },
                     "node_id": "46d9dd2d-e747-11e6-84a6-026d961c88e6",
                     "sortorder": 1,

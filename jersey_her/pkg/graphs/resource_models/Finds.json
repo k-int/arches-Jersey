@@ -341,33 +341,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "78f4cb0f-fd61-11e6-9e3e-026d961c88e6",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": {},
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": "",
-                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
-                    "helpenabled": false,
-                    "helptext": {
-                        "en": null
-                    },
-                    "helptitle": {
-                        "en": null
-                    },
-                    "instructions": {
-                        "en": null
-                    },
-                    "is_editable": false,
-                    "name": {
-                        "en": "Discovery"
-                    },
-                    "nodegroup_id": "78f4cb0d-fd61-11e6-9e3e-026d961c88e6",
-                    "sortorder": 8,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "93a3a61d-fd59-11e6-9e3e-026d961c88e6",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -1171,28 +1144,6 @@
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
-                    "card_id": "78f4cb0f-fd61-11e6-9e3e-026d961c88e6",
-                    "config": {
-                        "defaultValue": "",
-                        "i18n_properties": [
-                            "placeholder"
-                        ],
-                        "label": "Discovery Method",
-                        "options": [],
-                        "placeholder": {
-                            "en": "Select an option"
-                        }
-                    },
-                    "id": "b0c9b65e-59c2-4a03-b0f5-af118fd8fc94",
-                    "label": {
-                        "en": "Discovery Method"
-                    },
-                    "node_id": "6ce5d328-4d0e-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
                     "card_id": "26243e41-fd58-11e6-9e3e-026d961c88e6",
                     "config": {
                         "defaultValue": "",
@@ -1730,15 +1681,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "78f4cb0d-fd61-11e6-9e3e-026d961c88e6",
-                    "edgeid": "5dcf2e9f-b757-4c4f-9e64-67ddb381ebe0",
-                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
-                    "rangenode_id": "6ce5d328-4d0e-11f0-8ef7-0a62e5cb1da9"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "224ed940-a358-11f0-89a2-5f51840bb9cd",
                     "edgeid": "6019eb1c-d7fc-4185-8bed-8e4916389a69",
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
@@ -1835,15 +1777,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
                     "rangenode_id": "6b5d6a33-fd4d-11e6-9e3e-026d961c88e6"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "3af584c2-fd4d-11e6-9e3e-026d961c88e6",
-                    "edgeid": "78f4cb12-fd61-11e6-9e3e-026d961c88e6",
-                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
-                    "name": null,
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
-                    "rangenode_id": "78f4cb0d-fd61-11e6-9e3e-026d961c88e6"
                 },
                 {
                     "description": null,
@@ -2100,6 +2033,15 @@
                 {
                     "description": null,
                     "domainnode_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
+                    "edgeid": "d839386b-6420-42bc-95da-481792cd1d04",
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
+                    "rangenode_id": "7da5f4b2-cba9-11f0-8aa4-f1ab2b8eabb8"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
                     "edgeid": "d992e3d7-84bd-44fa-b3b0-60793541bfe0",
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
                     "name": null,
@@ -2238,12 +2180,6 @@
                     "legacygroupid": null,
                     "nodegroupid": "6b5d6a39-fd4d-11e6-9e3e-026d961c88e6",
                     "parentnodegroup_id": "6b5d6a33-fd4d-11e6-9e3e-026d961c88e6"
-                },
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
-                    "nodegroupid": "78f4cb0d-fd61-11e6-9e3e-026d961c88e6",
-                    "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "1",
@@ -2672,7 +2608,7 @@
                     "nodeid": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S19_Encounter_Event",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P9_consists_of",
-                    "sortorder": 0,
+                    "sortorder": 1,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -3200,29 +3136,6 @@
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": "discovery_method",
-                    "config": {
-                        "rdmCollection": "a6f651a0-baa4-450f-80f0-de341150be1a"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "disc_meth",
-                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Discovery Method",
-                    "nodegroup_id": "78f4cb0d-fd61-11e6-9e3e-026d961c88e6",
-                    "nodeid": "6ce5d328-4d0e-11f0-8ef7-0a62e5cb1da9",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
-                    "sortorder": 0,
-                    "sourcebranchpublication_id": null
-                },
-                {
                     "alias": "measurement_event_n1",
                     "config": {
                         "en": ""
@@ -3269,24 +3182,26 @@
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": "recovery",
-                    "config": {},
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": "",
+                    "alias": "discovery_method",
+                    "config": {
+                        "rdmCollection": "a6f651a0-baa4-450f-80f0-de341150be1a"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "disc_meth",
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
                     "hascustomalias": false,
-                    "is_collector": true,
+                    "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Recovery",
-                    "nodegroup_id": "78f4cb0d-fd61-11e6-9e3e-026d961c88e6",
-                    "nodeid": "78f4cb0d-fd61-11e6-9e3e-026d961c88e6",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S19_Encounter_Event",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
-                    "sortorder": 3,
+                    "name": "Discovery Method",
+                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
+                    "nodeid": "7da5f4b2-cba9-11f0-8aa4-f1ab2b8eabb8",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
+                    "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
                 {

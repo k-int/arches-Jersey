@@ -56,7 +56,7 @@
                         "en": "Description"
                     },
                     "nodegroup_id": "32d98e09-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 7,
+                    "sortorder": 6,
                     "visible": true
                 },
                 {
@@ -83,7 +83,7 @@
                         "en": "Digital Files"
                     },
                     "nodegroup_id": "49fb8d12-5c09-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 14,
+                    "sortorder": 10,
                     "visible": true
                 },
                 {
@@ -128,10 +128,10 @@
                     "graph_id": "99417385-b8fa-11e6-84a5-026d961c88e6",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
                         "en": ""
@@ -141,7 +141,7 @@
                         "en": "Media"
                     },
                     "nodegroup_id": "46d9dd23-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 6,
+                    "sortorder": 7,
                     "visible": true
                 },
                 {
@@ -157,10 +157,10 @@
                     "graph_id": "99417385-b8fa-11e6-84a5-026d961c88e6",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
                         "en": "Enter the resource name and its respective type."
@@ -423,7 +423,7 @@
                         "en": "Associated Activities"
                     },
                     "nodegroup_id": "b1c37fcd-f4b9-11ed-86a3-39070cdd3feb",
-                    "sortorder": 10,
+                    "sortorder": 11,
                     "visible": true
                 },
                 {
@@ -450,7 +450,7 @@
                         "en": "Associated Finds"
                     },
                     "nodegroup_id": "b3972d09-f4b9-11ed-86a3-39070cdd3feb",
-                    "sortorder": 11,
+                    "sortorder": 12,
                     "visible": true
                 },
                 {
@@ -477,7 +477,7 @@
                         "en": "Associated Heritage Assets"
                     },
                     "nodegroup_id": "b49dee8b-f4b9-11ed-86a3-39070cdd3feb",
-                    "sortorder": 12,
+                    "sortorder": 13,
                     "visible": true
                 },
                 {
@@ -506,7 +506,7 @@
                         "en": "Archaeology Dating"
                     },
                     "nodegroup_id": "c7cb6659-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 3,
+                    "sortorder": 2,
                     "visible": true
                 },
                 {
@@ -533,7 +533,7 @@
                         "en": "Associated Bibliographic Source"
                     },
                     "nodegroup_id": "d790c9d0-5bfa-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 13,
+                    "sortorder": 14,
                     "visible": true
                 },
                 {
@@ -562,7 +562,7 @@
                         "en": "Historic Building Dating"
                     },
                     "nodegroup_id": "f70f1b77-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true
                 }
             ],
@@ -655,7 +655,7 @@
                         "en": "Sub Period From"
                     },
                     "node_id": "c7cb6663-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 4,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -677,7 +677,7 @@
                         "en": "Sub Period To"
                     },
                     "node_id": "c7cb6660-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 5,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -727,7 +727,7 @@
                         "en": "Building Period To Year"
                     },
                     "node_id": "31ccf78a-4b8d-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 1,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
@@ -769,7 +769,7 @@
                         "en": "Building Period From Year"
                     },
                     "node_id": "4f75e3e2-4b8c-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 0,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
@@ -885,9 +885,54 @@
                         "en": "Broad Period From"
                     },
                     "node_id": "712b61a0-4ac0-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 2,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "574b58a5-e747-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "HER Number",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%%"
+                    },
+                    "id": "7f2642ab-bf50-41df-8ac9-805d4b8d6fc8",
+                    "label": {
+                        "en": "HER Number"
+                    },
+                    "node_id": "87b0af58-4c27-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "46ef064b-2611-4708-9f52-60136bd8a65b"
+                },
+                {
+                    "card_id": "c7cb665b-e747-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Archaeology Period From Year",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "82f48c2d-2bdf-42f0-8901-6a641638ab68",
+                    "label": {
+                        "en": "Archaeology Period From Year"
+                    },
+                    "node_id": "b0a6bf46-4b8d-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
                     "card_id": "ac065979-6dde-476b-9bdb-429641d12e11",
@@ -936,9 +981,30 @@
                         "en": "Build Phases"
                     },
                     "node_id": "f70f1b7c-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 5,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "c7cb665b-e747-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Archaeology Period To Year",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "b0c84733-3605-4a1a-913e-2117789c973b",
+                    "label": {
+                        "en": "Archaeology Period To Year"
+                    },
+                    "node_id": "d5a285be-4b8d-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
                     "card_id": "c7cb665b-e747-11e6-84a6-026d961c88e6",
@@ -958,7 +1024,7 @@
                         "en": "Broad Period To"
                     },
                     "node_id": "b426b500-4ac4-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 3,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1182,7 +1248,7 @@
                         "en": "Architecture Period From"
                     },
                     "node_id": "bda27a6c-4b7b-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 2,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1204,7 +1270,7 @@
                         "en": "Architecture Period To"
                     },
                     "node_id": "8a2aa9b6-4b7b-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": 3,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 }

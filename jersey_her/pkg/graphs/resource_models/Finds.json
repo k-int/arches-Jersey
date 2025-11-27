@@ -225,6 +225,33 @@
                 },
                 {
                     "active": true,
+                    "cardid": "627efbbb-dd1e-482c-9740-92f1e437f642",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Artefact Notes"
+                    },
+                    "nodegroup_id": "a8d67054-cbad-11f0-8aa4-f1ab2b8eabb8",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "6b5d6a2c-fd4d-11e6-9e3e-026d961c88e6",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -644,7 +671,7 @@
                         "en": "Artefact Description"
                     },
                     "node_id": "ce6e3680-fd4d-11e6-9e3e-026d961c88e6",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -1084,6 +1111,35 @@
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
+                    "card_id": "627efbbb-dd1e-482c-9740-92f1e437f642",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Artefact Notes",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%%"
+                    },
+                    "id": "96f03712-b885-4b86-9396-c28791d41c33",
+                    "label": {
+                        "en": "Artefact Notes"
+                    },
+                    "node_id": "a8d67054-cbad-11f0-8aa4-f1ab2b8eabb8",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
                     "card_id": "c31ba523-fd4d-11e6-9e3e-026d961c88e6",
                     "config": {
                         "defaultValue": "",
@@ -1148,6 +1204,35 @@
                     "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "ce6e367f-fd4d-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Artefact Notes",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%%"
+                    },
+                    "id": "a00031a8-db7d-483b-9bd1-87f1bd56d741",
+                    "label": {
+                        "en": "Artefact Notes"
+                    },
+                    "node_id": "a8d67054-cbad-11f0-8aa4-f1ab2b8eabb8",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
                     "card_id": "2dd773d8-f09e-4922-b525-9ed148ebab04",
@@ -1960,15 +2045,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "ce6e367d-fd4d-11e6-9e3e-026d961c88e6",
-                    "edgeid": "be020162-c3a0-4223-ac20-47b8fcabc341",
-                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "4a059c46-a35b-11f0-89a2-5f51840bb9cd"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "c31ba525-fd4d-11e6-9e3e-026d961c88e6",
                     "edgeid": "c31ba535-fd4d-11e6-9e3e-026d961c88e6",
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
@@ -2092,6 +2168,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
                     "rangenode_id": "59b93960-4ddc-11f0-8ef7-0a62e5cb1da9"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ce6e367d-fd4d-11e6-9e3e-026d961c88e6",
+                    "edgeid": "e7b82668-f0a6-4f5d-ae62-9bc8db2b36b0",
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "a8d67054-cbad-11f0-8aa4-f1ab2b8eabb8"
                 },
                 {
                     "description": null,
@@ -2243,6 +2328,12 @@
                     "legacygroupid": null,
                     "nodegroupid": "a219066e-5c09-11f0-8ef7-0a62e5cb1da9",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "a8d67054-cbad-11f0-8aa4-f1ab2b8eabb8",
+                    "parentnodegroup_id": "ce6e367d-fd4d-11e6-9e3e-026d961c88e6"
                 },
                 {
                     "cardinality": "n",
@@ -2829,29 +2920,6 @@
                     "nodegroup_id": "4390d11f-4ca0-11e9-8ffe-026c82e517fe",
                     "nodeid": "4390d125-4ca0-11e9-8ffe-026c82e517fe",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E57_Material",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0,
-                    "sourcebranchpublication_id": null
-                },
-                {
-                    "alias": "description_type",
-                    "config": {
-                        "rdmCollection": "0ff39ed3-cc95-4c60-9321-6d4e65fb1f2d"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "desc_tp",
-                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Description Type",
-                    "nodegroup_id": "ce6e367d-fd4d-11e6-9e3e-026d961c88e6",
-                    "nodeid": "4a059c46-a35b-11f0-89a2-5f51840bb9cd",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
@@ -3547,6 +3615,29 @@
                     "sourcebranchpublication_id": null
                 },
                 {
+                    "alias": "artefact_notes",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "notes",
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Artefact Notes",
+                    "nodegroup_id": "a8d67054-cbad-11f0-8aa4-f1ab2b8eabb8",
+                    "nodeid": "a8d67054-cbad-11f0-8aa4-f1ab2b8eabb8",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
                     "alias": "archaeological_object_type",
                     "config": {
                         "rdmCollection": "a1db7414-99f4-4b60-9454-6da726daae23"
@@ -3754,7 +3845,7 @@
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": "descriptions",
+                    "alias": "description",
                     "config": {
                         "en": ""
                     },
@@ -3768,7 +3859,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Descriptions",
+                    "name": "Description",
                     "nodegroup_id": "ce6e367d-fd4d-11e6-9e3e-026d961c88e6",
                     "nodeid": "ce6e367d-fd4d-11e6-9e3e-026d961c88e6",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",

@@ -387,10 +387,37 @@
                     },
                     "is_editable": false,
                     "name": {
-                        "en": "Discovery"
+                        "en": "Discovery Method"
                     },
                     "nodegroup_id": "78f4cb0d-fd61-11e6-9e3e-026d961c88e6",
                     "sortorder": 8,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "9005678c-4f9f-47bd-94f8-773b5b062de6",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Discovery Event"
+                    },
+                    "nodegroup_id": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
+                    "sortorder": null,
                     "visible": true
                 },
                 {
@@ -416,37 +443,10 @@
                     },
                     "is_editable": false,
                     "name": {
-                        "en": "Discovery participants"
+                        "en": "Discovery"
                     },
                     "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
                     "sortorder": 7,
-                    "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "93a3a620-fd59-11e6-9e3e-026d961c88e6",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": "",
-                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
-                    "helpenabled": false,
-                    "helptext": {
-                        "en": ""
-                    },
-                    "helptitle": {
-                        "en": ""
-                    },
-                    "instructions": {
-                        "en": "This ties the find type with a particular cultural period or date range."
-                    },
-                    "is_editable": false,
-                    "name": {
-                        "en": "Discovery Context"
-                    },
-                    "nodegroup_id": "93a3a61e-fd59-11e6-9e3e-026d961c88e6",
-                    "sortorder": 0,
                     "visible": true
                 },
                 {
@@ -624,7 +624,9 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "Represents a single node in a graph",
+                    "description": {
+                        "en": "Represents a single node in a graph"
+                    },
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
                     "helpenabled": false,
                     "helptext": {
@@ -1051,93 +1053,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "93a3a620-fd59-11e6-9e3e-026d961c88e6",
-                    "config": {
-                        "defaultValue": "",
-                        "i18n_properties": [
-                            "placeholder"
-                        ],
-                        "label": "Land Use",
-                        "maxLength": null,
-                        "options": [],
-                        "placeholder": {
-                            "en": "Select an option"
-                        },
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "8e01b069-3370-11e9-8ffe-026c82e517fe",
-                    "label": {
-                        "en": "Land Use"
-                    },
-                    "node_id": "93a3a623-fd59-11e6-9e3e-026d961c88e6",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "93a3a620-fd59-11e6-9e3e-026d961c88e6",
-                    "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
-                        "i18n_properties": [
-                            "placeholder"
-                        ],
-                        "label": "Depth of Discovery",
-                        "maxLength": null,
-                        "placeholder": {
-                            "en": "Enter text"
-                        },
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "8e01b06d-3370-11e9-8ffe-026c82e517fe",
-                    "label": {
-                        "en": "Depth of Discovery"
-                    },
-                    "node_id": "93a3a621-fd59-11e6-9e3e-026d961c88e6",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "93a3a620-fd59-11e6-9e3e-026d961c88e6",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
-                        "i18n_properties": [
-                            "placeholder"
-                        ],
-                        "label": "Discovery Date",
-                        "maxDate": false,
-                        "maxLength": null,
-                        "minDate": false,
-                        "placeholder": {
-                            "en": "Enter date"
-                        },
-                        "uneditable": false,
-                        "viewMode": "days",
-                        "width": "100%%"
-                    },
-                    "id": "8e01b06f-3370-11e9-8ffe-026c82e517fe",
-                    "label": {
-                        "en": "Discovery Date"
-                    },
-                    "node_id": "93a3a622-fd59-11e6-9e3e-026d961c88e6",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
                     "card_id": "627efbbb-dd1e-482c-9740-92f1e437f642",
                     "config": {
                         "defaultValue": {
@@ -1381,6 +1296,28 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "93a3a61d-fd59-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Land Use",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "bb69fe0b-42da-45f7-a29c-6d18a850a1cb",
+                    "label": {
+                        "en": "Land Use"
+                    },
+                    "node_id": "93a3a623-fd59-11e6-9e3e-026d961c88e6",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
                     "card_id": "d986ca40-4211-4790-86a9-f319f6cf9c54",
                     "config": {
                         "defaultResourceInstance": [],
@@ -1401,7 +1338,7 @@
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
-                 {
+                {
                     "card_id": "c31ba523-fd4d-11e6-9e3e-026d961c88e6",
                     "config": {
                         "defaultValue": "",
@@ -1443,6 +1380,35 @@
                     "sortorder": 5,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "93a3a61d-fd59-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Depth of Discovery",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%%"
+                    },
+                    "id": "e5ec83d4-b6b2-4df5-8bed-74939581ba05",
+                    "label": {
+                        "en": "Depth of Discovery"
+                    },
+                    "node_id": "93a3a621-fd59-11e6-9e3e-026d961c88e6",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "2292af6d-fd55-11e6-9e3e-026d961c88e6",
@@ -1549,6 +1515,35 @@
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                     },
+                        {
+                    "card_id": "93a3a61d-fd59-11e6-9e3e-026d961c88e6",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Discovery Date",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%%"
+                    },
+                    "id": "ed560b5a-17bd-4a37-9ef7-d1922cede4c7",
+                    "label": {
+                        "en": "Discovery Date"
+                    },
+                    "node_id": "93a3a622-fd59-11e6-9e3e-026d961c88e6",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
                 {
                     "card_id": "93a3a61d-fd59-11e6-9e3e-026d961c88e6",
                     "config": {
@@ -2318,6 +2313,12 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
+                    "nodegroupid": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
+                    "parentnodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
                     "nodegroupid": "38d0451f-f4b9-11ed-86a3-39070cdd3feb",
                     "parentnodegroup_id": null
                 },
@@ -2380,12 +2381,6 @@
                     "legacygroupid": null,
                     "nodegroupid": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
                     "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "93a3a61e-fd59-11e6-9e3e-026d961c88e6",
-                    "parentnodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6"
                 },
                 {
                     "cardinality": "1",
@@ -2743,7 +2738,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Finder Name",
-                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "nodeid": "28df9cb6-cb7d-11f0-8aa4-f1ab2b8eabb8",
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
@@ -2776,7 +2771,7 @@
                     "sortorder": 9,
                     "sourcebranchpublication_id": null
                 },
-                  {
+                {
                     "alias": "discovery_event",
                     "config": {
                         "en": ""
@@ -2787,12 +2782,12 @@
                     "fieldname": null,
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
                     "hascustomalias": false,
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Discovery Event",
-                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "nodeid": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S19_Encounter_Event",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P9_consists_of",
@@ -3027,7 +3022,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Identifier",
-                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "nodeid": "57109e00-cb7d-11f0-8aa4-f1ab2b8eabb8",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
@@ -3096,7 +3091,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Identifier Names",
-                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "nodeid": "67fbca8c-cb7d-11f0-8aa4-f1ab2b8eabb8",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
@@ -3406,7 +3401,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Identifier Name",
-                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "nodeid": "7e496560-cb7d-11f0-8aa4-f1ab2b8eabb8",
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
@@ -3452,7 +3447,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Finder",
-                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "nodeid": "8d8f4d1a-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
@@ -3523,12 +3518,12 @@
                     "fieldname": "",
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
                     "hascustomalias": false,
-                    "is_collector": true,
+                    "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Discovery Context",
-                    "nodegroup_id": "93a3a61e-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
                     "nodeid": "93a3a61e-fd59-11e6-9e3e-026d961c88e6",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
@@ -3549,7 +3544,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Depth of Discovery",
-                    "nodegroup_id": "93a3a61e-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
                     "nodeid": "93a3a621-fd59-11e6-9e3e-026d961c88e6",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P42_assigned",
@@ -3570,7 +3565,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Discovery Date",
-                    "nodegroup_id": "93a3a61e-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
                     "nodeid": "93a3a622-fd59-11e6-9e3e-026d961c88e6",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E50_Date",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
@@ -3593,7 +3588,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Land Use",
-                    "nodegroup_id": "93a3a61e-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
                     "nodeid": "93a3a623-fd59-11e6-9e3e-026d961c88e6",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
@@ -3616,7 +3611,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Discovery Context Time Span",
-                    "nodegroup_id": "93a3a61e-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
                     "nodeid": "93a3a625-fd59-11e6-9e3e-026d961c88e6",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
@@ -4021,7 +4016,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Finder Names",
-                    "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "3207ae9c-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "nodeid": "dcb296a4-cb7c-11f0-8aa4-f1ab2b8eabb8",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",

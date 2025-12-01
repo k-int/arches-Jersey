@@ -2009,7 +2009,7 @@
                     "datatype": "string",
                     "description": "Represents a single node in a graph",
                     "exportable": true,
-                    "fieldname": "place_address",
+                    "fieldname": "place_add",
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6",
                     "hascustomalias": false,
                     "is_collector": true,

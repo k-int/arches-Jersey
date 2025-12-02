@@ -2423,7 +2423,7 @@
                 {
                     "alias": "condition_when_reported",
                     "config": {
-                        "rdmCollection": "8452fcd6-7c7c-4a15-b7cf-04eef03b9df9"
+                        "rdmCollection": "cf56c614-5c74-4d4a-beec-8dd36dff81f3"
                     },
                     "datatype": "concept",
                     "description": null,

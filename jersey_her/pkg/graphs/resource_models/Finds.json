@@ -991,7 +991,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Artefact Notes",
+                        "label": "Artefact Note",
                         "maxLength": null,
                         "placeholder": {
                             "en": "Enter text"
@@ -1001,7 +1001,7 @@
                     },
                     "id": "7fc3f85a-5d14-4c15-8354-fb71b10e007f",
                     "label": {
-                        "en": "Artefact Notes"
+                        "en": "Artefact Note"
                     },
                     "node_id": "80c6f43a-d116-11f0-8aa4-f1ab2b8eabb8",
                     "sortorder": 0,

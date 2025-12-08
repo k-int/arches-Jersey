@@ -570,6 +570,111 @@
                         "sortorder": 8,
                         "resourceinstance_id": "a106c400-260c-11e7-a604-14109fd34195",
                         "tileid": "c420f239-4df6-4f31-a386-0f749b9d9870"
+                    },
+                                        {
+                        "data": {
+                            "feb95eae-fa14-11e6-9683-6c4008b05c4c": {
+                                "el": {
+                                    "direction": "ltr",
+                                    "value": ""
+                                },
+                                "en": {
+                                    "direction": "ltr",
+                                    "value": "https://her.jerseyheritage.org/search?paging-filter=1&tiles=true&format=tilecsv&reportlink=false&precision=6&total=67&exportsystemvalues=false&advanced-search=%5B%7B%22op%22%3A%22and%22%2C%223d919f0d-e747-11e6-84a6-026d961c88e6%22%3A%7B%22op%22%3A%22eq%22%2C%22val%22%3A%226a29dbf1-559a-4bf7-860b-83c34a1f54b8%22%7D%7D%2C%7B%22op%22%3A%22or%22%2C%22580effe4-7cfa-11f0-a28e-e9f3d89dae0c%22%3A%7B%22op%22%3A%22eq%22%2C%22val%22%3A%226a29dbf1-559a-4bf7-860b-83c34a1f54b8%22%7D%7D%2C%7B%22op%22%3A%22or%22%2C%228dbc722c-58ef-11f0-8ef7-0a62e5cb1da9%22%3A%7B%22op%22%3A%22eq%22%2C%22val%22%3A%226a29dbf1-559a-4bf7-860b-83c34a1f54b8%22%7D%7D%5D"
+                                },
+                                "en-US": {
+                                    "direction": "ltr",
+                                    "value": ""
+                                },
+                                "fr": {
+                                    "direction": "ltr",
+                                    "value": ""
+                                }
+                            },
+                            "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
+                                {
+                                    "accepted": true,
+                                    "altText": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": ""
+                                        }
+                                    },
+                                    "attribution": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": ""
+                                        }
+                                    },
+                                    "content": "blob:https://her.jerseyheritage.org/9a41d1c2-f107-4833-9200-b9443a693062",
+                                    "description": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": ""
+                                        }
+                                    },
+                                    "file_id": "4a0d8c12-4abe-4ee9-93c6-1c78c512cf2b",
+                                    "height": 3000,
+                                    "index": 0,
+                                    "lastModified": 1763981295211,
+                                    "name": "norman_heritage_search.JPG",
+                                    "path": "uploadedfiles/norman_heritage_search.JPG",
+                                    "size": 3720730,
+                                    "status": "uploaded",
+                                    "title": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": ""
+                                        }
+                                    },
+                                    "type": "image/jpeg",
+                                    "url": "/files/4a0d8c12-4abe-4ee9-93c6-1c78c512cf2b",
+                                    "width": 4496
+                                }
+                            ],
+                            "feb96126-fa14-11e6-9f19-6c4008b05c4c": {
+                                "el": {
+                                    "direction": "ltr",
+                                    "value": ""
+                                },
+                                "en": {
+                                    "direction": "ltr",
+                                    "value": "JERSEY'S NORMAN HERITAGE"
+                                },
+                                "en-US": {
+                                    "direction": "ltr",
+                                    "value": ""
+                                },
+                                "fr": {
+                                    "direction": "ltr",
+                                    "value": ""
+                                }
+                            },
+                            "feb9623d-fa14-11e6-a9c3-6c4008b05c4c": {
+                                "el": {
+                                    "direction": "ltr",
+                                    "value": ""
+                                },
+                                "en": {
+                                    "direction": "ltr",
+                                    "value": "Explore Jersey&#39;s Norman heritage, from its union with the Duchy of Normandy in 933 to the loss of Normandy by King John in 1204."
+                                },
+                                "en-US": {
+                                    "direction": "ltr",
+                                    "value": ""
+                                },
+                                "fr": {
+                                    "direction": "ltr",
+                                    "value": ""
+                                }
+                            }
+                        },
+                        "nodegroup_id": "feb95991-fa14-11e6-974f-6c4008b05c4c",
+                        "parenttile_id": null,
+                        "provisionaledits": null,
+                        "resourceinstance_id": "a106c400-260c-11e7-a604-14109fd34195",
+                        "sortorder": 9,
+                        "tileid": "3cb9b88b-4d1d-4240-ae3f-52ce4e1eccf2"
                     }
                 ],
                 "resourceinstance": {

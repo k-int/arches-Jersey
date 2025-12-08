@@ -273,18 +273,43 @@
                             },
                             "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
                                 {
-                                    "status": "uploaded",
-                                    "index": 0,
-                                    "name": "search - ecclesiastical (1).jpg",
-                                    "url": "/files/6562ec08-15bf-11ea-8326-0275d4869ef4",
-                                    "lastModified": 1564754913502,
-                                    "height": 1594,
-                                    "content": "blob:http://her.jerseyheritage.org/2e81c2e5-0c67-41f2-abf6-9a3685173493",
-                                    "width": 2126,
-                                    "file_id": "6562ec08-15bf-11ea-8326-0275d4869ef4",
                                     "accepted": true,
+                                    "altText": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": ""
+                                        }
+                                    },
+                                    "attribution": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": ""
+                                        }
+                                    },
+                                    "content": "blob:http://her.jerseyheritage.org/8108f445-f86f-48ec-939b-8b6ae87b9399",
+                                    "description": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": ""
+                                        }
+                                    },
+                                    "file_id": "7749319b-67d3-4a8d-b5df-4b2948622296",
+                                    "height": 1296,
+                                    "index": 0,
+                                    "lastModified": 1763981304739,
+                                    "name": "places_of_worship_search.JPG",
+                                    "path": "uploadedfiles/places_of_worship_search.JPG",
+                                    "size": 754669,
+                                    "status": "uploaded",
+                                    "title": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": ""
+                                        }
+                                    },
                                     "type": "image/jpeg",
-                                    "size": 1518960
+                                    "url": "/files/7749319b-67d3-4a8d-b5df-4b2948622296",
+                                    "width": 1936
                                 }
                             ],
                             "feb9623d-fa14-11e6-a9c3-6c4008b05c4c": {

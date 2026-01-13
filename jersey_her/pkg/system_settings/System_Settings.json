@@ -647,22 +647,10 @@
                                         {
                         "data": {
                             "feb95eae-fa14-11e6-9683-6c4008b05c4c": {
-                                "el": {
-                                    "direction": "ltr",
-                                    "value": ""
-                                },
                                 "en": {
                                     "direction": "ltr",
                                     "value": "https://her.jerseyheritage.org/search?paging-filter=1&tiles=true&format=tilecsv&reportlink=false&precision=6&total=67&exportsystemvalues=false&advanced-search=%5B%7B%22op%22%3A%22and%22%2C%223d919f0d-e747-11e6-84a6-026d961c88e6%22%3A%7B%22op%22%3A%22eq%22%2C%22val%22%3A%226a29dbf1-559a-4bf7-860b-83c34a1f54b8%22%7D%7D%2C%7B%22op%22%3A%22or%22%2C%22580effe4-7cfa-11f0-a28e-e9f3d89dae0c%22%3A%7B%22op%22%3A%22eq%22%2C%22val%22%3A%226a29dbf1-559a-4bf7-860b-83c34a1f54b8%22%7D%7D%2C%7B%22op%22%3A%22or%22%2C%228dbc722c-58ef-11f0-8ef7-0a62e5cb1da9%22%3A%7B%22op%22%3A%22eq%22%2C%22val%22%3A%226a29dbf1-559a-4bf7-860b-83c34a1f54b8%22%7D%7D%5D"
-                                    },
-                                "en-US": {
-                                    "direction": "ltr",
-                                    "value": ""
-                                },
-                                "fr": {
-                                    "direction": "ltr",
-                                    "value": ""
-                                }
+                                    }
                             },
                             "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
                                 {
@@ -706,40 +694,16 @@
                                 }
                             ],
                             "feb96126-fa14-11e6-9f19-6c4008b05c4c": {
-                                "el": {
-                                    "direction": "ltr",
-                                    "value": ""
-                                },
                                 "en": {
                                     "direction": "ltr",
                                     "value": "Jersey's Norman Heritage"
-                                    },
-                                "en-US": {
-                                    "direction": "ltr",
-                                    "value": ""
-                                },
-                                "fr": {
-                                    "direction": "ltr",
-                                    "value": ""
-                                }
+                                    }
                             },
                             "feb9623d-fa14-11e6-a9c3-6c4008b05c4c": {
-                                "el": {
-                                    "direction": "ltr",
-                                    "value": ""
-                                },
                                 "en": {
                                     "direction": "ltr",
                                     "value": "Explore Jersey&#39;s Norman heritage, from its union with the Duchy of Normandy in 933 to the loss of Normandy by King John in 1204."
-                                    },
-                                "en-US": {
-                                    "direction": "ltr",
-                                    "value": ""
-                                },
-                                "fr": {
-                                    "direction": "ltr",
-                                    "value": ""
-                                }
+                                    }
                             }
                         },
                         "nodegroup_id": "feb95991-fa14-11e6-974f-6c4008b05c4c",

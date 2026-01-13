@@ -185,6 +185,12 @@
                             },
                             "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
                                 {
+                                    "altText": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": "Large and imposing stone built tower with white stripe down it and two rows of small dark windows. Overlooking a harbour wall."
+                                        }
+                                    },
                                     "status": "uploaded",
                                     "index": 0,
                                     "name": "search - Forts (5).jpg",
@@ -229,6 +235,12 @@
                             },
                             "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
                                 {
+                                    "altText": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": "A large and imposing sea cave on a very rocky foreshore. The weather is bright and sunny."
+                                        }
+                                    },
                                     "status": "uploaded",
                                     "index": 0,
                                     "name": "search - biface.jpg",
@@ -277,7 +289,7 @@
                                     "altText": {
                                         "en": {
                                             "direction": "ltr",
-                                            "value": ""
+                                            "value": "Photograph of an old stone built church in the background with grave stones and grass in the foreground."
                                         }
                                     },
                                     "attribution": {
@@ -342,6 +354,12 @@
                             },
                             "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
                                 {
+                                    "altText": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": "Old back and white photo of a steam train."
+                                        }
+                                    },
                                     "status": "uploaded",
                                     "index": 0,
                                     "name": "search - Railway (2).jpg",
@@ -386,6 +404,12 @@
                             },
                             "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
                                 {
+                                    "altText": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": "Concrete radio tower overlooking Corbiere lighthouse and a rocky seashore."
+                                        }
+                                    },
                                     "status": "uploaded",
                                     "index": 0,
                                     "name": "search - German (2).jpg",
@@ -430,6 +454,12 @@
                             },
                             "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
                                 {
+                                    "altText": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": "An old five storey stone built mill building overlooking a grassy area."
+                                        }
+                                    },
                                     "status": "uploaded",
                                     "index": 0,
                                     "name": "search - Mills (8).jpg",
@@ -474,6 +504,12 @@
                             },
                             "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
                                 {
+                                    "altText": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": "An old lived in manor house, complete with turrets, standing on a manicured lawn."
+                                        }
+                                    },
                                     "status": "uploaded",
                                     "index": 0,
                                     "name": "search - manor (4).jpg",
@@ -518,6 +554,12 @@
                             },
                             "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
                                 {
+                                    "altText": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": "Detail of a collection of large boulders forming a rectangular shaped passage grave by a hedge line in early summer."
+                                        }
+                                    },
                                     "status": "uploaded",
                                     "index": 0,
                                     "name": "search - dolmen.jpg",
@@ -562,6 +604,12 @@
                             },
                             "feb96005-fa14-11e6-aa8d-6c4008b05c4c": [
                                 {
+                                    "altText": {
+                                        "en": {
+                                            "direction": "ltr",
+                                            "value": "Small detail of the 1795 Richmond map showing the field boundaries and valleys."
+                                        }
+                                    },
                                     "status": "uploaded",
                                     "index": 0,
                                     "name": "Richmond.jpg",

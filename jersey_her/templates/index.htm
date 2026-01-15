@@ -474,16 +474,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p>{{copyright_year}} &copy; {{copyright_text}} </p>
             <ul class="social-icons">
                 <li>
-                    <a href="https://www.facebook.com/JerseyHeritage/" data-original-title="Facebook" class="social_facebook rounded-x"></a>
+                    <div class="circle-container">
+                        <a href="https://www.facebook.com/JerseyHeritage/" data-original-title="Facebook">
+                            <img src="{% static 'img/icons/social/facebook.png' %}" alt="Facebook icon">
+                        </a>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://twitter.com/loveheritage" data-original-title="Twitter" class="social_twitter rounded-x"></a>
+                    <div class="circle-container">
+                        <a href="https://twitter.com/loveheritage" data-original-title="Twitter">
+                            <img src="{% static 'img/icons/social/twitter.png' %}" alt="Twitter icon">
+                        </a>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://www.pinterest.com/jerseyheritage/" data-original-title="Pinterest" class="social_pintrest rounded-x"></a>
+                    <div class="circle-container">
+                        <a href="https://pinterest.com/jerseyheritage/" data-original-title="Pintrest">
+                            <img src="{% static 'img/icons/social/pintrest.png' %}" alt="Pintrest icon">
+                        </a>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/company/jersey-heritage/" data-original-title="LinkedIn" class="social_linkedin rounded-x"></a>
+                    <div class="circle-container">
+                        <a href="https://www.linkedin.com/company/jersey-heritage/" data-original-title="LinkedIn">
+                            <img src="{% static 'img/icons/social/linkedin.png' %}" alt="LinkedIn icon">
+                        </a>
+                    </div>
                 </li>
             </ul>
             {% if user.username == 'anonymous' %}

@@ -82,7 +82,6 @@ h6 {
     text-decoration: none
 }
 .btn-u {
-    border: 0;
     font-size: 14px;
     cursor: pointer;
     font-weight: 400;
@@ -101,12 +100,11 @@ h6 {
 .btn-u.btn-brd,
 .btn-u.btn-brd:focus,
 .btn-u.btn-brd:hover {
-    background: 0 0
+    background: rgba(0,0,0,.5);
 }
 .btn-u.btn-brd {
     color: #555;
     padding: 5px 13px;
-    border: 1px solid #72c02c
 }
 .btn-u.btn-brd.btn-brd-hover:hover {
     color: #fff !important;
@@ -118,7 +116,6 @@ h6 {
 }
 .btn-u.btn-brd.btn-u-light {
     color: #fff;
-    border-color: #fff
 }
 .btn-u.btn-brd.btn-u-light:hover {
     border-color: #fff
@@ -156,8 +153,7 @@ h6 {
     font-weight: 200;
     padding: 6px 75px;
     position: relative;
-    border-top: solid 1px #fff;
-    border-bottom: solid 1px #fff
+    background: rgba(0,0,0,.5);
 }
 .rs-caption-1:after,
 .rs-caption-1:before {
@@ -179,7 +175,8 @@ h6 {
     font-weight: 200;
     line-height: 40px;
     padding: 10px 50px;
-    text-align: center
+    text-align: center;
+    background: rgba(0,0,0,.5);
 }
 .rs-caption-2:after {
     left: 50%;
@@ -781,9 +778,6 @@ a {
 .title-v1 h1:after,
 .title-v1 h2:after,
 i.icon-bg-u {
-    background: #4765a0
-}
-.btn-u {
     background: #4765a0
 }
 body.dark p,

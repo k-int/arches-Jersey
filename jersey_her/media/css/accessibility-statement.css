@@ -1,0 +1,35 @@
+.jersey-her-statement {
+    padding-left: 20px;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom: 50px;
+}
+
+.jersey-her-statement a {
+    color: #337ab7;
+}
+
+.jersey-her-statement-title {
+    color: #2c3647;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+h2.jersey-her-statement-title {
+    font-size: 2.0rem;
+    margin-bottom: 15px;
+}
+
+.jersey-her-statement-description {
+    font-size: 14px;
+    color: #2c3647;
+    font-weight: 500;
+}
+
+.plugin-main {
+    overflow: auto;
+    background-color: #fff;
+}

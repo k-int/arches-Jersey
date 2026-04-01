@@ -16,17 +16,17 @@ class Migration(migrations.Migration):
             permission_id)
         values (
             '289685d5-4d0a-4dbd-8107-78447cab67b9',
-            53,
+            51,
             8,
-            213); 
+            205); 
     """
 
     remove_accessibility_statement_perms = """
         delete from guardian_groupobjectpermission where 
         object_pk = '289685d5-4d0a-4dbd-8107-78447cab67b9' and
-        content_type_id = 53 and
+        content_type_id = 51 and
         group_id = 8 and
-        permission_id = 213;
+        permission_id = 205;
     """
 
     operations = [

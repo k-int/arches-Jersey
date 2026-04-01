@@ -176,7 +176,7 @@ h6 {
     line-height: 40px;
     padding: 10px 50px;
     text-align: center;
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.6);
 }
 .rs-caption-2:after {
     left: 50%;
@@ -243,10 +243,10 @@ a:hover {
 }
 .one-page-header {
     border-bottom: none;
-    background: rgba(0, 0, 0, .4)
+    background: rgba(0, 0, 0, .6)
 }
 .one-page-header .navbar-nav>li>a {
-    color: #eee;
+    color: white;
     font-size: 12.5px;
     text-transform: uppercase;
     padding: 17px 15px 13px
@@ -303,7 +303,7 @@ a:hover {
 .one-page-header.top-nav-collapse .navbar-brand,
 .one-page-header.top-nav-collapse .navbar-nav>li>a,
 .one-page-header.top-nav-collapse .navbar-nav>li>a:before {
-    color: #777
+    color: black
 }
 .intro-section {
     background: #222

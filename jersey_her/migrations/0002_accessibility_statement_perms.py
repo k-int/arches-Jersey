@@ -10,12 +10,13 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ("models", "11499_add_editlog_resourceinstance_idx"),
+        ("jersey_her", "0001_accessibility_statement_plugin"),
     ]
 
     def add_accessibility_perms(apps, schema_editor):
 
         guest_group = Group.objects.get(name="Guest")
+
         accessibility_plugin = Plugin.objects.get(
             pk="289685d5-4d0a-4dbd-8107-78447cab67b9"
         )

@@ -27,7 +27,7 @@ WEBPACK_LOADER = {
 
 LOCALE_PATHS.insert(0, os.path.join(APP_ROOT, "locale"))
 
-STATIC_ROOT = os.path.join(APP_ROOT, "static")
+STATIC_ROOT = os.path.join(APP_ROOT, "staticfiles")
 STATIC_URL = "/static/"
 
 ARCHES_NAMESPACE_FOR_DATA_EXPORT = "http://localhost:8000/"
@@ -93,6 +93,7 @@ INSTALLED_APPS = (
     "corsheaders",
     "oauth2_provider",
     "django_celery_results",
+    "storages",
     "jersey_her",
 )
 
@@ -297,7 +298,7 @@ CELERY_CHECK_ONLY_INSPECT_BROKER = False
 CANTALOUPE_DIR = os.path.join(ROOT_DIR, "uploadedfiles")
 CANTALOUPE_HTTP_ENDPOINT = "http://localhost:8182/"
 
-ACCESSIBILITY_MODE = False
+ACCESSIBILITY_MODE = True
 
 # By setting RESTRICT_MEDIA_ACCESS to True, media file requests outside of Arches will checked against nodegroup permissions.
 RESTRICT_MEDIA_ACCESS = False

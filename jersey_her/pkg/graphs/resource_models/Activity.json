@@ -1369,8 +1369,8 @@
                                 "string_template": "<Place Address>"
                             },
                             "name": {
-                                "nodegroup_id": "f74db649-e741-11e6-84a6-026d961c88e6",
-                                "string_template": "<Place Address>"
+                                "nodegroup_id": "b9e90911-e741-11e6-84a6-026d961c88e6",
+                                "string_template": "<Name>"
                             }
                         },
                         "triggering_nodegroups": []

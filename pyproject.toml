@@ -24,7 +24,8 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "arches==7.6.20",
+    "arches>=7.6.24,<7.7.0",
+    "redis",
 ]
 version = "0.0.1"
 

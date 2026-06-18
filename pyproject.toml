@@ -26,6 +26,7 @@ requires-python = ">=3.10"
 dependencies = [
     "arches>=7.6.24,<7.7.0",
     "redis",
+    "django-storages==1.14.6",
 ]
 version = "0.0.1"
 

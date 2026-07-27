@@ -2,6 +2,7 @@ from django.db import migrations
 from django.utils.translation import gettext as _
 from arches.app.utils.permission_backend import assign_perm, remove_perm
 from django.contrib.auth.models import Group
+from django.core.cache import caches
 
 
 def add_accessibility_plugin(apps, schema_editor):
@@ -39,6 +40,10 @@ def remove_accessibility_plugin(apps, schema_editor):
     accessibility_plugin = Plugin.objects.get(pk="289685d5-4d0a-4dbd-8107-78447cab67b9")
 
     remove_perm("view_plugin", guest_group, accessibility_plugin)
+
+    user_permission_cache = caches["user_permission"]
+    if user_permission_cache:
+        user_permission_cache.clear()
 
     accessibility_plugin.delete()
 

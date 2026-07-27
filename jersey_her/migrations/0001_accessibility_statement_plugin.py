@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
                 "description": {"en": None},
                 "i18n_properties": ["description"],
             },
-            slug="accessibility-plugin",
+            slug="accessibility",
             sortorder=0,
         )
 

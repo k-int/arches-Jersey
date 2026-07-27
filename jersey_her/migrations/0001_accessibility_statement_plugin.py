@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
         instance = Plugin(
             pluginid="289685d5-4d0a-4dbd-8107-78447cab67b9",
             name={"en": "Accessibility Plugin"},
-            icon="fa fa-share-alt",
+            icon="fa fa-universal-access",
             component="views/components/plugins/accessibility",
             componentname="accessibility",
             config={

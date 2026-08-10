@@ -24,10 +24,10 @@
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Coordinates"
+                        "en": "Spatial Location"
                     },
                     "nodegroup_id": "7227e44a-4c21-11f0-8ef7-0a62e5cb1da9",
-                    "sortorder": null,
+                    "sortorder": 3,
                     "visible": true
                 },
                 {
@@ -282,7 +282,7 @@
                         "en": "Alternative Name"
                     },
                     "nodegroup_id": "82f2dd44-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 5,
+                    "sortorder": 2,
                     "visible": true
                 },
                 {
@@ -340,7 +340,7 @@
                         "en": "Address"
                     },
                     "nodegroup_id": "82f2dd4d-e747-11e6-84a6-026d961c88e6",
-                    "sortorder": 1,
+                    "sortorder": 0,
                     "visible": true
                 },
                 {

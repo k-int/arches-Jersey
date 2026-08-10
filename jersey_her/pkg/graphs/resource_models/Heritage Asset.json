@@ -682,6 +682,53 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
+                    "card_id": "06a1b292-2fe1-40a1-b8bb-aba980f9f7de",
+                    "config": {
+                        "basemap": "OpenStreetMap",
+                        "bearing": 0,
+                        "centerX": -2.038411154086039,
+                        "centerY": 49.1378122543747,
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Coordinates",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": 0
+                    },
+                    "id": "3b9099b6-a5e3-4bde-ae8d-a21d15dccf2d",
+                    "label": {
+                        "en": "Coordinates"
+                    },
+                    "node_id": "7227e44a-4c21-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
                     "card_id": "82f2dd46-e747-11e6-84a6-026d961c88e6",
                     "config": {
                         "defaultValue": {
@@ -1277,7 +1324,7 @@
             ],
             "color": "rgba(240,65,65,1)",
             "config": {
-                "basemap": "streets",
+                "basemap": "OpenStreetMap",
                 "bearing": 0,
                 "centerX": -2.069097385588293,
                 "centerY": 49.209261932339075,
@@ -2407,9 +2454,9 @@
                         "haloRadius": 4,
                         "haloWeight": 4,
                         "layerActivated": true,
-                        "layerIcon": "",
+                        "layerIcon": "fa fa-university",
                         "layerLegend": "",
-                        "layerName": "",
+                        "layerName": "Heritage Asset",
                         "lineColor": "rgba(130, 130, 130, 0.7)",
                         "lineHaloColor": "rgba(200, 200, 200, 0.5)",
                         "outlineColor": "rgba(200, 200, 200, 0.7)",

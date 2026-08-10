@@ -2914,7 +2914,7 @@
             "isresource": true,
             "jsonldcontext": null,
             "name": {
-                "en": "Digital Object"
+                "en": "Digital Files"
             },
             "nodegroups": [
                 {
@@ -4256,7 +4256,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
-                    "name": "Digital Object",
+                    "name": "Digital Files",
                     "nodegroup_id": null,
                     "nodeid": "a535a234-8481-11ea-860b-f875a44e0e11",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object",

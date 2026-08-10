@@ -249,7 +249,7 @@
                         "en": "Parish"
                     },
                     "nodegroup_id": "6b5d6a2a-fd4d-11e6-9e3e-026d961c88e6",
-                    "sortorder": 4,
+                    "sortorder": 1,
                     "visible": true
                 },
                 {
@@ -278,7 +278,7 @@
                         "en": "Spatial Location"
                     },
                     "nodegroup_id": "6b5d6a30-fd4d-11e6-9e3e-026d961c88e6",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true
                 },
                 {
@@ -336,7 +336,7 @@
                         "en": "Address"
                     },
                     "nodegroup_id": "6b5d6a39-fd4d-11e6-9e3e-026d961c88e6",
-                    "sortorder": 3,
+                    "sortorder": 0,
                     "visible": true
                 },
                 {
@@ -644,6 +644,33 @@
                     },
                     "nodegroup_id": "2292af6f-fd55-11e6-9e3e-026d961c88e6",
                     "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "def61c2d-048c-4ede-a143-6fbcee187383",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Alternative Name"
+                    },
+                    "nodegroup_id": "1fa7de7a-4d00-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 2,
                     "visible": true
                 },
                 {
@@ -2261,6 +2288,12 @@
                     "parentnodegroup_id": null
                 },
                 {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "1fa7de7a-4d00-11f0-8ef7-0a62e5cb1da9",
+                    "parentnodegroup_id": "6b5d6a33-fd4d-11e6-9e3e-026d961c88e6"
+                },
+                {
                     "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "224ed940-a358-11f0-89a2-5f51840bb9cd",
@@ -2493,12 +2526,12 @@
                     "fieldname": "alt_name",
                     "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
                     "hascustomalias": false,
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Alternative Name",
-                    "nodegroup_id": "6b5d6a33-fd4d-11e6-9e3e-026d961c88e6",
+                    "nodegroup_id": "1fa7de7a-4d00-11f0-8ef7-0a62e5cb1da9",
                     "nodeid": "1fa7de7a-4d00-11f0-8ef7-0a62e5cb1da9",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by",

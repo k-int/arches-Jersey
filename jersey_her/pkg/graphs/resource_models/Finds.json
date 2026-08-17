@@ -416,7 +416,7 @@
                     },
                     "is_editable": false,
                     "name": {
-                        "en": "Discovery"
+                        "en": "Discovery Context"
                     },
                     "nodegroup_id": "93a3a61b-fd59-11e6-9e3e-026d961c88e6",
                     "sortorder": 8,

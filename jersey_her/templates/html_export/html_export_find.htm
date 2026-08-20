@@ -88,7 +88,7 @@
 
             {% for attributes in resource_data|val_from_key:"Physical Attributes" %}
             <div class="keeptogether">
-               <h3>Dimensions</h3>
+               <h3>Dimensions and Weight</h3>
                <p>{{attributes|val_from_key:"Measurement Event"|val_from_key:"Measurement"|val_from_key:"Dimensions"|val_from_key:"@display_value"}}</p>
             </div>
             <div class="keeptogether">

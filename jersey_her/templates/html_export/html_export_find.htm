@@ -159,6 +159,11 @@
                <p>{{ resource_data|val_from_key:"Discovery"|val_from_key:"Discovery Event"|val_from_key:"Identifier"|val_from_key:"Identifier Names"|val_from_key:"Identifier Name"|val_from_key:"@display_value" }}</p>
             </div>
 
+            <div class="keeptogether">
+               <h3>Found By</h3>
+               <p>{{ resource_data|val_from_key:"Discovery"|val_from_key:"Discovery Event"|val_from_key:"Finder"|val_from_key:"Finder Names"|val_from_key:"Finder Name"|val_from_key:"@display_value" }}</p>
+            </div>
+
             
 
          {% endwith %}

@@ -15,7 +15,6 @@ urlpatterns = [
     re_path(r"^je$", index_je, name="home_jerrais"),
     path("resource_count/", resource_count),
     re_path(r"^cookie_policy", CookiePolicy.as_view(), name="cookie_policy"),
-    re_path(r"^html_export_find$", html_export_find, name="html_export_find"),
 ]
 
 # Adds URL pattern to serve media files during development

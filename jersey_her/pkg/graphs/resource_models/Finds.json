@@ -703,6 +703,28 @@
             ],
             "cards_x_nodes_x_widgets": [
                 {
+                    "card_id": "52b193e0-3391-4529-98e3-25a902c3e45c",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Measurement Unit Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "21c15bb4-9d60-45d2-a92a-f926c5963ac1",
+                    "label": {
+                        "en": "Measurement Unit Type"
+                    },
+                    "node_id": "11c2eb60-9c87-11f1-8ef7-0a62e5cb1da9",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
                     "card_id": "ce6e367f-fd4d-11e6-9e3e-026d961c88e6",
                     "config": {
                         "defaultValue": {
@@ -799,6 +821,35 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "52b193e0-3391-4529-98e3-25a902c3e45c",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dimensions",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%%"
+                    },
+                    "id": "42cbc811-4a71-4e63-9d48-49d6be68e0e4",
+                    "label": {
+                        "en": "Dimensions"
+                    },
+                    "node_id": "a13c8b34-4d23-11f0-8ef7-0a62e5cb1da9",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "4390d121-4ca0-11e9-8ffe-026c82e517fe",
@@ -928,6 +979,28 @@
                         "en": "Archaeological Object Type Certainty"
                     },
                     "node_id": "b712af7a-fd4d-11e6-9e3e-026d961c88e6",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "52b193e0-3391-4529-98e3-25a902c3e45c",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Measurement Unit",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "4eba1380-67e0-42cf-903a-946794a34fa1",
+                    "label": {
+                        "en": "Measurement Unit"
+                    },
+                    "node_id": "ec60e98e-4d23-11f0-8ef7-0a62e5cb1da9",
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
@@ -1977,6 +2050,15 @@
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at",
                     "rangenode_id": "13dc5f1f-f4b8-11ed-86a3-39070cdd3feb"
                 },
+                {
+                    "description": null,
+                    "domainnode_id": "ec60e98e-4d23-11f0-8ef7-0a62e5cb1da9",
+                    "edgeid": "85af7f0e-ceab-4c63-9cfd-f315942d4e97",
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "11c2eb60-9c87-11f1-8ef7-0a62e5cb1da9"
+                },
                                 {
                     "description": null,
                     "domainnode_id": "224ed940-a358-11f0-89a2-5f51840bb9cd",
@@ -2482,6 +2564,29 @@
                     "nodeid": "0f5cad92-4db5-11f0-8ef7-0a62e5cb1da9",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "measurement_unit_type",
+                    "config": {
+                        "rdmCollection": "11cd7e8e-4c49-4e1a-86be-6e6644496dfa"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "unit_type",
+                    "graph_id": "3af584c3-fd4d-11e6-9e3e-026d961c88e6",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Measurement Unit Type",
+                    "nodegroup_id": "8c11c580-4d23-11f0-8ef7-0a62e5cb1da9",
+                    "nodeid": "11c2eb60-9c87-11f1-8ef7-0a62e5cb1da9",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },

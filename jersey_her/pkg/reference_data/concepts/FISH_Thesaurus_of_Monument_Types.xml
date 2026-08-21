@@ -15035,7 +15035,7 @@
       <skos:Concept rdf:about="http://localhost:8000/544250b4-12c0-4ddf-bf12-4ad30c8a3a69">
         <skos:prefLabel xml:lang="en">{"id": "c4af61f6-72c4-4fe6-82f9-026c1e4a412c", "value": "Megalith"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://localhost:8000/844b63f0-27e3-358d-9362-147379fc3420"/>
-        <dcterms:identifier xml:lang="en">{"id": "30f130a6-d9de-482f-8827-60896438f7fa", "value": "http://18.134.182.25544250b4-12c0-4ddf-bf12-4ad30c8a3a69"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "30f130a6-d9de-482f-8827-60896438f7fa", "value": "http://localhost:8000/544250b4-12c0-4ddf-bf12-4ad30c8a3a69"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower rdf:resource="http://localhost:8000/7db14b08-b2a6-302b-88a5-bd3e78528aff"/>
@@ -15491,7 +15491,7 @@
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://localhost:8000/fcbdb793-c5e5-4964-9189-4462ee189530">
-        <dcterms:identifier xml:lang="en">{"id": "fbd9221f-4d9b-4284-b364-e3c1122cab81", "value": "http://18.134.182.25fcbdb793-c5e5-4964-9189-4462ee189530"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "fbd9221f-4d9b-4284-b364-e3c1122cab81", "value": "http://localhost:8000/fcbdb793-c5e5-4964-9189-4462ee189530"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://localhost:8000/844b63f0-27e3-358d-9362-147379fc3420"/>
         <skos:prefLabel xml:lang="en">{"id": "363cbce4-69b7-4c76-bb02-c2e90161f07a", "value": "Menhir"}</skos:prefLabel>
       </skos:Concept>
@@ -29555,7 +29555,7 @@
       <skos:Concept rdf:about="http://localhost:8000/01aba1d7-f32d-4858-85be-fd6026e93506">
         <skos:prefLabel xml:lang="en">{"id": "d2fc3151-0a61-41c6-970d-a45f24619e37", "value": "Evangelical Chapel"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://localhost:8000/844b63f0-27e3-358d-9362-147379fc3420"/>
-        <dcterms:identifier xml:lang="en">{"id": "963dbb3d-0c06-45c8-a8d2-cd7a50d58407", "value": "http://18.134.182.2501aba1d7-f32d-4858-85be-fd6026e93506"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "963dbb3d-0c06-45c8-a8d2-cd7a50d58407", "value": "http://localhost:8000/01aba1d7-f32d-4858-85be-fd6026e93506"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
     <skos:altLabel xml:lang="en">{"id": "3c9f5f6c-0c6c-4f57-aa3d-afd7c633590f", "value": "Almshouse Chapel"}</skos:altLabel>
@@ -29563,7 +29563,7 @@
     <skos:narrower>
       <skos:Concept rdf:about="http://localhost:8000/58ceddaf-5b2f-49c2-a382-c11b7dad36e5">
         <skos:prefLabel xml:lang="en">{"id": "88593722-b9f5-49e6-b8cc-df2530a0afdb", "value": "Independent Chapel"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "ce4474d8-7f1b-4c81-94a1-9e2495bafe98", "value": "http://18.134.182.2558ceddaf-5b2f-49c2-a382-c11b7dad36e5"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "ce4474d8-7f1b-4c81-94a1-9e2495bafe98", "value": "http://localhost:8000/58ceddaf-5b2f-49c2-a382-c11b7dad36e5"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://localhost:8000/844b63f0-27e3-358d-9362-147379fc3420"/>
       </skos:Concept>
     </skos:narrower>
@@ -31418,7 +31418,7 @@
       <skos:Concept rdf:about="http://localhost:8000/8c374848-fe83-46c8-8d0d-c74aec4146f7">
         <skos:prefLabel xml:lang="en">{"id": "fbfddc5b-e461-4f94-af4a-2f0e8d23919e", "value": "Stone Crushing Plant (German)"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://localhost:8000/844b63f0-27e3-358d-9362-147379fc3420"/>
-        <dcterms:identifier xml:lang="en">{"id": "c0debe42-97be-4584-90d4-a907e529745a", "value": "http://18.134.182.258c374848-fe83-46c8-8d0d-c74aec4146f7"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "c0debe42-97be-4584-90d4-a907e529745a", "value": "http://localhost:8000/8c374848-fe83-46c8-8d0d-c74aec4146f7"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower rdf:resource="http://localhost:8000/460d7c83-988a-4708-9034-c5c471e2af04"/>
@@ -31497,14 +31497,14 @@
       <skos:Concept rdf:about="http://localhost:8000/1ba451b3-d1ad-40da-af54-2efdeec8566a">
         <skos:inScheme rdf:resource="http://localhost:8000/844b63f0-27e3-358d-9362-147379fc3420"/>
         <skos:prefLabel xml:lang="en">{"id": "c93bc5bf-c30e-4e0e-936c-d19641c92e80", "value": "Decoy Battery (German)"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "ebc695c4-139c-45a3-b154-f47ccc3b39c8", "value": "http://18.134.182.251ba451b3-d1ad-40da-af54-2efdeec8566a"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "ebc695c4-139c-45a3-b154-f47ccc3b39c8", "value": "http://localhost:8000/1ba451b3-d1ad-40da-af54-2efdeec8566a"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://localhost:8000/aac14988-c857-402b-89ae-3bb65c346605">
         <skos:inScheme rdf:resource="http://localhost:8000/844b63f0-27e3-358d-9362-147379fc3420"/>
         <skos:prefLabel xml:lang="en">{"id": "b3d23f4f-8fbf-4b04-b1eb-033bce89ba1b", "value": "Organisation Todt Labour Camp (German)"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "4dec7c99-0948-4442-b2a0-e078d6fe5646", "value": "http://18.134.182.25aac14988-c857-402b-89ae-3bb65c346605"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "4dec7c99-0948-4442-b2a0-e078d6fe5646", "value": "http://localhost:8000/aac14988-c857-402b-89ae-3bb65c346605"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -48363,7 +48363,7 @@
     <skos:prefLabel xml:lang="en">{"id": "8109b5e4-33cc-4945-9648-6168d101ace0", "value": "Passive Air Defence Site"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/aca220f6-1fdf-47e2-b3a8-d029cbd75513">
-    <dcterms:identifier xml:lang="en">{"id": "92d5b18b-786b-4e75-b1cd-571dde3b8b6a", "value": "http://18.134.182.25aca220f6-1fdf-47e2-b3a8-d029cbd75513"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "92d5b18b-786b-4e75-b1cd-571dde3b8b6a", "value": "http://localhost:8000/aca220f6-1fdf-47e2-b3a8-d029cbd75513"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "201a3965-f23c-474e-bdd5-1043ce6ca422", "value": "Firing Range (German)"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/844b63f0-27e3-358d-9362-147379fc3420"/>
   </skos:Concept>

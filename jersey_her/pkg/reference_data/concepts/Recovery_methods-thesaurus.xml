@@ -5,7 +5,7 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <skos:Concept rdf:about="http://localhost:8000/1f252bee-0f63-4e88-b1ed-de39d22fd824">
-    <dcterms:identifier xml:lang="en">{"id": "68c25ce4-3b9a-4839-b0e1-ee37a52fdf2b", "value": "http://18.134.182.251f252bee-0f63-4e88-b1ed-de39d22fd824"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "68c25ce4-3b9a-4839-b0e1-ee37a52fdf2b", "value": "http://localhost:8000/1f252bee-0f63-4e88-b1ed-de39d22fd824"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "c98b0c84-424e-418a-9688-94174175a36a", "value": "Magnet fishing"}</skos:prefLabel>
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65">
@@ -27,57 +27,57 @@
     </skos:inScheme>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/073ff9a9-868e-4d8f-b788-da1d6f6c1b41">
-    <dcterms:identifier xml:lang="en">{"id": "61bcd150-f428-4718-9d0b-a4c7f0aedfb4", "value": "http://18.134.182.25073ff9a9-868e-4d8f-b788-da1d6f6c1b41"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "61bcd150-f428-4718-9d0b-a4c7f0aedfb4", "value": "http://localhost:8000/073ff9a9-868e-4d8f-b788-da1d6f6c1b41"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "1f638207-0337-4922-b693-0ff9bbc2a23c", "value": "Metal detector during controlled archaeological investigation"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/71723ab0-ef18-4de4-b80f-27b979b12e64">
-    <dcterms:identifier xml:lang="en">{"id": "43f1b050-2a36-45a3-b467-de67ea1ca1b9", "value": "http://18.134.182.2571723ab0-ef18-4de4-b80f-27b979b12e64"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "43f1b050-2a36-45a3-b467-de67ea1ca1b9", "value": "http://localhost:8000/71723ab0-ef18-4de4-b80f-27b979b12e64"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
     <skos:prefLabel xml:lang="en">{"id": "86907ed3-a98c-4db4-aa4c-2f3509c67abd", "value": "Diving"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/6d33a15b-3904-49c3-8313-0b00b0b7ead2">
     <skos:prefLabel xml:lang="en">{"id": "ffd55fd1-46c1-4e12-965f-c611eaf579dc", "value": "Metal detector"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "a3a305e0-e6cf-4fa2-ae95-c821d31918e3", "value": "http://18.134.182.256d33a15b-3904-49c3-8313-0b00b0b7ead2"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "a3a305e0-e6cf-4fa2-ae95-c821d31918e3", "value": "http://localhost:8000/6d33a15b-3904-49c3-8313-0b00b0b7ead2"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/aae4cc61-da78-431e-a6ce-fdf7a9fad82d">
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
-    <dcterms:identifier xml:lang="en">{"id": "1a9b6eba-3f96-4480-bd4f-9be142e6aee4", "value": "http://18.134.182.25aae4cc61-da78-431e-a6ce-fdf7a9fad82d"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "1a9b6eba-3f96-4480-bd4f-9be142e6aee4", "value": "http://localhost:8000/aae4cc61-da78-431e-a6ce-fdf7a9fad82d"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "efc7df7b-637a-4735-9797-83246dc45a08", "value": "Building work"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/08074fb2-ebae-4cef-b3aa-54872ce6a392">
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
     <skos:prefLabel xml:lang="en">{"id": "426bbc34-58b1-4ee8-b5d3-601c996d468e", "value": "Fieldwalking"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "bfd460ce-e2e8-474a-8bf9-f95359632a57", "value": "http://18.134.182.2508074fb2-ebae-4cef-b3aa-54872ce6a392"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "bfd460ce-e2e8-474a-8bf9-f95359632a57", "value": "http://localhost:8000/08074fb2-ebae-4cef-b3aa-54872ce6a392"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/e8a9ef1b-191c-4c3a-b0be-48fed09c1435">
     <skos:prefLabel xml:lang="en">{"id": "47b0eb5a-84c2-4f02-a630-264becac2ed5", "value": "Unknown"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "a7c515cb-1256-4649-a24c-c8807c0f05e9", "value": "http://18.134.182.25e8a9ef1b-191c-4c3a-b0be-48fed09c1435"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "a7c515cb-1256-4649-a24c-c8807c0f05e9", "value": "http://localhost:8000/e8a9ef1b-191c-4c3a-b0be-48fed09c1435"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/dc7b7236-2b29-48d0-9398-49386c3b8253">
-    <dcterms:identifier xml:lang="en">{"id": "4d459e61-3b3f-40e1-89c1-f80c1a5a8636", "value": "http://18.134.182.25dc7b7236-2b29-48d0-9398-49386c3b8253"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "4d459e61-3b3f-40e1-89c1-f80c1a5a8636", "value": "http://localhost:8000/dc7b7236-2b29-48d0-9398-49386c3b8253"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
     <skos:prefLabel xml:lang="en">{"id": "71e3d67c-cf2c-4c97-8ec3-fc6b37904ace", "value": "Agricultural or drainage work"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/d6792f68-e991-4209-ad97-e783f0bff0ed">
-    <dcterms:identifier xml:lang="en">{"id": "fe596b27-c453-4d8f-a09b-b4f09a8c8121", "value": "http://18.134.182.25d6792f68-e991-4209-ad97-e783f0bff0ed"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "fe596b27-c453-4d8f-a09b-b4f09a8c8121", "value": "http://localhost:8000/d6792f68-e991-4209-ad97-e783f0bff0ed"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
     <skos:prefLabel xml:lang="en">{"id": "c4ac8005-9810-49b9-8019-c42a3dd5a316", "value": "Controlled archaeological investigation"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/c1b61ed3-bad4-486a-a680-c69ed3e60320">
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
-    <dcterms:identifier xml:lang="en">{"id": "ccb67f0d-a481-4ae4-915f-3e1534108bd0", "value": "http://18.134.182.25c1b61ed3-bad4-486a-a680-c69ed3e60320"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "ccb67f0d-a481-4ae4-915f-3e1534108bd0", "value": "http://localhost:8000/c1b61ed3-bad4-486a-a680-c69ed3e60320"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "42d524f0-7a6e-4f02-b63c-c0ad28fee34f", "value": "Other chance find"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/dec3271b-dade-4183-8d4d-ef25ce18ca8f">
-    <dcterms:identifier xml:lang="en">{"id": "774ddc90-e861-4a64-9b69-f650220b86a2", "value": "http://18.134.182.25dec3271b-dade-4183-8d4d-ef25ce18ca8f"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "774ddc90-e861-4a64-9b69-f650220b86a2", "value": "http://localhost:8000/dec3271b-dade-4183-8d4d-ef25ce18ca8f"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "618fda5b-2626-4a3e-a95d-68a0ef23e039", "value": "Chance find during metal detecting"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/fc463deb-601d-4027-919c-125ec38fcb42">
-    <dcterms:identifier xml:lang="en">{"id": "d592a89c-4580-4d92-868b-6654f3e6ff3d", "value": "http://18.134.182.25fc463deb-601d-4027-919c-125ec38fcb42"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "d592a89c-4580-4d92-868b-6654f3e6ff3d", "value": "http://localhost:8000/fc463deb-601d-4027-919c-125ec38fcb42"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/8c858817-52bd-41ed-88bc-d723b7f43d65"/>
     <skos:prefLabel xml:lang="en">{"id": "8a9b825e-7729-4d48-9d73-650e04449888", "value": "Gardening"}</skos:prefLabel>
   </skos:Concept>

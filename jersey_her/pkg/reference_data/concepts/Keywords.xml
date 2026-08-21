@@ -22,7 +22,7 @@
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://localhost:8000/0698ff50-4744-47e5-89f6-6eefbf688f7d">
         <skos:prefLabel xml:lang="en">{"id": "6a29dbf1-559a-4bf7-860b-83c34a1f54b8", "value": "Norman Heritage"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "e1ec7b71-2a2d-4503-9fa3-0213aea6bc45", "value": "http://18.134.182.250698ff50-4744-47e5-89f6-6eefbf688f7d"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "e1ec7b71-2a2d-4503-9fa3-0213aea6bc45", "value": "http://localhost:8000/0698ff50-4744-47e5-89f6-6eefbf688f7d"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://localhost:8000/5db3527e-745d-4ffc-9d1f-a47544603c15"/>
       </skos:Concept>
     </skos:hasTopConcept>

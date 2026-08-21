@@ -73,7 +73,7 @@
     <skos:inScheme rdf:resource="http://localhost:8000/d8074f50-8378-4d05-a251-5ee898686e2f"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/fe7ab47b-5a1d-4383-823c-9458d8e7472f">
-    <dcterms:identifier xml:lang="en">{"id": "25df5300-2ef1-4ab4-8027-42e0bd98a9ba", "value": "http://18.134.182.25fe7ab47b-5a1d-4383-823c-9458d8e7472f"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "25df5300-2ef1-4ab4-8027-42e0bd98a9ba", "value": "http://localhost:8000/fe7ab47b-5a1d-4383-823c-9458d8e7472f"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "d2f14a45-3869-491a-b0bd-80ce6d77b6de", "value": "J\u00e8rriais"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/d8074f50-8378-4d05-a251-5ee898686e2f"/>
   </skos:Concept>

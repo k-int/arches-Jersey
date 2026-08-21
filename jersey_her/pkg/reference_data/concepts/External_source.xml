@@ -23,7 +23,7 @@
     <skos:prefLabel xml:lang="en">{"id": "ef255633-4830-49a4-b55b-d0c0c8bbad44", "value": "Government of Jersey"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/1dbf73d9-3952-4415-b7b1-b58dc462798b">
-    <dcterms:identifier xml:lang="en">{"id": "f6ad5cfc-09c3-473d-94c9-c372d216c451", "value": "http://18.134.182.251dbf73d9-3952-4415-b7b1-b58dc462798b"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "f6ad5cfc-09c3-473d-94c9-c372d216c451", "value": "http://localhost:8000/1dbf73d9-3952-4415-b7b1-b58dc462798b"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/f8f84a5f-c2f3-410a-b3b7-6662d32fc9be"/>
     <skos:prefLabel xml:lang="en">{"id": "60a9a427-022c-4d8e-8378-51f7108f7a7e", "value": "States of Jersey"}</skos:prefLabel>
   </skos:Concept>

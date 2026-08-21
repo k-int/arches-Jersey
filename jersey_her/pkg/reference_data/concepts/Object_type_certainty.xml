@@ -15,7 +15,7 @@
         <dcterms:identifier xml:lang="en">{"id": "a30b2550-6216-4060-b5d9-0b236bd2a4c1", "value": "http://localhost:8000/80c6d1c8-17cd-459e-bca4-0bf8a205f014"}</dcterms:identifier>
       </skos:ConceptScheme>
     </skos:inScheme>
-    <dcterms:identifier xml:lang="en">{"id": "67849396-f66b-487e-b1a0-2db13879559d", "value": "http://18.134.182.25d583ad20-1640-4d51-b0cc-adc6c33d5bd2"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "67849396-f66b-487e-b1a0-2db13879559d", "value": "http://localhost:8000/d583ad20-1640-4d51-b0cc-adc6c33d5bd2"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/f534f20f-b5cb-422f-84e4-dedfd9174db2">
     <skos:inScheme rdf:resource="http://localhost:8000/80c6d1c8-17cd-459e-bca4-0bf8a205f014"/>

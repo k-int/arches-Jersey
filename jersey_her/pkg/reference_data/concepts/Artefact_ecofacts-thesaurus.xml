@@ -119,7 +119,7 @@
       <skos:Concept rdf:about="http://localhost:8000/ef7f5f6a-d825-4129-b70b-606818c93602">
         <skos:inScheme rdf:resource="http://localhost:8000/4167bfd7-6dd4-498d-b94d-995894028e91"/>
         <skos:prefLabel xml:lang="en">{"id": "6239b92a-24b2-4393-a7a2-9c002975bb4b", "value": "Human skeletal material"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "5d1001ac-ee71-44a8-a9f7-f1e8cf136372", "value": "http://18.134.182.25ef7f5f6a-d825-4129-b70b-606818c93602"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "5d1001ac-ee71-44a8-a9f7-f1e8cf136372", "value": "http://localhost:8000/ef7f5f6a-d825-4129-b70b-606818c93602"}</dcterms:identifier>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>

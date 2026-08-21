@@ -18,67 +18,67 @@
         <skos:hasTopConcept rdf:resource="http://localhost:8000/4a16492f-43ad-4cf9-a09e-0de7a55d8a28"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/a5c9600f-3d41-4705-bc7c-fa7852fdd26b"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/896dcb5f-f16c-4576-a269-b587d69975e2"/>
-        <dcterms:identifier xml:lang="en">{"id": "eeb7e430-c41f-400e-9047-65b5fe6f6b63", "value": "http://18.134.182.257c30e204-22d5-4af9-a04e-416371a42be2"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "eeb7e430-c41f-400e-9047-65b5fe6f6b63", "value": "http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"}</dcterms:identifier>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/952e61a2-8736-4956-96ce-f045ef2adde7"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/09743f33-2a4e-4088-b3eb-98111efe2197"/>
       </skos:ConceptScheme>
     </skos:inScheme>
-    <dcterms:identifier xml:lang="en">{"id": "bd85b26c-7327-47de-ba6c-848e0839a94c", "value": "http://18.134.182.25e21c5ecf-c648-4383-8d52-3bcd34ba0b26"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "bd85b26c-7327-47de-ba6c-848e0839a94c", "value": "http://localhost:8000/e21c5ecf-c648-4383-8d52-3bcd34ba0b26"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "7393a272-0fbc-43b9-ad56-9308dbab5261", "value": "St. Brelade"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/a40dfaca-d665-42f6-9f9a-3c917ec9d25f">
-    <dcterms:identifier xml:lang="en">{"id": "15a74b64-2837-4c20-b857-9c5485f9b410", "value": "http://18.134.182.25a40dfaca-d665-42f6-9f9a-3c917ec9d25f"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "15a74b64-2837-4c20-b857-9c5485f9b410", "value": "http://localhost:8000/a40dfaca-d665-42f6-9f9a-3c917ec9d25f"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "4477c359-b45f-4aec-8300-276a512e95a4", "value": "St. Ouen"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/7b9d5384-8266-4b11-8070-7db6c257b6c1">
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
     <skos:prefLabel xml:lang="en">{"id": "4e55d24d-4d50-47b4-8b06-ce090d5aa38c", "value": "St. John"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "b7607e2e-59d8-4e70-971c-06a955138a24", "value": "http://18.134.182.257b9d5384-8266-4b11-8070-7db6c257b6c1"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "b7607e2e-59d8-4e70-971c-06a955138a24", "value": "http://localhost:8000/7b9d5384-8266-4b11-8070-7db6c257b6c1"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/4a16492f-43ad-4cf9-a09e-0de7a55d8a28">
-    <dcterms:identifier xml:lang="en">{"id": "1847d04b-4b71-4825-b9cd-9c085b2490ff", "value": "http://18.134.182.254a16492f-43ad-4cf9-a09e-0de7a55d8a28"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "1847d04b-4b71-4825-b9cd-9c085b2490ff", "value": "http://localhost:8000/4a16492f-43ad-4cf9-a09e-0de7a55d8a28"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "d3ac002b-a6f5-47b5-adef-7718266ce5e9", "value": "St. Saviour"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/759e2f46-ef24-48e8-9248-c5c284c6780d">
-    <dcterms:identifier xml:lang="en">{"id": "13418f17-8298-4f92-82cb-3093be536c8b", "value": "http://18.134.182.25759e2f46-ef24-48e8-9248-c5c284c6780d"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "13418f17-8298-4f92-82cb-3093be536c8b", "value": "http://localhost:8000/759e2f46-ef24-48e8-9248-c5c284c6780d"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
     <skos:prefLabel xml:lang="en">{"id": "01eae806-03a4-4ea6-b0f9-c165b34d1168", "value": "St. Clement"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/90f8b53a-3e36-4e15-9916-8f70e2257b64">
     <skos:prefLabel xml:lang="en">{"id": "01150bb9-a2a2-4bf7-952a-8b781ae9cefe", "value": "St. Helier"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "62470dc9-4b5c-422b-a38b-4b304a1cd1ae", "value": "http://18.134.182.2590f8b53a-3e36-4e15-9916-8f70e2257b64"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "62470dc9-4b5c-422b-a38b-4b304a1cd1ae", "value": "http://localhost:8000/90f8b53a-3e36-4e15-9916-8f70e2257b64"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/d4bdf4fe-5d01-47fb-b790-20328b74b559">
-    <dcterms:identifier xml:lang="en">{"id": "e4fddee5-e486-4ccc-b902-c15a0c490422", "value": "http://18.134.182.25d4bdf4fe-5d01-47fb-b790-20328b74b559"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "e4fddee5-e486-4ccc-b902-c15a0c490422", "value": "http://localhost:8000/d4bdf4fe-5d01-47fb-b790-20328b74b559"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "b957a227-2420-41d9-a3cb-9da536ab40a9", "value": "Grouville"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/952e61a2-8736-4956-96ce-f045ef2adde7">
     <skos:prefLabel xml:lang="en">{"id": "700da36c-f584-47d2-a673-afcf3f893c07", "value": "St. Peter"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "3808fa39-1509-41ce-8a18-8962ec6348f0", "value": "http://18.134.182.25952e61a2-8736-4956-96ce-f045ef2adde7"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "3808fa39-1509-41ce-8a18-8962ec6348f0", "value": "http://localhost:8000/952e61a2-8736-4956-96ce-f045ef2adde7"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/896dcb5f-f16c-4576-a269-b587d69975e2">
     <skos:prefLabel xml:lang="en">{"id": "9847a6dc-e816-4df7-a3fa-5e40743b1095", "value": "Trinity"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "753f9630-7b2b-465b-9fa9-ffbdf9a4a597", "value": "http://18.134.182.25896dcb5f-f16c-4576-a269-b587d69975e2"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "753f9630-7b2b-465b-9fa9-ffbdf9a4a597", "value": "http://localhost:8000/896dcb5f-f16c-4576-a269-b587d69975e2"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/09743f33-2a4e-4088-b3eb-98111efe2197">
     <skos:prefLabel xml:lang="en">{"id": "e4263957-4ef0-4ecb-8047-e7f674e9a49a", "value": "St. Martin"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
-    <dcterms:identifier xml:lang="en">{"id": "2f6cc587-5a79-4244-bb34-97d8474f234d", "value": "http://18.134.182.2509743f33-2a4e-4088-b3eb-98111efe2197"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "2f6cc587-5a79-4244-bb34-97d8474f234d", "value": "http://localhost:8000/09743f33-2a4e-4088-b3eb-98111efe2197"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/de5bf48a-bc6a-40f3-b66a-3a01f1ff5eb4">
     <skos:prefLabel xml:lang="en">{"id": "923bdce9-a622-469d-902f-1c13932e450f", "value": "St. Mary"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
-    <dcterms:identifier xml:lang="en">{"id": "35d6ede4-aacd-4ffb-9499-4a40ee08a52d", "value": "http://18.134.182.25de5bf48a-bc6a-40f3-b66a-3a01f1ff5eb4"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "35d6ede4-aacd-4ffb-9499-4a40ee08a52d", "value": "http://localhost:8000/de5bf48a-bc6a-40f3-b66a-3a01f1ff5eb4"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/a5c9600f-3d41-4705-bc7c-fa7852fdd26b">
     <skos:prefLabel xml:lang="en">{"id": "09a94a10-81d0-4760-a6d6-eeceaafb3eed", "value": "St. Lawrence"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/7c30e204-22d5-4af9-a04e-416371a42be2"/>
-    <dcterms:identifier xml:lang="en">{"id": "05fc1fce-aac4-4e41-ad3c-b0454cc9bc27", "value": "http://18.134.182.25a5c9600f-3d41-4705-bc7c-fa7852fdd26b"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "05fc1fce-aac4-4e41-ad3c-b0454cc9bc27", "value": "http://localhost:8000/a5c9600f-3d41-4705-bc7c-fa7852fdd26b"}</dcterms:identifier>
   </skos:Concept>
 </rdf:RDF>

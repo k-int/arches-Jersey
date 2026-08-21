@@ -43,7 +43,7 @@
     <dcterms:identifier xml:lang="en">{"id": "26a85f7d-603e-43ae-bbc1-bf55b04a9ead", "value": "http://localhost:8000/46c74db5-10cc-4566-bd39-7c8e58d9d5cf"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/c0e59313-0f5d-4345-a0d0-cf036246ef62">
-    <dcterms:identifier xml:lang="en">{"id": "9fe52f5f-f129-4688-9498-89303b46d350", "value": "http://18.134.182.25c0e59313-0f5d-4345-a0d0-cf036246ef62"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "9fe52f5f-f129-4688-9498-89303b46d350", "value": "http://localhost:8000/c0e59313-0f5d-4345-a0d0-cf036246ef62"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "7318d2fb-1e57-4cfa-b1ed-4be3ef19e31e", "value": "Moulded"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/3e717e14-78b1-4915-bef7-f23d89aa9b50"/>
   </skos:Concept>

@@ -31,7 +31,7 @@
     <skos:hasTopConcept>
       <skos:Concept rdf:about="http://localhost:8000/ad975788-d728-43d6-8707-ee74ba1b4fcf">
         <skos:prefLabel xml:lang="en">{"id": "e0eadf20-e366-4fbc-968d-093985c5638c", "value": "Area of Archaeological Potential"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "0df8ed6b-aab9-4bf0-a19f-b8207a73101b", "value": "http://18.134.182.25ad975788-d728-43d6-8707-ee74ba1b4fcf"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "0df8ed6b-aab9-4bf0-a19f-b8207a73101b", "value": "http://localhost:8000/ad975788-d728-43d6-8707-ee74ba1b4fcf"}</dcterms:identifier>
         <skos:inScheme rdf:resource="http://localhost:8000/8546598b-70e9-42c1-ae65-0b4d6e0bb429"/>
       </skos:Concept>
     </skos:hasTopConcept>

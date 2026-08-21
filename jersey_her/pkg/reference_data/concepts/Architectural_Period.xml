@@ -18,55 +18,55 @@
         <skos:hasTopConcept rdf:resource="http://localhost:8000/2635431d-3e1f-4770-bbc0-4279054dd35f"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/7c0ef770-32be-4480-96ed-20274f5e3f9b"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/ae20a189-4fc5-4b0f-ae1b-72c382f3eae5"/>
-        <dcterms:identifier xml:lang="en">{"id": "9ccd5f0f-589e-4d98-976c-406dcbf1d68f", "value": "http://18.134.182.25e7151a70-1aaa-4e63-8850-9087e0f555cd"}</dcterms:identifier>
+        <dcterms:identifier xml:lang="en">{"id": "9ccd5f0f-589e-4d98-976c-406dcbf1d68f", "value": "http://localhost:8000/e7151a70-1aaa-4e63-8850-9087e0f555cd"}</dcterms:identifier>
       </skos:ConceptScheme>
     </skos:inScheme>
-    <dcterms:identifier xml:lang="en">{"id": "99550832-2dbd-4043-ad41-f8151002c617", "value": "http://18.134.182.25851b6b76-00a0-4808-8a56-c9adff56b95d"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "99550832-2dbd-4043-ad41-f8151002c617", "value": "http://localhost:8000/851b6b76-00a0-4808-8a56-c9adff56b95d"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "789a34f1-b294-43ff-a43e-a4b96e1ef214", "value": "Stuart 1603-1714 CE"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/6b6f815b-3b89-4dfb-bba9-3cb61dbf2325">
     <skos:inScheme rdf:resource="http://localhost:8000/e7151a70-1aaa-4e63-8850-9087e0f555cd"/>
     <skos:prefLabel xml:lang="en">{"id": "469408d8-9eb8-4f0c-a19c-d09b663b0749", "value": "Tudor and Elizabethan 1485-1603 CE"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "0660fc43-9679-4dcb-8cdf-791369ca37e6", "value": "http://18.134.182.256b6f815b-3b89-4dfb-bba9-3cb61dbf2325"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "0660fc43-9679-4dcb-8cdf-791369ca37e6", "value": "http://localhost:8000/6b6f815b-3b89-4dfb-bba9-3cb61dbf2325"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/12a17241-d966-4b8c-9354-a3e69e9c28c7">
     <skos:inScheme rdf:resource="http://localhost:8000/e7151a70-1aaa-4e63-8850-9087e0f555cd"/>
     <skos:prefLabel xml:lang="en">{"id": "6e0906f3-d974-4c13-972a-4b7f1de9898c", "value": "Victorian 1837-1901 CE"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "c6d7836a-8afd-4928-bcb1-7cfa5b5391ca", "value": "http://18.134.182.2512a17241-d966-4b8c-9354-a3e69e9c28c7"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "c6d7836a-8afd-4928-bcb1-7cfa5b5391ca", "value": "http://localhost:8000/12a17241-d966-4b8c-9354-a3e69e9c28c7"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/f9479d61-383b-4b6f-aa9e-d737b73ba420">
-    <dcterms:identifier xml:lang="en">{"id": "6fa3f797-524d-4a65-b3bf-a2ccb4cf5934", "value": "http://18.134.182.25f9479d61-383b-4b6f-aa9e-d737b73ba420"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "6fa3f797-524d-4a65-b3bf-a2ccb4cf5934", "value": "http://localhost:8000/f9479d61-383b-4b6f-aa9e-d737b73ba420"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "b7edb701-92d7-4582-8fd5-3ccf24d5f82a", "value": "German Occupation 1940-1945 CE"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/e7151a70-1aaa-4e63-8850-9087e0f555cd"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/f5f2f239-b20e-4ff8-a32d-572888d87caf">
     <skos:inScheme rdf:resource="http://localhost:8000/e7151a70-1aaa-4e63-8850-9087e0f555cd"/>
-    <dcterms:identifier xml:lang="en">{"id": "7b8848c0-9852-4213-b0ca-974e10581a51", "value": "http://18.134.182.25f5f2f239-b20e-4ff8-a32d-572888d87caf"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "7b8848c0-9852-4213-b0ca-974e10581a51", "value": "http://localhost:8000/f5f2f239-b20e-4ff8-a32d-572888d87caf"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "c69c2100-0d39-42bb-9c11-ffc7b6b45719", "value": "21st Century 2001 -"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/2635431d-3e1f-4770-bbc0-4279054dd35f">
-    <dcterms:identifier xml:lang="en">{"id": "4b669ef8-a280-439c-aac8-14bd9886dd8b", "value": "http://18.134.182.252635431d-3e1f-4770-bbc0-4279054dd35f"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "4b669ef8-a280-439c-aac8-14bd9886dd8b", "value": "http://localhost:8000/2635431d-3e1f-4770-bbc0-4279054dd35f"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "aa9f949a-372b-4cd4-9f6d-f0e3ccd25d72", "value": "Georgian 1714-1837 CE"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/e7151a70-1aaa-4e63-8850-9087e0f555cd"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/7c0ef770-32be-4480-96ed-20274f5e3f9b">
     <skos:inScheme rdf:resource="http://localhost:8000/e7151a70-1aaa-4e63-8850-9087e0f555cd"/>
     <skos:prefLabel xml:lang="en">{"id": "cf26f5ea-0ee6-4404-9b2d-1e977c7a23ec", "value": "Late 20th Century 1946-2000 CE"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "a06adaaa-b543-4307-8eba-5abe986b740d", "value": "http://18.134.182.257c0ef770-32be-4480-96ed-20274f5e3f9b"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "a06adaaa-b543-4307-8eba-5abe986b740d", "value": "http://localhost:8000/7c0ef770-32be-4480-96ed-20274f5e3f9b"}</dcterms:identifier>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/ae20a189-4fc5-4b0f-ae1b-72c382f3eae5">
-    <dcterms:identifier xml:lang="en">{"id": "fb78346c-6b95-4924-92c7-7245e9f4724a", "value": "http://18.134.182.25ae20a189-4fc5-4b0f-ae1b-72c382f3eae5"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "fb78346c-6b95-4924-92c7-7245e9f4724a", "value": "http://localhost:8000/ae20a189-4fc5-4b0f-ae1b-72c382f3eae5"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "850998ae-f854-45fd-afa5-c91b3ccda548", "value": "Medieval 934-1539 CE"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/e7151a70-1aaa-4e63-8850-9087e0f555cd"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/da645525-c8f5-45be-b806-37cdb4fe4c96">
     <skos:inScheme rdf:resource="http://localhost:8000/e7151a70-1aaa-4e63-8850-9087e0f555cd"/>
-    <dcterms:identifier xml:lang="en">{"id": "580f0af9-0534-4afa-9da2-2c5cdaaa2cfa", "value": "http://18.134.182.25da645525-c8f5-45be-b806-37cdb4fe4c96"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "580f0af9-0534-4afa-9da2-2c5cdaaa2cfa", "value": "http://localhost:8000/da645525-c8f5-45be-b806-37cdb4fe4c96"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "692ccbab-a257-4850-a3e2-fe26165d7b5f", "value": "Early 20th Century 1911-1939 CE"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/7231bacd-09b2-4bd1-8126-5a946e1b124b">
     <skos:prefLabel xml:lang="en">{"id": "322944e6-20b6-413f-8dd1-951c09f0acff", "value": "Edwardian 1902-1910 CE"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "0ca6174a-9668-4e97-b545-bab0a4b32948", "value": "http://18.134.182.257231bacd-09b2-4bd1-8126-5a946e1b124b"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "0ca6174a-9668-4e97-b545-bab0a4b32948", "value": "http://localhost:8000/7231bacd-09b2-4bd1-8126-5a946e1b124b"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/e7151a70-1aaa-4e63-8850-9087e0f555cd"/>
   </skos:Concept>
 </rdf:RDF>

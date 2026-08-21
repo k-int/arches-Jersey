@@ -47,7 +47,7 @@
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/d56de321-bb50-49b7-af3a-ea980c59b972">
     <skos:prefLabel xml:lang="en">{"id": "162cfee8-e451-4789-82ab-e93f85e0c748", "value": "Perforated"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "e34cf42e-62f7-4c9f-8360-92f819f34a84", "value": "http://18.134.182.25d56de321-bb50-49b7-af3a-ea980c59b972"}</dcterms:identifier>
+    <dcterms:identifier xml:lang="en">{"id": "e34cf42e-62f7-4c9f-8360-92f819f34a84", "value": "http://localhost:8000/d56de321-bb50-49b7-af3a-ea980c59b972"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/55d132a6-fd29-4f15-bc47-d8eb203f650c"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/72700982-d3d3-41f4-b19e-77a0ea3e91b1">

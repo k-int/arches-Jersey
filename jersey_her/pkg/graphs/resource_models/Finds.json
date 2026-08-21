@@ -4196,7 +4196,7 @@
                 {
                     "alias": "measurement_unit",
                     "config": {
-                        "rdmCollection": "11cd7e8e-4c49-4e1a-86be-6e6644496dfa"
+                        "rdmCollection": "51407fe6-9f8d-439d-8309-d6804b4437d2"
                     },
                     "datatype": "concept",
                     "description": null,

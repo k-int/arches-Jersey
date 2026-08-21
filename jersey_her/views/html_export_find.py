@@ -11,8 +11,8 @@ def html_export_find(request):
 
     html_writer = HtmlWriter()
 
-    resource_instance_id = "ea45e9ee-50e0-418d-b13a-0c3909239287"
-    # resource_instance_id = "2fabe289-16c0-484f-a9a1-1280a924f0c7"
+    # resource_instance_id = "ea45e9ee-50e0-418d-b13a-0c3909239287"
+    resource_instance_id = "9bc1d289-0882-4b30-8a09-435981dc2ed3"
 
     resource_list = html_writer.fetch_resource_objects_list(
         resourceinstanceids=[resource_instance_id],

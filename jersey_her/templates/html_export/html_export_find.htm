@@ -18,7 +18,7 @@
    <body>
 
       <header>
-         <img src="{% static 'img/landing/JH quill logo teal.jpg' %}" alt="Jersey Heritage Logo" class="jersey-logo">
+         {% include 'partials/jersey_logo.htm' %}
       </header>
 
       <main>
@@ -43,7 +43,11 @@
                   {% endfor %}
                {% endwith %}
 
-               <img class="find-image" src="{{ resource_data|val_from_key:"Images"|val_from_key:"@display_value" }}">
+               {% with urls=resource_data|val_from_key:"Images"|val_from_key:"file_details" %}
+                  {% for url in urls %}
+                     <img class="find-image" src="https://her-test.jerseyheritage.org/{{ resource_data|val_from_key:"Images"|val_from_key:"@display_value" }}">
+                  {% endfor %}
+               {% endwith %} 
 
             </div>
 

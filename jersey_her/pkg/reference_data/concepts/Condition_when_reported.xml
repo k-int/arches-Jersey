@@ -7,7 +7,7 @@
 <skos:inScheme rdf:resource="http://localhost:8000/a5b6f87b-be4f-4b2a-87ad-48b48b1948a1"/>
 </skos:Concept>
 </skos:hasTopConcept>
-<dcterms:identifier xml:lang="en">{"id": "b8d6fa8c-3a71-4470-960b-e83d210c2142", "value": "http://localhost:8000/a5b6f87b-be4f-4b2a-87ad-48b48b1948a1"}</dcterms:identifier>
+<dcterms:identifier xml:lang="en">{"id": "b8d6fa8c-3a71-4470-960b-e83d210c2142", "value": "http://18.134.182.25a5b6f87b-be4f-4b2a-87ad-48b48b1948a1"}</dcterms:identifier>
 <skos:hasTopConcept>
 <skos:Concept rdf:about="http://localhost:8000/9027d3a0-6097-4fd4-8057-705cd8d40051">
 <skos:prefLabel xml:lang="en">{"id": "f665f1e7-0813-4df4-848e-cb2fd7f9dc48", "value": "Conserved"}</skos:prefLabel>

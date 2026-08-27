@@ -390,7 +390,9 @@ FILE_TYPES = [
 
 TIME_ZONE = "Europe/London"
 
-RESOURCE_FORMATTERS["pdf"] = "arches_pdf_exporting.utils.data_management.resources.formats.pdf.PdfWriter"
+RESOURCE_FORMATTERS["pdf"] = (
+    "arches_pdf_exporting.utils.data_management.resources.formats.pdf.PdfWriter"
+)
 
 try:
     from .package_settings import *

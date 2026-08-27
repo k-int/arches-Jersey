@@ -4,8 +4,8 @@ from django.conf.urls.i18n import i18n_patterns
 from django.urls import include, path, re_path
 
 from arches.app.views.main import index
-from .views.index_je import index_je
-from .views.cookie_policy import CookiePolicy
+from jersey_her.views.index_je import index_je
+from jersey_her.views.cookie_policy import CookiePolicy
 
 urlpatterns = [
     re_path(r"^en$", index, name="home_english"),

@@ -14,6 +14,7 @@ urlpatterns = [
     re_path(r"^je$", index_je, name="home_jerrais"),
     path("resource_count/", resource_count),
     re_path(r"^cookie_policy", CookiePolicy.as_view(), name="cookie_policy"),
+    path("", include("arches_pdf_exporting.urls")),
 ]
 
 # Adds URL pattern to serve media files during development

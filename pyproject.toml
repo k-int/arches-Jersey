@@ -27,6 +27,7 @@ dependencies = [
     "arches>=7.6.25,<7.7.0",
     "redis",
     "django-storages",
+    "arches_pdf_exporting @ git+https://github.com/k-int/arches-pdf-exporting@dev/1.0.x",
 ]
 version = "0.0.1"
 

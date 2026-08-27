@@ -5,7 +5,6 @@ from django.urls import include, path, re_path
 
 from arches.app.views.main import index
 from .views.index_je import index_je
-from .views.resource_count import resource_count
 from .views.cookie_policy import CookiePolicy
 
 urlpatterns = [

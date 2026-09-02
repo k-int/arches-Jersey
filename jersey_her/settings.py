@@ -95,6 +95,7 @@ INSTALLED_APPS = (
     "django_celery_results",
     "storages",
     "jersey_her",
+    "arches_pdf_exporting",
 )
 
 INSTALLED_APPS += ("arches.app",)
@@ -388,6 +389,10 @@ FILE_TYPES = [
 # File types that can be uploaded to Arches if FILE_TYPE_CHECKING is True.
 
 TIME_ZONE = "Europe/London"
+
+RESOURCE_FORMATTERS["pdf"] = (
+    "arches_pdf_exporting.utils.data_management.resources.formats.pdf.PdfWriter"
+)
 
 try:
     from .package_settings import *

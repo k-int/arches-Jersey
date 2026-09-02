@@ -4,17 +4,18 @@ from django.conf.urls.i18n import i18n_patterns
 from django.urls import include, path, re_path
 
 from arches.app.views.main import index
-from .views.index_je import index_je
-from .views.resource_count import resource_count
-from .views.cookie_policy import CookiePolicy
+from jersey_her.views.index_je import index_je
+from jersey_her.views.cookie_policy import CookiePolicy
 
 urlpatterns = [
-    re_path(r"^", include("arches.urls")),
     re_path(r"^en$", index, name="home_english"),
     re_path(r"^je$", index_je, name="home_jerrais"),
-    path("resource_count/", resource_count),
     re_path(r"^cookie_policy", CookiePolicy.as_view(), name="cookie_policy"),
+    path("", include("arches_pdf_exporting.urls")),
 ]
+
+# Ensure Arches core urls are superseded by project-level urls
+urlpatterns.append(path("", include("arches.urls")))
 
 # Adds URL pattern to serve media files during development
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
